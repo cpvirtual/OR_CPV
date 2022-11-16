@@ -1,10 +1,10 @@
 
 Comment ( *** Braking system *** )
-	BrakesEngineBrakeType( "Air_twin_pipe"  )
-	BrakesTrainBrakeType( "Air_twin_pipe" )
-      BrakesEngineControllers( "Independent, Train" )
-	ORTSBrakeCutsPowerAtBrakePipePressure ( 46psi )
-	ORTSBrakeRestoresPowerAtBrakePipePressure ( 60psi )  
+	BrakesEngineBrakeType					( "Air_twin_pipe"  )
+	BrakesTrainBrakeType					( "Air_twin_pipe" )
+      BrakesEngineControllers					( "Independent, Train" )
+	ORTSBrakeCutsPowerAtBrakePipePressure 		( 46psi )
+	ORTSBrakeRestoresPowerAtBrakePipePressure 	( 60psi )  
 
 Comment ( == Compressor == )
 	AirBrakesMainMaxAirPressure				( 123.282 )

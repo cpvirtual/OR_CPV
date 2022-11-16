@@ -7,12 +7,12 @@ EngineControllers (
 			Notch ( 1.0 0 Dummy )
 		)
 	)
-	Brake_Engine ( 0 1 0.0125 0 
+	Brake_Engine ( 0 1 0.0125 0
 		NumNotches ( 1
 			Notch( 0  1 Dummy )
 		)
 	)
-	Brake_Train ( 0 1 0.02 0.4 
+	Brake_Train ( 0 1 0.02 0.4
 		NumNotches ( 3
 			Notch ( 0    0 TrainBrakesControllerReleaseStart )
 			Notch ( 0.4  0 TrainBrakesControllerNeutralhandleOffStart )
@@ -29,5 +29,4 @@ EngineControllers (
 	Vigilance ( 0 1 0 )
 	Headlights ( 0 0.25 1 0 )
 	BailOffButton( 0 1 0 )
-)
-            
+)    
