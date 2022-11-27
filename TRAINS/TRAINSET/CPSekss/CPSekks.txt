@@ -1,26 +1,29 @@
-CP série 1900/1930 Alsthom
+CP Sekks 81 94 469 0 001/030
+Vagão Porta-automóveis
 
-CP 1903
-CP 1905
-CP 1935
-CP 1947
+Versão MSTS 2.0 25Jul2009
+Versão OR   1.2 16Jan2020
 
-Versão MSTS 1.2 14SET2007
-Versão OR   1.1 17NOV2022
-
-Technical Data
+Thecnical Data
 	Distance Levels
-	2000m - 4136 polygons
+	2000m - 7564 polygons
 
 ==================================================================
+Model: Rui Fonseca, Nelso Silva  - CP Virtual ©2009
+Textures: Nelso Silva - CP Virtual ©2009
+Carloads: Eugénio Santos, Nelso Silva - CP Virtual ©2009
 
-Model: Paulo Almeida CP Virtual ©2004
-Livery: Paulo Almeida CP Virtual ©2004
-	Eugénio Santos CP Virtual ©2004
+www.cpvirtual.eu
+cpvirtual@gmail.com
 
-www.cpvirtual.org
-webmaster@cpvirtual.org
+Necessita/Requirements
+MSTS BIN 1.8.0521
+PT Sound pack V3
 
+Thanks to Train Artisan's Tutorials 
+www.trainartisan.com/tutorials.htm
+and
+A special thanks to Chris Longhurst.
 ==================================================================
 
 1 Está autorizado a usar e redestribuir os produtos da CP Virtual gratuitamente. Não pode, porém ser incluido num CD de distribuição, ou ser disponibilizado através do seu site sem primeiro contactar a CP VIrtual, ou o autor para ter a certeza que tem a ultima versão e para ser dada a devida autorização.
