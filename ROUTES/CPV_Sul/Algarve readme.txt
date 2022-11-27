@@ -1,0 +1,33 @@
+Nome: Linha do Algarve
+Versão: 1.5
+Data: 22DEZ2007
+
+==================================================================
+Eugénio Santos - CP Virtual ©2005
+
+www.cpvirtual.eu
+cpvirtual@gmail.com
+
+Créditos Adicionais - Adicional Credits:
+Filipe Lavrador - Autor das actividades
+		- Author of the activities
+www.carril3d.pt.vu
+
+Software Necessário - Needed Software
+Xtracks 3.18 ou mais recente (or above)
+==================================================================
+
+1 Está autorizado a usar e redestribuir os produtos da CP Virtual gratuitamente. Não pode, porém ser incluido num CD de distribuição, ou ser disponibilizado através do seu site sem primeiro contactar a CP VIrtual, ou o autor para ter a certeza que tem a ultima versão e para ser dada a devida autorização.
+2 Não está autorizado a por os produtos da CP Virtual à venda, revenda, redestribuição em Cd's, disquetes, ou outro suporte com objectivos comerciais e fins lucrativos.
+3 Se quiser redistribuir este material, em CD ou no seu site, este ficheiro Readme tem de estar sempre incluído e contendo sempre o nome dos autores. Eventualmente a CPVirtual poderá utilizar conteudos de terceiros, indicados nos Créditos Adicionais, com a devida autorização destes. Nessa situação, deverá ser pedida autorização a esses autores. 
+4 Ao usar este material, concorda em não publicar imagens do mesmo que possam de alguma maneira denegrir a imagem da CP Virtual e da CP-Caminhos de Ferro Portugueses, EP - por exemplo: comboios descarrilados, grafitados, etc...
+5 Ao usar este material, você concorda que a CP Virtual e o autor não é responsavel por qualquer dano causado à sua vida, ao seu PC e a outros add-ons de MSTS.
+6 À CP-Caminhos de Ferro Portugueses, EP pertencem os direitos de autor sobre o seu nome e logotipo. Quaisquer comentários ou questões relacionadas com os serviços e produtos comerciais da CP devem ser dirigidas à mesma através do seu site www.cp.pt
+
+
+1 You are hereby granted permission to use and redistribute CP Virtual products free of charge. You cannot, however, make them available through your site or in a redistribution CD without the prior consent of CP Virtual or the authors. This is to make sure that the latest version is made available.
+2 You are not granted permission to sell, re-sell, redistribute for profit or include CP Virtual products on any compilation CD, disk, tape or other distribution media for sale or profit.
+3 If you want to redistribute on CD or on your website, then this Readme file and the names of the authors must remain intact and included at all times. CP Virtual may have authorization to use other third-party contents, in which case, as indicated in the section 'Additional Credits', you must seek permission from the authors of those contents.
+4 By using this, you agree to not publish pictures that could cause a negative impact on the image of CP Virtual and CP-Caminhos de Ferro Portugueses, EP ( Portuguese National Railway Company) - for example: train crashes or trains with graffiti on them, etc...
+5 By using this model you agree that CP Virtual and the author are not liable for any damage it might cause to your life, your PC or your other MSTS add-ons.
+6 CP-Caminhos de Ferro Portugueses, EP ( Portuguese National Railway Company) owns the copyright to their name and logo. Any comments or questions regarding real CP trains, their services and products should be addressed directly to CP, at www.cp.pt

@@ -1,0 +1,147 @@
+///////////////////////////////////////////////////////////////////////////////
+// Signal Type Logic Scripts
+//
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CPSPEMEC1
+// CP  Sinal principal de Entrada 1
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+
+	if (!enabled || block_state() !=# BLOCK_CLEAR || !route_set())
+	{	state = SIGASP_STOP;	}
+	else
+	{	state = SIGASP_APPROACH_1;	}
+
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPSPSCE1
+// CP  Sinal principal de saida 1 - chefe de estacao
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+
+
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR ||				// Block ahead not clear?
+		!route_set())							// Switch not set as per link?
+	{	state = SIGASP_STOP;	}
+	else
+	{	state = SIGASP_CLEAR_2;	}
+
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPSPSCE2
+// CP  Sinal principal de saida 2 - chefe de estacao
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+
+
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR ||				// Block ahead not clear?
+		!route_set())							// Switch not set as per link?
+	{	state = SIGASP_STOP;	}
+	else
+	{	state = SIGASP_CLEAR_2;	}
+
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPSPE1
+// CP  Sinal principal de entrada 1 - agulheiro
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	if (!enabled || block_state() !=# BLOCK_CLEAR || !route_set())
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP )
+		{	state = SIGASP_APPROACH_1;	}
+		else
+		{	state = SIGASP_CLEAR_2;		}
+	}
+
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPSAME1
+// CP  sinal avançado de entrada 1
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_APPROACH_1 )
+		{	state = SIGASP_RESTRICTING;	}
+		else
+		{	state = SIGASP_CLEAR_2;		}
+	
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPSAME2
+// CP  sinal avançado de entrada 2
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_APPROACH_1 )
+		{	state = SIGASP_APPROACH_1;	}
+		else
+		{	state = SIGASP_CLEAR_2;		}
+
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPAMV1
+// CP  sinal indicador de AMV 
+	extern float	route_set ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	def_draw_state ();
+
+	if ( route_set () )
+	{		state = SIGASP_CLEAR_2;	}
+	else 
+	{	state = SIGASP_STOP;	}
+
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPAMV2
+// CP  sinal indicador de AMV
+	extern float	route_set ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	def_draw_state ();
+
+	if ( route_set () )
+	{	state = SIGASP_CLEAR_2;	}
+	else 
+	{	state = SIGASP_STOP;	}
+
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+
+// End of File

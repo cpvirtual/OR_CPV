@@ -1,0 +1,38 @@
+===== Faro-VRSA =====
+Far1-Olh2-Fuz1-Tav1-Cac1-VR2 	; 5703				faro-vrsa1 v
+Far1-Olh2-Fuz1-Tav2-Cac2-VR1	; 5725, 5717			faro-vsra2 v
+Far1-Olh2-Fuz1-Tav2-Cac2-VR2	; 5715, 5701			faro-vsrs7 v
+Far2-Olh2-Fuz1-Tav1-Cac2-VR1	; 5727, 5729, 5731		faro-vsrs3 v
+Far2-Olh2-Fuz1-Tav2-Cac2-VR1 	; 5705, 5733, 5735, 5711	faro-vsra4 v
+Far2-Olh2-Fuz2-Tav1-Cac2-VR2	; 5709				faro-vsra5 v
+Far1-Olh1-Fuz1-Tav2		; 5723				faro-tavira1 v
+Far1-Olh2-Fuz1-Tav2		; 5713, 5719			faro-tavira2 v
+Far2-Olh2-Fuz1-Tav1		; 5707				faro-tavira3 v
+
+
+===== VRSA-Faro =====
+VR1-Cac2-Tav1-Fuz1-Olh1-Far2	; 5724				vrsa-faro1 v
+VR1-Cac2-Tav1-Fuz1-Olh2-Far1	; 5718				vrsa-faro2 v
+VR1-Cac2-Tav1-Fuz2-Olh1-Far1	; 5706				vrsa-faro3 v
+VR1-Cac2-Tav2-Fuz1-Olh1-Far2	; 5702, 5730, 5734		vrsa-faro4 v
+VR1-Cac2-Tav2-Fuz1-Olh2-Far1	; 5732				vrsa-faro5 v
+VR1-Cac2-Tav2-Fuz2-Olh1-Far2	; 5704				vrsa-faro6 v
+VR2-Cac2-Tav2-Fuz1-Olh1-Far2	; 5712				vrsa-faro7 v
+VR2-Cac2-Tav1-Fuz1-Olh1-Far1  ; 5714				vrsa-faro8 v
+VR2-Cac2-Tav2-Fuz1-Olh2-Far2	; 5722				vrsa-faro9 v
+VR1-Cac2-Tav2-Fuz2-Olh2-Far2	; 5700				vrsa-faro10 v
+VR2-Cac2-Tav2-Fuz1-Olh2-Far1	; 5710				vrsa-faro11 v
+Tav1-Fuz1-Olh2-Far2		; 5708				tavira-faro1 v
+Tav2-Fuz1-Olh1-Far2		; 5728				tavira-faro2 v
+Tav2-Fuz1-Olh2-Far1		; 5720				tavira-faro3 v
+Tav2-Fuz2-Olh1-Far1		; 5716				tavira-faro4 v
+
+
+===== Faro-Tunes =====
+far1-barl	; 5900, 5904, 5910, 5912, 570, 582, 870 		faro-barlavento1 v
+far2-barl	; 5902, 5906, 5908, 872, 5726				faro-barlavento2 v						
+
+
+===== Tunes-Faro =====
+barl-far1	; 5901, 5903, 5905, 5913, 5915, 571, 581, 871, 873	barlavento-faro1 v
+barl-far2	; 5907, 5909, 5911						barlavento-faro2 v

@@ -1,0 +1,11 @@
+#HORARIO VERAO ALGARVE 2001
+#=================================Passageiros
+hv01-algarve.timetable_or
+#=================================Mercadorias
+#hv01-algarvem.timetable_or
+#=================================Rotacoes e manobras
+hv01-manobras-faro.timetable_or
+hv01-manobras-vrsa.timetable_or
+#=================================Estaticos
+#hv01-static.timetable_or
+observadores.timetable_or

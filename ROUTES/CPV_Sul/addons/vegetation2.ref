@@ -1,0 +1,187 @@
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_20x120A.s )
+    Align ( None )
+    Description ( NR_Grass_20x120A )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_20x120B.s )
+    Align ( None )
+    Description ( NR_Grass_20x120B )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_20x20.s )
+    Align ( None )
+    Description ( NR_Grass_20x20 )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_20x20yard.s )
+    Align ( None )
+    Description ( NR_Grass_20x20yard )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_30x160A.s )
+    Align ( None )
+    Description ( NR_Grass_30x160A )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_30x160B.s )
+    Align ( None )
+    Description ( NR_Grass_30x160B )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_30x160C.s )
+    Align ( None )
+    Description ( NR_Grass_30x160C )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_30x160D.s )
+    Align ( None )
+    Description ( NR_Grass_30x160D )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_40x20yard.s )
+    Align ( None )
+    Description ( NR_Grass_40x20yard )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_40x40.s )
+    Align ( None )
+    Description ( NR_Grass_40x40 )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_40x40yard.s )
+    Align ( None )
+    Description ( NR_Grass_40x40yard )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_80x80.s )
+    Align ( None )
+    Description ( NR_Grass_80x80 )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_ST1sA.s )
+    Align ( None )
+    Description ( NR_Grass_ST1sA )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_ST1sB.s )
+    Align ( None )
+    Description ( NR_Grass_ST1sB )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_ST2s.s )
+    Align ( None )
+    Description ( NR_Grass_ST2s )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_STtrees1sA.s )
+    Align ( None )
+    Description ( NR_Grass_STtrees1sA )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_STtrees1sB.s )
+    Align ( None )
+    Description ( NR_Grass_STtrees1sB )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_Grass_STtrees2s.s )
+    Align ( None )
+    Description ( NR_Grass_STtrees2s )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_GrassB_40x40.s )
+    Align ( None )
+    Description ( NR_GrassB_40x40 )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_GrassB2_40x40.s )
+    Align ( None )
+    Description ( NR_GrassB2_40x40 )
+)
+
+
+
+Static (
+    Class ( NR_Greenery )
+    Filename ( NR_GrassT_40x40.s )
+    Align ( None )
+    Description ( NR_GrassT_40x40 )
+)
