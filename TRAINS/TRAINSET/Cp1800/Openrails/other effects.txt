@@ -1,0 +1,54 @@
+
+Comment ( ********************* Wagon Visual Effects *********************)
+        Effects (
+		SpecialEffects (
+		Comment(==== Steam Heating Leaks ====)
+		HeatingHoseFX(
+			0.0 0.6 -9.6
+			0 1 0
+			0.13 )
+		HeatingMainPipeSteamTrapFX(
+			1.1 1.3 -6.2
+			0 -1 0
+			0.05 )
+		HeatingMainPipeSteamTrapFX(
+			-1.1 1.3 -6.2
+			0 -1 0
+			0.05 )
+		Comment ( == Steam Heating Boiler Smoke == )
+		HeatingSteamBoilerFX (
+			-0.92 3.60 -6.5
+			0 1 0
+			0.2 )
+		Comment ( * Water Scoop - RHS Forward * )
+		WaterScoopFX (
+			0.25 0.1 0.5
+			1.0 0.1 0
+			0.5 )
+		Comment ( * Water Scoop - LHS Forward * )
+		WaterScoopFX (
+			-0.25 0.1 0.5
+			-1.0 0.1 0
+			0.5 )
+		Comment ( * Water Scoop - RHS Reverse * )
+		WaterScoopReverseFX (
+			0.25 0.1 -0.5
+			1.0 0.1 0
+			0.5 )
+		Comment ( * Water Scoop - LHS Reverse * )
+		WaterScoopReverseFX (
+			-0.25 0.1 -0.5
+			-1.0 0.1 0
+			0.5 )
+		Comment ( * Water Overflow - RH tank vent *)
+		TenderWaterOverflowFX (
+			1.2 0.8 0.0
+			0.1 -1 0
+			0.2 )
+		Comment ( * Water Overflow - LH tank vent * )
+		TenderWaterOverflowFX (
+			-1.2 0.8 0.0
+			-0.1 -1 0
+			0.2 )
+		)
+	)
