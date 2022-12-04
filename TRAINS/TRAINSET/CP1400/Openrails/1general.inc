@@ -1,9 +1,7 @@
 
-	Size  ( 3.18m 4.39m 12.831m )
+	Size  ( 3.18m 4.39m 12.832m )
 	WheelRadius ( 0.475m )
 	InertiaTensor ( Box ( 3m 4m 12m ) )
-	ORTSNumberAxles ( 4 )
-	ORTSNumberBogies ( 2 )
 
 Comment( ****************** Coupler Information ******************* )
 	Coupling (

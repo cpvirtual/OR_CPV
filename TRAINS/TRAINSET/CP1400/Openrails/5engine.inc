@@ -38,12 +38,12 @@ ORTSDieselEngines ( 1
 		RateOfChangeUpRPMpSS 	( 10 )
 		RateOfChangeDownRPMpSS 	( 10 )
 		MaximalPower 		( 978213W ) #(* 1330cv comprovado em ficha técnica nº7 ed1987*)
-		IdleExhaust 		( 5.62 ) #( 4-stroke = rpm / 80 )
-		MaxExhaust 			( 10.6 ) #( 4-stroke = rpm / 80 )
-		ExhaustDynamics 		( 5 )
+		IdleExhaust 		( 4 ) #( 4-stroke = rpm / 80 )
+		MaxExhaust 			( 11 ) #( 4-stroke = rpm / 80 )
+		ExhaustDynamics 		( 1.2 )
 		ExhaustDynamicsDown 	( 0.5 )
-		ExhaustColor 		( 11464650 )
-		ExhaustTransientColor 	( 11141418 )
+		ExhaustColor 		( 00999792 )
+		ExhaustTransientColor 	( FF5B5851 )
 		DieselPowerTab (
 			450	50000
 			452	249809

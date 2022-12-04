@@ -1,11 +1,18 @@
 
 	Mass ( 64.4t )
-
 Comment ( *** Curve Resistance & SuperElevation ***)
 	CentreOfGravity              ( 0.0m 1.6m 0.0m )
 	ORTSTrackGauge               ( 1m 668mm )
 	ORTSRigidWheelbase           ( 2m 360mm )
 	ORTSUnbalancedSuperelevation ( 180mm )
+
+Comment ( ********** Derailment Coefficient **********)
+	ORTSLengthBogieCentre ( 10.494m )
+	ORTSLengthCarBody ( 17.44m )
+	ORTSLengthCouplerFace ( 18.68m )
+	ORTSNumberAxles ( 4 )
+	ORTSNumberBogies ( 2 )
+
 
 Comment( *********************** Friction / Adhesion ************************* )
 	ORTSAdhesion ( 
