@@ -10,6 +10,5 @@
 	ORTS ( ORTSEmergencyCausesPowerDown    ( 0 ) )
  	ORTS ( ORTSEmergencyCausesThrottleDown ( 1 ) )
 
-	CabView ( CP4700.cvf )
 	HeadOut ( -1.7 3.0 7.75 )
 	ORTSCircuitBreaker ( Manual )
