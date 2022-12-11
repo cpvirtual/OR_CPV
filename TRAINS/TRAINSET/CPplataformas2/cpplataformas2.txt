@@ -1,0 +1,19 @@
+CP Plataformas
+CP Sgmms
+CP Sgnss
+
+Versão OR   1.2 4Dez2022
+
+Technical Data
+	Distance Levels
+	2000m  - =~ 4000 + 8000 =~ 12000 polygons
+
+==================================================================
+Autores e Contactos - Authors and contacs
+Modelos: Nelso Silva - SorefameVirtual ©2013, CP Virtual ©2022
+Texturas: Nelso Silva - SorefameVirtual ©2013, CP Virtual ©2022
+
+www.cpvirtual.eu
+cpvirtual@gmail.com
+
+==================================================================

@@ -1,0 +1,20 @@
+CP Plataformas
+Lgmms 41 94 441 5 201/240
+Rgs   32 94 356 0 001/100
+Rlps  81 94 383 2 001/065
+Rps   81 94 393 3 001/004
+Sgs   81 94 454 0 001/120
+Sds   81 94 471 5 001/005
+
+Versão OR   1.2 4Dez2022
+
+==================================================================
+Autores e Contactos - Authors and contacs
+Modelos: Nelso Silva, Eugénio Santos, Rui Fonseca - CP Virtual ©2009
+Texturas: Nelso Silva, Eugénio Santos, Rui Fonseca - CP Virtual ©2009
+Sons: Wespe - the.train.de
+
+www.cpvirtual.eu
+cpvirtual@gmail.com
+
+==================================================================
