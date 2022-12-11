@@ -1,6 +1,6 @@
 
-	Size ( 3m 3.61m 21.37m )
-	InertiaTensor ( Box (3m 3.5m 21m) )
+	Size ( 2.7m 4.09m 13.62m )
+	InertiaTensor ( Box (2m 4m 13m) )
 
 Comment( ****************** Coupler Information ******************* )
 	Coupling (
@@ -24,4 +24,3 @@ Comment( ****************** Coupler Information ******************* )
 		Radius ( 1m )
 		Angle ( 0.5deg )
 	)
-	

@@ -1,6 +1,9 @@
 
-	Size ( 3m 3.61m 21.37m )
-	InertiaTensor ( Box (3m 3.5m 21m) )
+	Size ( 3.248m 3.778m 11.255m )
+	Mass ( 21t ) Comment (* tara 17t *)
+	WheelRadius ( 0.485m )
+	InertiaTensor ( Box (3m 3m 11m) )
+	NumWheels ( 2 )
 
 Comment( ****************** Coupler Information ******************* )
 	Coupling (
@@ -24,4 +27,3 @@ Comment( ****************** Coupler Information ******************* )
 		Radius ( 1m )
 		Angle ( 0.5deg )
 	)
-	

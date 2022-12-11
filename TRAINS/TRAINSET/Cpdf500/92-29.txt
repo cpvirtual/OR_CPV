@@ -1,19 +1,16 @@
-Furgão SOREFAME (92-69) DF550
-
-Versão OR   1.2 5Dez2022
+Furgão (92-29) Dargent
+V 1.3 5Dez2022
 
 Thecnical Data
 	Distance Levels
-	2000m - 1914 polygons
+	2000m - 3244 polygons
 
 ==================================================================
 
 Autores e Contactos
-Model: Rui Fonseca e Eugénio Santos ©2008
-Texturas: Nelso Silva ©2008
+Model: Eugénio Santos ©2007
+Texturas: Eugénio Santos ©2007
 
-Agradecimentos a/Thanks to:
-Francisco Barreto
 
 www.cpvirtual.eu
 cpvirtual@gmail.com
