@@ -1,0 +1,23 @@
+CP Sggmrsss 32 94 496 1 001/070
+Vagão articulado para o transporte de contentores e caixas móveis
+
+Versão OR   1.2 4Dez2022
+
+Thecnical Data
+	Distance Levels
+	2000m - 1686 polygons
+
+
+==================================================================
+Autores e Contactos - Authors and contacs
+Model: Rui Fonseca - CP Virtual ©2004 (cpt_spock@hotmail.com)
+Texturas: Rui Fonseca - CP Virtual ©2004 (cpt_spock@hotmail.com)
+	  Daniel Costa- CP Virtual ©2004
+
+www.cpvirtual.eu
+cpvirtual@gmail.com
+
+Créditos Adicionais - Adicional Credits
+Svante Wendel, pelas texturas dos contentores.
+	         for the container textures.
+==================================================================
