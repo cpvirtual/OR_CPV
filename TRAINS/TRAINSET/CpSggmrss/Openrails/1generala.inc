@@ -16,18 +16,6 @@ Comment( ****************** Coupler Information ******************* )
 		Velocity ( 0.12m/s )
 	)
 	Coupling (
-		Type ( Chain )
-		Spring (
-			Stiffness ( 1e6N/m 5e6N/m )
-			Damping ( 1e6N/m/s 1e6N/m/s )
-			Break ( 600kN 600kN )
-			r0 ( 6cm 9cm )
-		)
-		CouplingHasRigidConnection ()
-		Velocity ( 0.12m/s )
-	)
-comment (
-	Coupling (
 		FrontCouplerAnim ( f_coupler_coupled.s 0.0 0.0 0.0 )
 		FrontCouplerOpenAnim ( f_coupler_uncoupled.s 0.0 0.0 0.0 )
 		FrontAirHoseAnim ( f_cpbrakehose_disconnected.s 0.0 0.0 0.0 )
@@ -45,7 +33,6 @@ comment (
 			)
 		CouplingHasRigidConnection ( 0 )
 	)
-)
 	Buffers (
 		Spring (
 			Stiffness ( 1e6N/m 5e6N/m )
