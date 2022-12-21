@@ -1,0 +1,11 @@
+{
+      "Container":
+      {
+              "Name" : "seatrain",
+              "Shape" : "CPV.containerdata\\40_seatrain.s",
+              "ContainerType" : "C40ft",
+              "IntrinsicShapeOffset": [0,0,0],
+		"EmptyMassKG": 3900.,
+		"MaxMassWhenLoadedKG": 30480.,
+        }
+}

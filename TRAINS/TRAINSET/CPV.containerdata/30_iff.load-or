@@ -1,0 +1,9 @@
+{
+      "Container":
+      {
+              "Name" : "IFF",
+              "Shape" : "CPV.containerdata\\30_iff.s",
+              "ContainerType" : "C30ft",
+              "IntrinsicShapeOffset": [0,1.192,0],
+        }
+}

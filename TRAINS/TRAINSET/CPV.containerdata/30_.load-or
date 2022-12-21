@@ -1,0 +1,11 @@
+{
+      "Container":
+      {
+		"Name" : "",
+		"Shape" : "CPV.containerdata\\30_.s",
+		"ContainerType" : "C30ft",
+		"IntrinsicShapeOffset": [0,1.192,0],
+		"EmptyMassKG": 3200.,
+		"MaxMassWhenLoadedKG": 30480.,
+	}
+}

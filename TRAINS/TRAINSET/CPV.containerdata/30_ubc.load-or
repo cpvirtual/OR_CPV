@@ -1,0 +1,9 @@
+{
+      "Container":
+      {
+              "Name" : "UBC",
+              "Shape" : "CPV.containerdata\\30_ubc.s",
+              "ContainerType" : "C30ft",
+              "IntrinsicShapeOffset": [0,1.192,0],
+        }
+}

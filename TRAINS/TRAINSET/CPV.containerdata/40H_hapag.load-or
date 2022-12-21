@@ -1,0 +1,11 @@
+{
+      "Container":
+      {
+              "Name" : "Hapag-Lloyd",
+              "Shape" : "CPV.containerdata\\40H_hapag.s",
+              "ContainerType" : "C40ftHC",
+              "IntrinsicShapeOffset": [0,1.23185,0],
+		"EmptyMassKG": 4100.,
+		"MaxMassWhenLoadedKG": 30480.,
+        }
+}

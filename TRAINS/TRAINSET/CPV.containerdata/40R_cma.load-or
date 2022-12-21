@@ -1,0 +1,11 @@
+{
+      "Container":
+      {
+              "Name" : "CMA CGM",
+              "Shape" : "CPV.containerdata\\40R_cma.s",
+              "ContainerType" : "C40ft",
+              "IntrinsicShapeOffset": [0,1.23185,0],
+		"EmptyMassKG": 4580.,
+		"MaxMassWhenLoadedKG": 35000.,
+        }
+}

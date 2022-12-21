@@ -1,0 +1,11 @@
+{
+      "Container":
+      {
+              "Name" : "Dong Fang",
+              "Shape" : "CPV.containerdata\\40H_dongfang.s",
+              "ContainerType" : "C40ftHC",
+              "IntrinsicShapeOffset": [0,1.23185,0],
+		"EmptyMassKG": 4100.,
+		"MaxMassWhenLoadedKG": 30480.,
+        }
+}

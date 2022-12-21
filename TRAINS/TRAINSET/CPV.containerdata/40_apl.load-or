@@ -1,0 +1,11 @@
+{
+      "Container":
+      {
+              "Name" : "APL",
+              "Shape" : "CPV.containerdata\\40_apl.s",
+              "ContainerType" : "C40ft",
+              "IntrinsicShapeOffset": [0,1.23339,0],
+		"EmptyMassKG": 3900.,
+		"MaxMassWhenLoadedKG": 30480.,
+        }
+}

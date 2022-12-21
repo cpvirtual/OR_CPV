@@ -1,0 +1,11 @@
+{
+      "Container":
+      {
+              "Name" : "Samskip",
+              "Shape" : "CPV.containerdata\\40H_samskip.s",
+              "ContainerType" : "C40ftHC",
+              "IntrinsicShapeOffset": [0,1.23185,0],
+		"EmptyMassKG": 4100.,
+		"MaxMassWhenLoadedKG": 30480.,
+        }
+}
