@@ -1,0 +1,38 @@
+CP Vagões para transporte de inertes tipo Us
+
+Vagão representado: U 970 8 060-9
+
+Versão OR   1.2 16Jan2020
+
+Thecnical Data
+	Distance Levels
+	2000m 
+
+CPUs_A - 3721 polygons
+CPUs_B - 3604 polygons
+CPUs_Al - 3769 polygons
+CPUs_Bl - 3652 polygons
+
+=============================================================================
+Na formação de consists deve-se engatar sempre alternado um vagão A + vagão B
+
+CPUs_A - vagão Us parte da frente vazio
+CPUs_A_cargo - vagão Us parte da frente com balastro
+CPUs_B - vagão Us parte de trás vazio
+CPUs_B_cargo - vagão Us parte de trás com balastro
+
+Também inclui vagões de empreiteiros:
+Somafel
+Ferrovias
+Neopul
+
+===============================================================================
+Autor e Contacto - Author and contac
+Model: Eugénio Santos - CP Virtual ©2007
+       Nelso Silva- SorefameVirtual ©2010
+Textures: Eugénio Santos - CP Virtual ©2007
+          Nelso Silva- SorefameVirtual ©2010
+
+www.cpvirtual.eu
+cpvirtual@gmail.com
+========================================================================================
