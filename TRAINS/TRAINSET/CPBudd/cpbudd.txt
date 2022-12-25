@@ -1,0 +1,22 @@
+CP Corail
+Carruagens de Passageiros - Budd
+1ª Classe (nº UIC 51 94 19-22)
+Restaurante (nº UIC 51 94 88-22)
+2ª Classe (nº UIC 51 94 20-22)
+2ª Classe + furgão pequeno (nº UIC 51 94 82-22 001)
+2ª Classe + furgão grande (nº UIC 51 94 82-22)
+
+Versão OR   1.2 5Dez2022
+
+Thecnical Data
+	Distance Levels
+	2000m - 2024 polygons
+
+==================================================================
+Autores e Contactos
+Model and textures:
+Sérgio Miguel Parreira & Eugénio Santos - CP Virtual ©2008
+www.cpvirtual.eu
+cpvirtual@gmail.com
+
+==================================================================
