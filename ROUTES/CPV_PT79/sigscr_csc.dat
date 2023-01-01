@@ -1,0 +1,473 @@
+///////////////////////////////////////////////////////////////////////////////
+// Signal Type Logic Scripts
+//
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCA
+// Linha de Cascais
+// Sinal Absoluto
+// A ligação (link) no Route Editor deverá ser feita ao itinerario normal (via directa)
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR )		// Block ahead not clear?
+	{	state = SIGASP_STOP;	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP ||next_state ==# SIGASP_STOP_AND_PROCEED || !route_set() )
+		{	state = SIGASP_APPROACH_1;	}
+		else if (next_state ==# SIGASP_APPROACH_1 || route_set() )
+		{	state = SIGASP_CLEAR_1;		}
+		else if (next_state ==# SIGASP_CLEAR_1 || route_set() )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCAS
+// Linha de Cascais
+// Sinal Absoluto
+// A ligação (link) no Route Editor deverá ser feita ao itinerario normal (via directa)
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	next_state 			= next_sig_lr (SIGFN_NORMAL);
+
+	if (!enabled || block_state() !=# BLOCK_CLEAR )
+	{
+		state = SIGASP_STOP;
+	}
+	else if (!route_set())
+	{	
+		state = SIGASP_CLEAR_2;
+	}
+	else 
+	{	
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_STOP_AND_PROCEED )
+		{	state = SIGASP_APPROACH_1;	}
+		else if (next_state ==# SIGASP_APPROACH_1 )
+		{	state = SIGASP_CLEAR_1;		}
+		else if (next_state ==# SIGASP_CLEAR_1 )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCADS
+// Linha de Cascais
+// Sinal Absoluto
+// A ligação (link) no Route Editor deverá ser feita ao itinerario normal (via directa)
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR )			// Block ahead not clear?
+	{
+		state = SIGASP_STOP;
+	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_STOP_AND_PROCEED || !route_set() )
+		{	state = SIGASP_APPROACH_1;	}
+		else if (next_state ==# SIGASP_APPROACH_1 || route_set() )
+		{	state = SIGASP_CLEAR_1;		}
+		else if (next_state ==# SIGASP_CLEAR_1 || route_set() )
+		{	state = SIGASP_CLEAR_1;		}
+
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCAM
+// Linha de Cascais
+// Sinal Absoluto com indicador de manobras de multipla direccao
+// A ligação (link) no Route Editor deverá ser feita ao itinerario normal (não deve ser feito para a contra-via)
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR )		// Block ahead not clear?
+	{
+		state = SIGASP_RESTRICTING;
+	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (!route_set() )
+		{	state = SIGASP_CLEAR_2;		}
+		else if (next_state ==# SIGASP_STOP && route_set() || next_state ==# SIGASP_STOP_AND_PROCEED && route_set() )
+		{	state = SIGASP_APPROACH_1;	}
+		else if (next_state ==# SIGASP_APPROACH_1 && route_set() )
+		{	state = SIGASP_CLEAR_1;		}
+		else if (next_state ==# SIGASP_CLEAR_1 && route_set() )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCAMB
+// Linha de Cascais
+// Sinal Absoluto com indicador de manobras de multipla direccao
+// A ligação (link) no Route Editor deverá ser feita ao itinerario em via directa
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR )		// Block ahead not clear?
+	{
+		state = SIGASP_RESTRICTING;
+	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (!route_set() )
+		{	state = SIGASP_CLEAR_2;		}
+		else if (next_state ==# SIGASP_STOP && route_set() || next_state ==# SIGASP_STOP_AND_PROCEED && route_set() )
+		{	state = SIGASP_APPROACH_1;	}
+		else if (next_state ==# SIGASP_APPROACH_1 && route_set() )
+		{	state = SIGASP_CLEAR_1;		}
+		else if (next_state ==# SIGASP_CLEAR_1 && route_set() )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCPR
+// Linha de Cascais
+// Sinal Permissivo com reflector azul
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR ||		// Block ahead not clear?
+		!route_set())							// Switch not set as per link?
+	{
+		state = SIGASP_STOP_AND_PROCEED;
+	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP)
+		{	state = SIGASP_STOP_AND_PROCEED;	}
+		else if (next_state ==# SIGASP_STOP_AND_PROCEED)
+		{	state = SIGASP_APPROACH_1;	}
+		else if (next_state ==# SIGASP_APPROACH_1)
+		{	state = SIGASP_CLEAR_1;		}
+		else if (next_state ==# SIGASP_CLEAR_1)
+		{	state = SIGASP_CLEAR_1;		}
+	}
+// Get draw state
+	draw_state = def_draw_state (state);
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCASA
+// Linha de Cascais
+// Sinal Permissivo com indicador azul
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR ||		// Block ahead not clear?
+		!route_set())							// Switch not set as per link?
+	{
+		state = SIGASP_STOP;
+	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP)
+		{	state = SIGASP_STOP_AND_PROCEED;	}
+		else if (next_state ==# SIGASP_STOP_AND_PROCEED)
+		{	state = SIGASP_APPROACH_1;	}
+		else if (next_state ==# SIGASP_APPROACH_1)
+		{	state = SIGASP_CLEAR_1;		}
+		else if (next_state ==# SIGASP_CLEAR_1)
+		{	state = SIGASP_CLEAR_1;		}
+	}
+// Get draw state
+	draw_state = def_draw_state (state);
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCASA35
+// Linha de Cascais
+// Sinal Permissivo 35 com indicador azul
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR ||		// Block ahead not clear?
+		!route_set())							// Switch not set as per link?
+	{
+		state = SIGASP_STOP_AND_PROCEED;
+	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP )
+		{	state = SIGASP_APPROACH_2;	}
+		else if (next_state ==# SIGASP_APPROACH_1 )
+		{	state = SIGASP_APPROACH_2;	}
+	}
+// Get draw state
+	draw_state = def_draw_state (state);
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCANS
+// Linha de Cascais
+// Sinal Absoluto com indicadores de multiplos itinerarios e de manobra simples
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	next_state = next_sig_lr (SIGFN_NORMAL);
+
+	if (!enabled || block_state() !=# BLOCK_CLEAR )
+	{	state = SIGASP_STOP; }
+	else
+	{	state = SIGASP_APPROACH_1; }
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCAB
+// Linha de Cascais
+// Sinal Absoluto
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR ||		// Block ahead not clear?
+		!route_set())							// Switch not set as per link?
+	{
+		state = SIGASP_STOP;
+	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+
+		if (next_state ==# SIGASP_STOP ||next_state ==# SIGASP_STOP_AND_PROCEED )
+		{	state = SIGASP_APPROACH_1;	}
+		else if (next_state ==# SIGASP_APPROACH_1)
+		{	state = SIGASP_CLEAR_1;		}
+		else if (next_state ==# SIGASP_CLEAR_1)
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCI2I
+// Linha de Cascais
+// Indicador de dois itinerários do sinal ADS
+// A ligação (link) no Route Editor deverá ser feita ao itinerario normal (via directa)
+
+	extern float	route_set(); 
+	extern float	this_sig_lr ();
+	extern float	def_draw_state();
+	extern float	state;
+	extern float	draw_state;
+	float			state_i2i;
+
+	state = this_sig_lr (SIGFN_NORMAL);
+	if ( !route_set() && state ==# SIGASP_STOP || !route_set() && state ==# SIGASP_APPROACH_1 )
+		// Indicação de mudança de via para a direita
+		{	state_i2i = SIGASP_APPROACH_1;	}
+	else if ( route_set() && state ==# SIGASP_APPROACH_1 )
+		// Indicação de marcha em frente
+		{	state_i2i = SIGASP_CLEAR_1;		}
+	else if ( state ==# SIGASP_CLEAR_1 || state ==# SIGASP_CLEAR_2 || route_set() && state ==# SIGASP_STOP )
+		// Indicador apagado
+		{	state_i2i = SIGASP_CLEAR_2;		}
+
+
+	draw_state = def_draw_state(state_i2i);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCMS
+// Linha de Cascais
+// Sinal de Manobras
+
+	extern float	block_state ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+
+	if ( block_state() !=# BLOCK_CLEAR )
+	{
+		state = SIGASP_RESTRICTING;
+	}
+	else
+	{	
+		state = SIGASP_CLEAR_1;
+	}
+
+	draw_state = def_draw_state (state);
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCMM
+// Linha de Cascais
+// Sinal de Manobras com indicador de manobras de multipla direccao
+// A ligação (link) no Route Editor deverá ser feita ao itinerario em via directa
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if ( block_state() !=# BLOCK_CLEAR )
+	{
+		state = SIGASP_RESTRICTING;
+	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (!route_set() )
+		{	state = SIGASP_CLEAR_2;		}
+		else if (next_state ==# SIGASP_STOP && route_set() || next_state ==# SIGASP_STOP_AND_PROCEED && route_set() )
+		{	state = SIGASP_APPROACH_1;	}
+		else if (next_state ==# SIGASP_APPROACH_1 && route_set() )
+		{	state = SIGASP_CLEAR_1;		}
+		else if (next_state ==# SIGASP_CLEAR_1 && route_set() )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CSCMM1
+// Linha de Cascais
+// Sinal de Manobras com indicador de manobras de multipla direccao
+// A ligação (link) no Route Editor deverá ser feita ao itinerario em via directa
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if ( block_state() !=# BLOCK_CLEAR )
+	{
+		state = SIGASP_RESTRICTING;
+	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (!route_set() )
+		{	state = SIGASP_CLEAR_2;		}
+		else if (next_state ==# SIGASP_STOP && route_set() || next_state ==# SIGASP_STOP_AND_PROCEED && route_set() )
+		{	state = SIGASP_APPROACH_1;	}
+		else if (next_state ==# SIGASP_APPROACH_1 && route_set() )
+		{	state = SIGASP_CLEAR_1;		}
+		else if (next_state ==# SIGASP_CLEAR_1 && route_set() )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+
+
+// End of File

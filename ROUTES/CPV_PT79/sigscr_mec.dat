@@ -1,0 +1,221 @@
+///////////////////////////////////////////////////////////////////////////////
+// Signal Type Logic Scripts
+//
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CPSPEMEC1
+// CP  Sinal principal de Entrada 1
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR || !route_set())
+	{
+		state = SIGASP_STOP;
+	}
+	else
+	{	
+		state = SIGASP_APPROACH_1;
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPSPSCE1
+// CP  Sinal principal de saida 1 - chefe de estacao
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR || !route_set())
+	{
+		state = SIGASP_STOP;
+	}
+	else
+	{	
+		state = SIGASP_CLEAR_2;
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPSPSCE2
+// CP  Sinal principal de saida 2 - chefe de estacao
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR || !route_set())
+	{
+		state = SIGASP_STOP;
+	}
+	else
+	{	
+		state = SIGASP_CLEAR_2;
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPSPE1
+// CP  Sinal principal de entrada 1 - agulheiro
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR || !route_set())
+	{
+		state = SIGASP_STOP;
+	}
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP )
+		{	state = SIGASP_APPROACH_1;	}
+		else
+		{	state = SIGASP_CLEAR_2;		}
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPSAME1
+// CP  sinal avançado de entrada 1
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_APPROACH_1 )
+		{	state = SIGASP_RESTRICTING;	}
+		else
+		{	state = SIGASP_CLEAR_2;		}
+	
+// Get draw state
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPSAME2
+// CP  sinal avançado de entrada 2
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_APPROACH_1 )
+		{	state = SIGASP_APPROACH_1;	}
+		else
+		{	state = SIGASP_CLEAR_2;		}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPAMV
+// CP  sinal indicador de AMV
+	extern float	state;
+	extern float	draw_state;
+	extern float	def_draw_state ();
+
+	if ( hashead(2) )
+	{
+		state = switchstand(SIGASP_CLEAR_2, SIGASP_CLEAR_1);
+	}
+	else 
+	{
+		state = switchstand(SIGASP_CLEAR_1, SIGASP_CLEAR_2);
+	}
+
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CVAvn
+// Sinal Paragem Diferida Contra-Via e cantonamento
+
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+
+	state = SIGASP_RESTRICTING;
+
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CVprec
+// Sinal Precaucao Contra-Via e cantonamento
+
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+
+	state = SIGASP_APPROACH_1;
+
+	draw_state = def_draw_state (state);
+//////////////////////////////////////////////////////////////////////////////////////
+SCRIPT CPpal1
+// CP Palheta 1 - Indicador Principal
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR || !route_set())
+	{
+		state = SIGASP_STOP;
+	}
+	else
+	{
+		state = SIGASP_CLEAR_1;
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT CPpalshunt
+// Headshunt
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )
+	{
+		state = SIGASP_STOP;
+	}
+	else
+	{
+		state = SIGASP_RESTRICTING;
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+
+// End of File

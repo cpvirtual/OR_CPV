@@ -1,0 +1,418 @@
+///////////////////////////////////////////////////////////////////////////////
+// Signal Type Logic Scripts ORTS
+// PORTUGAL 79
+// Versão 0.007 - 2JUN2020
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Aa
+// Sinal A Absoluto - Principal de Entrada
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )
+	{	state = SIGASP_STOP;	}
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_STOP_AND_PROCEED || next_state ==# SIGASP_RESTRICTING || !route_set() )
+		{	state = SIGASP_APPROACH_1;		}
+		else if (next_state ==# SIGASP_APPROACH_1 || next_state ==# SIGASP_APPROACH_2 || next_state ==# SIGASP_CLEAR_2 || next_state ==# SIGASP_CLEAR_1 )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Aaavn
+// Sinal A Absoluto - avancado ou de cantonamento
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )
+	{	state = SIGASP_STOP;	}
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_STOP_AND_PROCEED || next_state ==# SIGASP_RESTRICTING || !route_set() )
+		{	state = SIGASP_APPROACH_1;		}
+                else if (next_state ==# SIGASP_APPROACH_1 )
+		{	state = SIGASP_APPROACH_2;		}
+		else if ( next_state ==# SIGASP_APPROACH_2 || next_state ==# SIGASP_CLEAR_2 || next_state ==# SIGASP_CLEAR_1 )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Aasda
+// Sinal Aa de Saída com indicador de manobra
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )
+	{	state = SIGASP_STOP;	}
+	else if (!route_set())
+	{	state = SIGASP_CLEAR_2;	}
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_STOP_AND_PROCEED || next_state ==# SIGASP_RESTRICTING || !route_set() )
+		{	state = SIGASP_APPROACH_1;		}
+		else if (next_state ==# SIGASP_APPROACH_1 || next_state ==# SIGASP_APPROACH_2 || next_state ==# SIGASP_CLEAR_2 || next_state ==# SIGASP_CLEAR_1 )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Aa2sda
+// Sinal Aa de Saída de 2 aspectos com indicador de manobra
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	extern float    TrainHasCallOn();
+	float			next_state;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )
+	{	state = SIGASP_STOP;	}
+	else if (!route_set() || block_state == #BLOCK_OCCUPIED && TrainHasCallOn() )
+	{	state = SIGASP_CLEAR_2;	}
+	else
+	{	state = SIGASP_APPROACH_1;		}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Aasp
+// Sinal Aa de Saída portico
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )
+	{	state = SIGASP_STOP;	}
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_STOP_AND_PROCEED || next_state ==# SIGASP_RESTRICTING || !route_set() )
+		{	state = SIGASP_APPROACH_1;		}
+		else if (next_state ==# SIGASP_APPROACH_1 || next_state ==# SIGASP_APPROACH_2 || next_state ==# SIGASP_CLEAR_2 || next_state ==# SIGASP_CLEAR_1 )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Aa11
+// Sinal A Absoluto S11 Alfarelos
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	next_state = next_sig_lr (SIGFN_NORMAL);
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )
+	{	state = SIGASP_STOP;	}
+	else if (!route_set())
+	{	state = SIGASP_CLEAR_2;	}
+	else 
+	{
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_STOP_AND_PROCEED || next_state ==# SIGASP_RESTRICTING || !route_set() )
+		{	state = SIGASP_APPROACH_1;		}
+		else if (next_state ==# SIGASP_APPROACH_1 || next_state ==# SIGASP_APPROACH_2 || next_state ==# SIGASP_CLEAR_2 || next_state ==# SIGASP_CLEAR_1 )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Ap
+// Sinal Ap Avancado e de Cantonamento
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )
+	{	state = SIGASP_STOP_AND_PROCEED;	}
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_STOP_AND_PROCEED || next_state ==# SIGASP_RESTRICTING )
+		{	state = SIGASP_APPROACH_1;		}
+                else if (next_state ==# SIGASP_APPROACH_1 )
+		{	state = SIGASP_APPROACH_2;		}
+		else if  ( next_state ==# SIGASP_APPROACH_2 || next_state ==# SIGASP_CLEAR_2 || next_state ==# SIGASP_CLEAR_1 )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Ba
+// Sinal Ba
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR || !route_set())
+	{	state = SIGASP_STOP;	}
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_RESTRICTING || next_state ==# SIGASP_STOP_AND_PROCEED )
+		{	state = SIGASP_APPROACH_1;		}
+		else if (next_state ==# SIGASP_APPROACH_1 )
+		{	state = SIGASP_APPROACH_2;		}
+		else if (next_state ==# SIGASP_APPROACH_2 || next_state ==# SIGASP_CLEAR_2 || next_state ==# SIGASP_CLEAR_1 )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Bab
+// Sinal Ba para via desviada
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR || !route_set())
+	{	state = SIGASP_STOP;	}
+	else
+	{	state = SIGASP_APPROACH_3; }
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Basda
+// Sinal Ba de Saída
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )
+	{	state = SIGASP_STOP;	}
+	else if (!route_set())
+	{	state = SIGASP_CLEAR_2;	}
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_STOP_AND_PROCEED || next_state ==# SIGASP_RESTRICTING || !route_set() )
+		{	state = SIGASP_APPROACH_1;		}
+                else if (next_state ==# SIGASP_APPROACH_1 )
+		{	state = SIGASP_APPROACH_2;		}
+		else if (next_state ==# SIGASP_APPROACH_2 || next_state ==# SIGASP_CLEAR_2 || next_state ==# SIGASP_CLEAR_1 )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Baavn
+// Sinal Ba Avançado
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )	
+	{	state = SIGASP_STOP;	}
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_RESTRICTING || next_state ==# SIGASP_STOP_AND_PROCEED )
+		{	state = SIGASP_APPROACH_1;		}
+		else if (next_state ==# SIGASP_APPROACH_1 )
+		{	state = SIGASP_APPROACH_2;		}
+		else if (next_state ==# SIGASP_APPROACH_2 || next_state ==# SIGASP_CLEAR_2 || next_state ==# SIGASP_CLEAR_1 )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Bp
+// Sinal Bp Avançado e de Cantonamento
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )	
+	{	state = SIGASP_STOP_AND_PROCEED; }
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP )
+		{	state = SIGASP_STOP_AND_PROCEED;	}
+		else if (next_state ==# SIGASP_RESTRICTING || next_state ==# SIGASP_STOP_AND_PROCEED || next_state ==# SIGASP_APPROACH_3 )
+		{	state = SIGASP_APPROACH_1;		}
+		else if (next_state ==# SIGASP_APPROACH_1 )
+		{	state = SIGASP_APPROACH_2;		}
+		else if (next_state ==# SIGASP_APPROACH_2 || next_state ==# SIGASP_CLEAR_2 || next_state ==# SIGASP_CLEAR_1 )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Caent
+// Sinal Ca de Entrada de 2 aspectos com indicador de manobra e de Itinerario
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )
+	{	state = SIGASP_STOP;	}
+	else
+	{	next_state = next_sig_lr (SIGFN_INFO);
+		if (!route_set() )
+		{	state = SIGASP_CLEAR_2;	}
+                else
+                {	state = SIGASP_APPROACH_1; }
+	}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Cp
+// Sinal Cp Cantonamento
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )	
+	{	state = SIGASP_RESTRICTING;	}
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_STOP_AND_PROCEED )
+		{	state = SIGASP_RESTRICTING;	}
+		else if (next_state ==# SIGASP_RESTRICTING )
+		{	state = SIGASP_APPROACH_1;		}
+		else if (next_state ==# SIGASP_APPROACH_1 )
+		{	state = SIGASP_APPROACH_2;		}
+		else if (next_state ==# SIGASP_APPROACH_2 || next_state ==# SIGASP_CLEAR_2 || next_state ==# SIGASP_CLEAR_1 )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Dp
+// Sinal Dp Avançado
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+	if (!enabled ||	block_state() !=# BLOCK_CLEAR )	
+	{	state = SIGASP_RESTRICTING;	}
+	else
+	{	next_state = next_sig_lr (SIGFN_NORMAL);
+		if (next_state ==# SIGASP_STOP || next_state ==# SIGASP_STOP_AND_PROCEED || next_state ==# SIGASP_RESTRICTING )
+		{	state = SIGASP_APPROACH_1;		}
+		else if (next_state ==# SIGASP_APPROACH_1 || next_state ==# SIGASP_APPROACH_2 || next_state ==# SIGASP_CLEAR_2 || next_state ==# SIGASP_CLEAR_1 )
+		{	state = SIGASP_CLEAR_1;		}
+	}
+
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT ID
+// Indicador de direccao para a esquerda
+// A ligação (link) no Route Editor deverá ser feita ao itinerario normal (via directa)
+
+	extern float	route_set();
+	extern float	state;
+	extern float	draw_state;
+	extern float	this_sig_lr ();
+
+	state = this_sig_lr (SIGFN_NORMAL);
+	if ( !route_set() && state ==# SIGASP_STOP || !route_set() && state ==# SIGASP_APPROACH_1 )
+		// Indicação de mudança de via para a esquerda
+		{	draw_state = 1;	}
+	else if ( route_set() && state ==# SIGASP_APPROACH_1 )
+		// Indicação de marcha em frente
+		{	draw_state = 2;	}
+	else if ( state ==# SIGASP_CLEAR_1 || state ==# SIGASP_CLEAR_2 || route_set() && state ==# SIGASP_STOP )
+		// Indicador apagado
+		{	draw_state = 0;	}
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT II
+// Indicador de Itinerario
+// A ligação (link) no Route Editor deverá ser feita ao itinerario directo correspodente a um destino ou numero de linha
+	extern float	route_set();
+	extern float	state;
+	extern float	draw_state;
+
+	if ( route_set() )
+		// Indicador acesso
+		{	draw_state = 1;	}
+	else if ( !route_set() || state ==# SIGASP_STOP )
+		// Indicador apagado
+		{	draw_state = 0;	}
+///////////////////////////////////////////////////////////////////////////////
