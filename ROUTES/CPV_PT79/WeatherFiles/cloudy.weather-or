@@ -1,0 +1,36 @@
+{
+	"Changes": [
+		{
+			"Type": "Clear",
+			"Time": "00:00",
+			"Overcast": 20,
+			"OvercastVariation": 10,
+			"OvercastRateOfChange": 0.1,
+			"OvercastVisibility": 4000,
+		},
+		{
+			"Type": "Clear",
+			"Time": "10:00",
+			"Overcast": 80,
+			"OvercastVariation": 20,
+			"OvercastRateOfChange": 0.1,
+			"OvercastVisibility": 4000,
+		},
+		{
+			"Type": "Clear",
+			"Time": "15:00",
+			"Overcast": 45,
+			"OvercastVariation": 10,
+			"OvercastRateOfChange": 0.01,
+			"OvercastVisibility": 3000,
+		},
+		{
+			"Type": "Clear",
+			"Time": "19:00",
+			"Overcast": 20,
+			"OvercastVariation": 20,
+			"OvercastRateOfChange": 0.01,
+			"OvercastVisibility": 3000,
+		},
+	]
+}

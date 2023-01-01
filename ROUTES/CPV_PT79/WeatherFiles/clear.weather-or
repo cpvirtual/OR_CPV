@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Type": "Clear",
+            "Time": "00:00",
+            "Overcast": 90,
+            "OvercastVariation": 10,
+            "OvercastRateOfChange": 0.1,
+        },
+    ]
+}
