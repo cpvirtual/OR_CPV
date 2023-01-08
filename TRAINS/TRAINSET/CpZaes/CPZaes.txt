@@ -1,0 +1,22 @@
+CP Zaes 81 94 788 0 001/150
+Vagões cisternas para trasnporte de Fuel
+
+Versão OR   1.1 4Jan2023
+
+Thecnical Data
+	Distance Levels
+	1000m - 1231 polygons
+
+==================================================================
+Model: Rui Fonseca - CP Virtual ©2002
+CP_II Livery: Rui Fonseca - CP Virtual ©2002
+CP_III Livery: Rui Fonseca - CP Virtual ©2002
+CP_TR Livery: Rui Fonseca - CP Virtual ©2004
+CP_BD Livery: Rui Fonseca - CP Virtual ©2007
+
+www.cpvirtual.eu
+cpvirtual@gmail.com
+
+Thanks to Train Artisan's Tutorials 
+www.trainartisan.com/tutorials.htm
+==================================================================
