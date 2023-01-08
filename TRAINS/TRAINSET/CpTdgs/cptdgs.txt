@@ -1,0 +1,21 @@
+CP - CAMINHOS DE FERRO PORTUGUESES
+Vagão tremonha para transporte de cereais
+Tdgs 41 94074 0 001/100
+comment ( Tdgs 41 94074 1 001/200 )
+
+Versão ORTS 1.2 4Jan2023
+
+Thecnical Data
+	Distance Levels
+	2000m - 2024 polygons
+
+==================================================================
+Autores e Contactos - Authors and contacs
+Model: Nelso Silva ©2014
+Texturas: Nelso Silva ©2014
+Fisica: Rui Fonseca - CP Virtual ©2014
+
+www.cpvirtual.eu
+cpvirtual@gmail.com
+
+==================================================================
