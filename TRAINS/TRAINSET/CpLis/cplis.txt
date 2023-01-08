@@ -1,0 +1,25 @@
+CP Lis 22 94 415 7 001/060
+Vagão plataforma com toldo de dois eixos intermutáveis
+
+Version ORTS 1.2 4Jan2023
+
+Thecnical Data
+	Distance Levels
+	1500m - 1216 polygons
+
+CPLis	Versão vazio/descarregado, 14.2t
+CPLis_L	Versão Carregado, 40 t
+
+CP Lis Wagons (platform with awning)
+CPLis	Version unloaded/empty, 14.2 tonnes
+CPLis_L	Version (Full) Loaded, 40 tonnes
+
+==================================================================
+Autores e Contactos - Authors and contacs
+Model: André D. Costa - CP Virtual ©2004
+Textures: André D. Costa - CP Virtual ©2004
+
+www.cpvirtual.eu
+cpvirtual@gmail.com
+
+==================================================================
