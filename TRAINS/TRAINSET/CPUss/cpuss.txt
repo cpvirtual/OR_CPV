@@ -1,0 +1,26 @@
+CP Uss
+Vagões especiais para Transporte de semi-reboques
+
+Versão OR   1.2 4Jan2023
+
+Thecnical Data
+	Distance Levels
+	2000m - 3036 polygons average
+
+
+==================================================================
+Autores e Contactos
+Model textures and configurations: 
+Eugénio Santos - Virtual Steel Wheels ©2009
+Rui Fonseca - CP Virtual ©2009
+
+www.cpvirtual.eu
+cpvirtual@gmail.com
+
+AGRADECIMENTOS / Thanks to
+	Forum Comboios.org
+	Forum Luso_Carris
+	Forum Transportes XXI
+	Forum Portugal Ferroviário
+
+==================================================================
