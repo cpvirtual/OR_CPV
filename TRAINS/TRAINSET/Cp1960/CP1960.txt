@@ -1,0 +1,23 @@
+CP 1960
+
+Versão 1.3  11JAN2023
+
+Thecnical Data
+	Distance Levels
+	2000m - 4062 polygons
+	2000m - 11752 polygons
+
+==================================================================
+Model: Paulo Almeida António André e Nelso Silva ©2009 - CP Virtual ©2009
+Textures: Paulo Almeida e Nelso Silva - CP Virtual ©2009
+Sounds: Tiago Miranda ©2009
+Cabine: Eugénio Santos e Rui Fonseca - CP Virtual ©2009
+Horn Sound: Paulo Faria - APAC ©Sons Ferroviários-Portugal 2001
+
+Agradecimentos/Thanks to:
+Pedro Miguel - for helping with eng files.
+Gonçalo Pereira, Pedro Brissos pelos sons
+
+www.cpvirtual.org
+webmaster@cpvirtual.org
+==================================================================
