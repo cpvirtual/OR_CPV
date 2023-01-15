@@ -1,0 +1,16 @@
+CP His 41 94 210 2 001/120
+Vagões Cobertos com portas de correr
+
+Versão ORTS 1.1 16Jan2020
+
+Thecnical Data
+	Distance Levels
+	2000m - 3852 polygons
+
+==================================================================
+Model: Nelso Silva ©2008
+Livery: Nelso Silva ©2008 e Rui Fonseca ©2018
+
+www.cpvirtual.eu
+cpvirtual@gmail.com
+==================================================================
