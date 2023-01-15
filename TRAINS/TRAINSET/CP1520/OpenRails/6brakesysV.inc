@@ -1,0 +1,38 @@
+
+Comment (*** Brake Systems ***)
+	BrakesTrainBrakeType( vacuum_single_pipe_eq )
+	BrakesEngineBrakeType( Vacuum_single_pipe )
+
+Comment (*** Ejectors ***)
+	ORTSBrakePipeChargingRate 				( 0.60inHg/s ) Comment (* Estimate for exhausters at high speed *)
+	ORTSBrakeServiceTimeFactor				( 11s )
+	ORTSBrakePipeTimeFactor					( 0.38s ) Comment ( 0.35 and 0.45 - lower values for passenger trains higher values for freight trains)
+	ORTSBrakeEmergencyTimeFactor				( 4s )
+	TrainPipeLeakRate					( 0.06inHg/s ) Comment ( 0.03 and 0.06 for passenger trains and 0.06 and 0.12 for freight trains)
+
+Comment ( == Compressor == )
+	VacuumBrakesMinBoilerPressureMaxVacuum			( 110 )
+	VacuumBrakesSmallEjectorPowerRating			( 3 )
+	VacuumBrakesSmallEjectorUsageRate			( 450 )
+	VacuumBrakesLargeEjectorUsageRate			( 2000 )
+	VacuumBrakesHasVacuumPump				( 0 )
+	ORTSMainResChargingRate 				( 1 )
+
+Comment ( == Automatic Brake valve - Train == )
+	TrainBrakesControllerMaxReleaseRate			( 5 )
+	TrainBrakesControllerMaxApplicationRate			( 1.5 )
+	TrainBrakesControllerEmergencyApplicationRate 		( 10 )
+	TrainBrakesControllerMinSystemPressure 			( 0 )
+	TrainBrakesControllerMaxSystemPressure 			( 21 )
+	TrainBrakesControllerFullServicePressureDrop 		( 21inHg )
+	TrainBrakesControllerMinPressureReduction 		( 5inHg )
+
+Comment ( == Independent Brake valve - Engine == )
+	EngineBrakesControllerMaxReleaseRate			( 5 )
+	EngineBrakesControllerMaxApplicationRate		( 2 )
+	EngineBrakesControllerEmergencyApplicationRate		( 30 )
+	EngineBrakesControllerMinSystemPressure 		( 0 )
+	EngineBrakesControllerMaxSystemPressure			( 21 )
+	EngineBrakesControllerFullServicePressureDrop 		( 21inHg )
+	EngineBrakesControllerMinPressureReduction		( 5inHg )
+	

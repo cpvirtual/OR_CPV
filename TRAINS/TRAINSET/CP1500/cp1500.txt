@@ -1,0 +1,47 @@
+CP serie 1500 Alco
+V 1.1 4JAN2023
+
+
+CP DE 101 - Silver and Green Livery
+CP 1501 - Silver and Green Livery with UIC numbering
+CP 1502 - Green and Silver Livery
+CP 1503 - Blue and White Livery I
+CP 1504 - Blue and White Livery II
+CP 1505 - Orange and White Livery
+
+Thecnical Data
+	Distance Levels
+	2000m - 5314 polygons
+
+==================================================================
+Model: Eugénio Santos - CP Virtual ©2005
+Livery: Eugénio Santos - CP Virtual ©2005
+
+www.cpvirtual.org
+cpvirtual@gmail.com
+==================================================================
+
+
+CP 1502 - Neopul Livery
+CP 1506 - Silver and Green Livery
+CP 1507 - Green and Silver Livery
+CP 1507 - Fergrupo Livery
+CP 1508 - Blue and White I Livery
+CP 1509 - Blue and White II Livery
+CP 1510 - Orange and White Livery
+CP 1511 - Somafel Livery
+CP 1512 - Ferrovias Livery
+
+Thecnical Data
+	Distance Levels
+	2000m - 3437 polygons
+
+==================================================================
+Model: André Costa - CP Virtual ©2005
+Livery: André Costa - CP Virtual ©2005
+
+www.cpvirtual.org
+cpvirtual@gmail.com
+
+http://adcosta.home.sapo.pt/
+==================================================================
