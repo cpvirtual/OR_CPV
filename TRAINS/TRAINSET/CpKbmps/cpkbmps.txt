@@ -1,0 +1,20 @@
+CP Kbmps 41 94 342 5 001/124
+CP Kbmps 41 94 342 5 201/250
+Vagão com fueiros para transporte de rolaria
+
+Versão OR   1.1 16Jan2020
+
+Thecnical Data
+	Distance Levels
+	2000m - 3672 polygons
+
+==================================================================
+Autores e Contactos - Authors and contacs
+Model: Tiago Henriques - CP Virtual ©2008
+Textures: Tiago Henriques - CP Virtual ©2008
+Wood cargo and texture optimization - Nelso Silva ©2008
+
+
+www.cpvirtual.eu
+cpvirtual@gmail.com
+==================================================================
