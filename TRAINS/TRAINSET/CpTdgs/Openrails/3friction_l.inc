@@ -6,6 +6,15 @@ Comment ( *** Curve Resistance & SuperElevation ***)
 	ORTSRigidWheelbase ( 6.0m 0.0mm )
 	ORTSUnbalancedSuperelevation ( 180mm )
 
+Comment ( ********** Derailment Coefficient **********)
+	ORTSLengthBogieCentre ( 6.0m )
+	ORTSLengthCarBody ( 8.4m )
+	ORTSLengthCouplerFace ( 9.64m )
+	ORTSNumberAxles ( 2 )
+	ORTSNumberBogies ( 0 )
+	ORTSWheelFlangeLength ( 19.151mm )
+	ORTSMaximumWheelFlangeAngle ( 62deg )
+
 Comment( *** Friction / Adhesion *** )
 	ORTSAdhesion ( ORTSSlipWarningThreshold ( 70 ) )
 	ORTSAdhesion (	Wheelset (

@@ -14,7 +14,7 @@
 				State	(
 					Duration ( 0.0 )
 					LightColour ( 80ff0000 )
-					Position ( -0.45 1.15 -6.7 )
+					Position ( -0.91 1.53 -5.5 )
 					Azimuth ( -180 -180 -180 )
 					Transition ( 0 )
 					Radius ( 1.0 )
@@ -35,7 +35,7 @@
 				State	(
 					Duration ( 0.0 )
 					LightColour ( 80ff0000 )
-					Position ( 0.45 1.15 6.7 )
+					Position ( 0.91 1.73 5.5 )
 					Azimuth ( 0 0 0 )
 					Transition ( 0 )
 					Radius ( 1.0 )
