@@ -1,0 +1,25 @@
+
+Comment ( Standard ORTS Diesel Engine for CP 1400 English Electric )
+Comment ( *** Diesel Engine *** )
+	Type 					( Diesel )
+	MaxPower 				( 751kW )
+	MaxForce 				( 159kN )
+	MaxContinuousForce 		( 111.4kN )
+	MaxVelocity 			( 120kmh )
+	ORTSContinuousForceTimeFactor ( 3600 )
+	MaxTemperature 			( 85 )
+	MaxDieselLevel 			( 2976l )
+	DieselEngineSpeedOfMaxTractiveEffort ( 30kmh )
+	DieselEngineType 			( electric )
+
+Comment ( *** General *** )
+	WheelRadius 			( 0.508m )
+	Sanding 				( 25kph )
+	ORTSNumberDriveAxles 		( 4 )
+	DoesHornTriggerBell 		( 0 )
+	ORTSDriveWheelWeight 		( 63.6t ) #(* comprovado em ficha técnica nº7 ed1980*)
+
+Comment ( *** Electric Motor *** )
+	MaxCurrent ( 1500A )
+	ORTSElectricTrainSupply ( Mode ( Unfitted ))
+

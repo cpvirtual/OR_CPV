@@ -1,0 +1,29 @@
+CP 1300 Whitcomb Series
+
+CP 1301 - orange and white livery
+CP 1306 - orange and white, weathered livery
+CP 1308 - blue and white livery - vacuum brakes
+CP 1309 - orange and white livery
+CP 1310 - orange and white livery
+CP 1311 - green and silver livery
+
+Versão MSTS 2  	17Abr2005
+Versão OR   1.1 16Jan2020
+
+Technical Data
+	Distance Levels
+	2000m  - 5802 polygons
+
+==================================================================
+
+Autores e Contactos
+Model:    Rui Fonseca - CP Virtual ©2002(cpt_spock@hotmail.com)
+Texturas: Rui Fonseca - CP Virtual ©2002(cpt_spock@hotmail.com)
+	  Eugénio Santos  - CP Virtual ©2003(Eugénio555@hotmail.com)
+Cabview:  João Encarnado - CP Virtual ©2002(encarnado@yahoo.com)
+Buzina - Horn sound: Ed Kaspriske and Jason Underwood - The H&U Sound Division (reffer to the readme file on Sound folder)
+
+www.cpvirtual.org
+webmaster@cpvirtual.org
+
+==================================================================
