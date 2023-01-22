@@ -1,0 +1,37 @@
+*********************************
+*			        *
+*  Cabview for the V90 DB 290   *
+*          Ver. 1.1		*
+*        MadMike 2002 		*
+*    thefarm@t-online.de	*
+*      26.03.02 21:00CET   	*
+*                               *
+*********************************
+
+You should already have installed the V90
+
+Open the folder:
+
+...Train Simulator\TRAINS\TRAINSET\V90
+
+If you have a Cabview folder with the GP38 files in it,
+open it and Backup or delete all files
+
+Go to the Zipfile and unzip all files to:
+
+...Train Simulator\TRAINS\TRAINSET\V90\CAPVIEW
+
+Find the new file V90.eng and move it to
+
+...Train Simulator\TRAINS\TRAINSET\V90
+
+( overwrite ? yes... )
+
+
+Have fun :)
+
+MadMike
+
+
+- fix Texture of Throttle
+- better graphik at 16bit ( not testet )

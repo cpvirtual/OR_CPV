@@ -1,0 +1,28 @@
+*********************************
+*			        *
+*Führerstand derV90 DB 290      *
+*          Ver. 1.1		*
+*        MadMike 2002 		*
+*    thefarm@t-online.de	*
+*      26.03.02 21:00   	*
+*                               *
+*********************************
+
+Kurzbeschreibung
+
+- in dem vorhandene V90 Verzeichniss das Cabview Verzeichniss öffnen und alle Dateien löschen.
+
+- dann den Inhalt des Zips genau da rein, also in:
+
+Train Simulator\TRAINS\TRAINSET\V90\CABVIEW
+
+Darin findet man auch die V90.eng. Rauskopieren und in
+
+Train Simulator\TRAINS\TRAINSET\V90
+
+einfügen. Lokführermütze aufsetzen und los gehts...
+
+MadMike
+
+- Fahrreglerrad Texturfehler behoben
+- bessere 16bit fähigkeit ( ungeprüft )

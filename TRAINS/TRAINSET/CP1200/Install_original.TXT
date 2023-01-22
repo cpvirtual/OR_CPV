@@ -1,0 +1,27 @@
+__________________________________________________________
+    		     BB 63792 SNCF
+    		     livrée verte
+
+		          Version 1.0
+__________________________________________________________
+
+Ce ZIP contient :
+  Les fichiers pour le dossier 'BB63000' (la BB 63792)
+  Les fichiers pour le dossier 'Eaos_SNCF' (le tombereau)
+  Les fichiers pour le dossier 'Shimms' (2 wagons bâchés (1 neutre et 1 Fret))
+
+INSTALLATION
+  Si le jeu est installé dans 'C:\Program Files\Microsoft Games\Train Simulator'
+  Sélectionner "Extraire"
+  Choisir 'C:\'
+  Cocher 'Utiliser noms de dossiers'
+  Cliquez 'Extraire' (installation automatique dans les dossiers appropriés)
+	
+
+__________________________________________________________
+L'Auto-Rail
+8, rue Sainte-Marie
+F-57000 METZ
+
+www.lauto-rail.com
+simtrain@lauto-rail.com                           10/01/2002
