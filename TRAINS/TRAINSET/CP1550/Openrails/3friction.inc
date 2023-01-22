@@ -1,0 +1,41 @@
+
+	Mass ( 89.7t )
+Comment (*** Curve Resistance & SuperElevation ***)
+	CentreOfGravity ( 0.0m 1.2m 0.0m )
+	ORTSTrackGauge ( 1.0m 668.0mm )
+	ORTSRigidWheelbase ( 3.0m 403.0mm )
+	ORTSUnbalancedSuperelevation ( 180mm )
+
+Comment ( ********** Derailment Coefficient **********)
+	ORTSLengthBogieCentre ( 10.744m )
+	ORTSLengthCarBody ( 16.011m )
+	ORTSLengthCouplerFace ( 17.905m )
+	ORTSNumberAxles ( 6 )
+	ORTSNumberBogies ( 2 )
+	ORTSWagonFrontalArea ( 11.9m^2 )
+	ORTSWheelFlangeLength ( 19.1516mm )
+	ORTSMaximumWheelFlangeAngle ( 1.308996rad )
+
+Comment( *********************** Friction / Adhesion ************************* )
+	ORTSAdhesion (
+		ORTSCurtius_Kniffler ( 6.18 44 0.161 0.7 )
+		ORTSSlipWarningThreshold ( 70 )
+		Wheelset (
+			Axle (
+				ORTSInertia ( 5031 ) comment (* mass*1016,0469088*0,25*0,4699^2 *)
+				ORTSRadius ( 0.508m )
+			)
+		)
+	)
+	ORTSBearingType ( Roller )
+ 	Comment (Friction Calculator - Diesel or Electric Loco - Modern Locomotives - 89,7;2,997;4,356;15,4;6 )
+	ORTSDavis_A ( 792 )
+	ORTSDavis_B ( 31.4 )
+	ORTSDavis_C ( 4.22 )
+	ORTSWagonFrontalArea ( 11.1m^2 )
+	ORTSDavisDragConstant ( 0.0016 )
+	ORTSAntislip ( 0 )
+	DerailRailHeight ( 4cm )
+	DerailRailForce ( 448.5kN ) comment (* mass*5 *)
+	DerailBufferForce ( 400kN )
+	

@@ -1,0 +1,40 @@
+
+Comment (*** Brake Systems ***)
+	BrakesEngineBrakeType( Vacuum_single_pipe ) Comment (* Engine brake is straight air brake *)
+	BrakesTrainBrakeType( Vacuum_single_pipe )
+        ORTSBrakeCutsPowerAtBrakePipePressure 			( 12inHg )
+        
+Comment (*** Exhauster ***)
+        ORTSBrakePipeChargingRate                               ( 0.60 ) Comment (* estimate for exhausters at high speed *)
+Comment (* In RELEASE mode ExhausterFastSpeedBrakePipeChargingRate = 0.60 In RUNNING mode ExhausterNormalSpeedBrakePipeChargingRate = 0.11 *)
+        ORTSBrakeServiceTimeFactor                              ( 5.0 )
+        ORTSBrakePipeTimeFactor                                 ( 0.20 ) Comment ( 0.35 and 0.45 - lower values for passenger trains higher values for freight trains)
+        ORTSBrakeEmergencyTimeFactor                            ( 0.10 )
+
+	ORTSBrakePipeChargingRate 				( 0.60inHg/s ) Comment (* Estimate for exhausters at high speed *)
+	ORTSDoesVacuumBrakeCutPower 				( 1 )
+	ORTSBrakeRestoresPowerAtBrakePipePressure 		( 16inHg )
+	TrainPipeLeakRate 					( 0.04inHg/s ) Comment ( 0.03 and 0.06 for passenger trains and 0.06 and 0.12 for freight trains)
+
+Comment (*** Compressor ***)
+	VacuumBrakesMinBoilerPressureMaxVacuum			( 110 )
+	VacuumBrakesSmallEjectorPowerRating			( 3 )
+	VacuumBrakesSmallEjectorUsageRate			( 450 )
+	VacuumBrakesLargeEjectorUsageRate			( 2000 )
+	VacuumBrakesHasVacuumPump				( 0 )
+	ORTSMainResChargingRate					( 1 )
+
+Comment (*** Brake Valve Combined ***)
+	TrainBrakesControllerMinSystemPressure 			( 0 )
+	TrainBrakesControllerMaxSystemPressure			( 21inHg )
+	TrainBrakesControllerMinPressureReduction 		( 2inHg )
+	EngineBrakesControllerHasProportionalBrake              ( 1 )
+	EngineBrakesProportionalBrakeLag                        ( 0.5 ) Comment (* Loco air brake controlled by train pipe vacuum *)
+
+Comment (*** Independent Brake valve - Locomotive ***)
+	EngineBrakesControllerMaxSystemPressure			( 21inHg )
+	EngineBrakesControllerMaxReleaseRate			( 10 )
+	EngineBrakesControllerMaxApplicationRate		( 10 )
+	EngineBrakesControllerMinPressureReduction		( 2inHg )
+        EngineBrakesControllerDirectControlExponent             ( 1 )
+        
