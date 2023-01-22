@@ -1,0 +1,18 @@
+CP G
+Grua rebocavel e vagão de apoio
+
+Versão 1.1 16Jan2020
+
+Thecnical Data
+	Distance Levels
+	Grua	2000m - 2576 polygons
+	vagão	2000m - 1992 polygons
+
+==================================================================
+Autores e Contactos - Authors and contacs
+Model: Eugénio Santos - CP Virtual ©2004
+Texturas: Eugénio Santos - CP Virtual ©2004
+
+www.cpvirtual.eu
+cpvirtual@gmail.com
+==================================================================
