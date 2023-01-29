@@ -1,0 +1,18 @@
+Pack 6 carruagens C.P. Sul e Sueste
+Pack 6 cars C.P. South & Southeast Line
+cpss3201; cpss3202A ; cpss3203B ; cpss3210 ; cpss3215 ; cpss3220
+
+V 1.1 29Jan2023
+
+Thecnical Data:
+        
+	Distance Levels
+	2000m - 3284 polygons
+
+==================================================================
+Autor e Contactos/Author and contacts
+Model and Textures: Eugénio Santos - CP Virtual ©2005
+
+www.cpvirtual.org
+eugenio555@gmail.com
+==================================================================
