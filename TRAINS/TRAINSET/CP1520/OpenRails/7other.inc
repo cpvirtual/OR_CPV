@@ -10,4 +10,4 @@
  	ORTS ( ORTSEmergencyCausesThrottleDown ( 1 ) )
 
 	ORTSCircuitBreaker ( Manual )
-	HeadOut ( 1.70 3.5 -4.4 )	
+	HeadOut ( 1.70 3.5 -4.4 )
