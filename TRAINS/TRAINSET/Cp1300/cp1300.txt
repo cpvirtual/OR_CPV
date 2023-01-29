@@ -7,8 +7,7 @@ CP 1309 - orange and white livery
 CP 1310 - orange and white livery
 CP 1311 - green and silver livery
 
-Versão MSTS 2  	17Abr2005
-Versão OR   1.1 16Jan2020
+Versão OR   1.2 28Jan2020
 
 Technical Data
 	Distance Levels
