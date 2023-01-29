@@ -2,8 +2,8 @@
 Comment ( *************** Brakes - Wagon Section - General ********************** )
 	BrakeEquipmentType( "Handbrake, Vacuum_brake, Auxilary_reservoir" )
 	BrakeSystemType( "Vacuum_single_pipe" )
-	MaxBrakeForce					( 402.1kN )
-	MaxHandbrakeForce 				( 117.7kN )
+	MaxBrakeForce					( 40kN )
+	MaxHandbrakeForce 				( 12kN )
 
 
 	BrakePipeVolume 				( 0.62ft^3 )

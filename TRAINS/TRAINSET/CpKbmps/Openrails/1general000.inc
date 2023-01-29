@@ -1,8 +1,5 @@
 
 	Size ( 2.66m 3.635m 11.8m )
-	WheelRadius ( 0.5m )
-	NumWheels ( 2 )
-
 Comment( ****************** Coupler Information ******************* )
 	Coupling (
 		Type ( Chain )

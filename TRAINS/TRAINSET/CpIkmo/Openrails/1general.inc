@@ -1,7 +1,5 @@
 
 	Size ( 2.8m 4.09m 9.48m )
-	WheelRadius ( 0.485m )
-	NumWheels ( 2 )
 
 Comment( ****************** Coupler Information ******************* )
 	Coupling (

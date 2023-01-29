@@ -1,5 +1,5 @@
 
-	Mass ( 22t ) Comment (* tara 22t *)
+	Mass ( 80t ) Comment (* tara 22t *)
 
 Comment ( *** Curve Resistance & SuperElevation ***)
 	CentreOfGravity ( 0.0m 1.2m 0.0m )
@@ -16,7 +16,7 @@ Comment( *** Friction / Adhesion *** )
 			)
 		)
 	)
- 	Comment (Friction Calculator - Good Wagon - Bogie Wagons Hoppers - 22;80;2,92;3,8;10,506;4 )
+ 	Comment (Friction Calculator - Goods Wagon - Bogie Wagons Hoppers - 22;80;2,92;3,8;10,506;4 )
 	ORTSDavis_A ( 861 )
 	ORTSDavis_B ( 24.2 )
 	ORTSDavis_C ( 1.68 )

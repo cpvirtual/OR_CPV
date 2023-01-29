@@ -12,7 +12,7 @@
 		UnloadingStartDelay ( 2 )
 		LoadingEndDelay ( 2 )
             IntakePoint ( 0 6.0 Container)
-		LoadingAreaLength ( 18.116 )
+		LoadingAreaLength ( 18.316 )
 		Offset( 0, 1.24, 0 )
 
 		FreightAnimStatic (
