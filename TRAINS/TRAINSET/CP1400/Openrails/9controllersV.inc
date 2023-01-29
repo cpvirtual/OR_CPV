@@ -1,6 +1,6 @@
 
 EngineControllers (
-            Throttle ( 0 1 0.125 0 0.
+            Throttle ( 0 1 0.125 0 0
                 NumNotches ( 9
                     Notch ( 0       0 Dummy )
                     Notch ( 0.125   0 Dummy )
@@ -26,7 +26,7 @@ EngineControllers (
 			Notch ( 1.0  0 TrainBrakesControllerEmergencyStart )
 		)
 	)
-	Brake_Brakeman ( 0 1 0.1 0.0
+	Brake_Brakeman ( 0 1 0.1 0
 		NumNotches ( 1
 			Notch( 0 1 BrakemanBrakesControllerManualBrakingStart )
 		)

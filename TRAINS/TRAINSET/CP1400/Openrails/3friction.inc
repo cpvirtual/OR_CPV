@@ -7,11 +7,11 @@ Comment ( *** Curve Resistance & SuperElevation ***)
 	ORTSUnbalancedSuperelevation ( 180mm )
 
 Comment ( ********** Derailment Coefficient **********)
-	ORTSLengthBogieCentre ( 10.494m )
-	ORTSLengthCarBody ( 17.44m )
-	ORTSLengthCouplerFace ( 18.68m )
-	ORTSNumberAxles ( 4 )
-	ORTSNumberBogies ( 2 )
+	ORTSLengthBogieCentre		( 10.494m )
+	ORTSLengthCarBody			( 17.44m )
+	ORTSLengthCouplerFace		( 18.68m )
+	ORTSNumberAxles			( 0 )
+	ORTSNumberBogies			( 2 )
 
 
 Comment( *********************** Friction / Adhesion ************************* )

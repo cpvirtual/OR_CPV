@@ -2,14 +2,9 @@
 Comment ( *** CP 1400 Braking system *** )
 	BrakesEngineBrakeType						( "Air_twin_pipe"  )
 	BrakesTrainBrakeType						( "Air_twin_pipe" )
-	BrakesEngineControllers						( "Independent, Train, Hand" )
-	ORTSBrakeCutsPowerAtBrakePipePressure 			( 46psi )
-	ORTSBrakeRestoresPowerAtBrakePipePressure 		( 60psi )
-  
+	BrakesEngineControllers						( "Independent, Train, Hand" ) 
 
 Comment ( == Compressor == )
-
-
 	AirBrakesMainMaxAirPressure					( 123.282 )
 	AirBrakesCompressorRestartPressure				( 108.778 )
 	AirBrakesMainResVolume						( 17.66ft^3 )
