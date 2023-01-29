@@ -1,0 +1,16 @@
+CP Ekkls 41 94 558 5 501/530
+Vagão de Bordas Baixas para transporte de Sucata
+
+Versão ORTS 1.1 16Jan2020
+
+Thecnical Data
+	Distance Levels
+	2000m - 3686 polygons
+==================================================================
+Autores e Contactos - Authors and contacs
+Model: Nelso Silva - CP Virtual ©2008
+Textures: Nelso Silva - CP Virtual ©2008
+
+www.cpvirtual.eu
+cpvirtual@gmail.com
+==================================================================
