@@ -1,0 +1,29 @@
+CP Série 2500
+Numeração UIC 02725501-6 / 0272505-7 / 0272506-5 / 0272514-9 / 0272515-6
+
+Versão OR   1.1 16Jan2020
+
+Thecnical Data
+	Distance Levels
+	2000m - 9747 polygons
+
+MSTS BIN COMPATIBLE
+==================================================================
+Autores e Contactos - Authors and contacs
+Virtual Steel Wheels
+CP Virtual
+
+Texturas 2501 fase II: Pedro Fernandes e Pedro Almeida ©2008
+Cabine: Rui Fonseca - CP Virtual ©2008
+Som de Buzina: Paulo Faria - APAC ©Sons Ferroviários-Portugal 2001
+
+www.cpvirtual.pt
+cpvirtual@gmail.com
+
+AGRADECIMENTOS / ADICIONAL CREDITS
+CP - Caminhos-de-Ferro Portugueses, EP (Relações Públicas)
+Forum Comboios.org
+Forum Luso_Carris
+Forum Transportes XXI
+Forum Portugal Ferroviário
+==================================================================
