@@ -1,0 +1,26 @@
+
+Comment ( *** Electric Engine *** )
+Comment ( *** General *** )
+	WheelRadius 			( 0.650m )
+	Sanding				( 25kmh )
+	MaxSandingTime			( 1200 )
+	NumWheels				( 4 )
+	ORTSDriveWheelWeight 		( 70.52t )
+
+Comment ( *** Traction Characteristics 4 x TAO-645 A1 78:21*** )
+	Type ( Electric )
+  	MaxTemperature 			( 93degC )
+	MaxOilPressure 			( 59.738psi )
+	MinOilPressure 			( 20 )
+	MaxPower				( 2053kW )
+	MaxForce 				( 185.35kN )
+	MaxContinuousForce		( 119.15kN )
+	ORTSSpeedOfMaxContinuousForce	( 60kmh )
+	MaxVelocity 			( 120kmh )
+	MaxCurrent 				( 3000A )
+
+	DoesHornTriggerBell		( 0 )
+	RunUpTimeToMaxForce		( 30 )
+	DieselEngineSpeedOfMaxTractiveEffort ( 30kmh )
+
+	ORTSContinuousForceTimeFactor ( 1800 )																				
