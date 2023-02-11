@@ -1,6 +1,7 @@
 
-        Throttle ( 0 1 0.04545 0
-            NumNotches ( 23
+ EngineControllers (
+	Throttle ( 0 1 0.04545 0
+		NumNotches ( 23
                     Notch ( 0         0 Dummy )
                     Notch ( 0.04545   0 Dummy )
                     Notch ( 0.0909    0 Dummy )
