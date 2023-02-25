@@ -1,0 +1,53 @@
+==================Kit sonore pour automotrice z	5300 EAS ========================
+
+Il comprend :
+
+- Le couinement de la transmission Jacquemin en traction et en freinage rhéostatique, 
+- Le bruit de la transmission en marche sur l'erre,
+- Le bruit de la couronne d'autoventilation
+- La fermeture ainsi que l'ouverture du disjoncteur 
+- Le passage cran par cran et la réinitialisation de l'arbre à Came JH.
+- Le bruit du groupe statodyne (mono-continu) 
+- Le compresseur typique Z 5300 en intérieur et en extérieur,
+- Le freinage typique Z5300 en intérieur et en extérieur
+- L'enregistreur Tachro,
+- La veille d'appui,
+- Le test KVB et Veille d'appui.
+
+Installation:
+
+- Créer, si il n'existe pas déja, un répertoire SOUND sous le répertoire de la 
+  locomotive de votre choix.
+- Dezipper le contenu de soundz5300.zip dans ce répertoire SOUND.
+- Remplacer le contenu des instructions sound (******eng.sms) et sound (*****cab.sms) présentes au sein du .eng de la 
+  locomotive pour les remplacer par les nouveaux du .zip! 
+- C'est partit! :)
+
+=============================== IMPORTANT!===========================================================================
+
+- SI VOUS N'AVEZ AUCUN SON, VERIFIEZ QUE VOUS ETES BIEN EN RESOLUTION SONORE MAXIMALE DANS LES OPTIONS DE TS
+
+- SI VOUS ETTES SOUS WINDOWS XP ET QUE LE SON PRESENTE DES ANOMALIES IMPORTANTES (GRESILLEMENTS, SACCADEMENT), CHANGER
+  LE REGLAGE DE L'ACCELERATION MATERIELLE DE VOTRE CARTE/CHIPSET SONORE.
+
+- L'ABCENSE TOTALE D'ACCELERATION MATERIELLE PERMET D'AVOIR UNE TESSITURE SONORE LARGEMENT PLUS REALISTE
+ 
+=====================================================================================================================
+
+Remarques :
+
+- Les sons utilisés pour origine le bruit de la motrice de Z 5300.
+
+- Allez très progressivement sur le cerclo si vous désirer entendre votre JH passer un seul cran à chaque fois.
+  A certain moment, le JH passe en progression rapide. Dès que vous revener sur le cran 0, le JH passe en régression
+  rapide.
+
+- Appuyez sur la touche "B" pour entendre le ronfleur et les portes se fermer. Attention, veillez à ce que 
+  le sifflet ne déclenche pas en même temps ce son, si oui, il faut remplacer DoesHornTriggerBells(1) par 
+  DoesHornTriggerBells(0) dans le .eng correspondant au modèle.
+  
+Belphégor
+
+Belphegor Copyright 2004/ 
+Reproduction et duplication sur support commercial strictement interdite. 
+All right reserved, copying on Commercial Support strictly forbidden.
