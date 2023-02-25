@@ -1,0 +1,66 @@
+
+Comment (****************** General Information *******************)
+	Type ( Engine )
+	Size ( 3.1m 4m 22.8m )
+	InertiaTensor ( Box (3m 3.8m 21m) )
+	Mass ( 64.5t )
+	ORTSPantographs(
+		Pantograph( 1				Delay( 4 ) )
+		Pantograph( 2				Delay( 4 ) )
+	)
+Comment( ****************** Coupler Information ******************* )
+	Coupling (
+		Type ( Bar )
+		Spring (
+			Stiffness ( 1e7N/m 1e7N/m )
+			Damping ( 0.2e7N/m/s 0.2e7N/m/s )
+			Break ( 1e7N 1e7N )
+			r0 ( 10cm 1e9 )
+		)
+		CouplingHasRigidConnection ()
+		Velocity ( 0.1m/s )
+		CouplingUniqueType ( "Scharfenberg Shaku" )
+	)
+Comment ( *** Curve Resistance & SuperElevation ***)
+	CentreOfGravity ( 0.0m 1.2m 0.0m )
+	ORTSTrackGauge ( 1.0m 668.0mm )
+	ORTSRigidWheelbase ( 2.0m 800.0mm )
+	ORTSUnbalancedSuperelevation ( 180mm )
+
+Comment ( ********** Derailment Coefficient **********)
+	ORTSLengthBogieCentre ( 16.82m )
+	ORTSLengthCarBody ( 22.82m )
+	ORTSLengthCouplerFace ( 23.92m )
+	ORTSNumberAxles ( 0 )
+	ORTSNumberBogies ( 2 )
+
+Comment( *********************** Friction / Adhesion ************************* )
+	ORTSAdhesion ( 
+		ORTSCurtis_Kniffler ( 7.5 44 0.161 0.7 )
+		ORTSSlipWarningThreshold ( 70 )
+		Wheelset (
+			Axle (
+				ORTSInertia ( 2894 ) comment ( 64,5*1016,0469088*0,20*0,4699^2 )
+				ORTSRadius ( 0.50m )
+			)
+		)
+	)
+	ORTSBearingType ( Roller )
+ 	Comment (Friction Calculator - Electric Loco - Modern Locomotives - 64,5;3,174;3,865;23,22;4 )
+ 	ORTSDavis_A ( 549 )
+	ORTSDavis_B ( 22.6 )
+	ORTSDavis_C ( 1.29 )
+
+	ORTSWagonFrontalArea ( 10.9m^2 )
+	ORTSWheelFlangeLength ( 19.1516mm )
+	ORTSMaximumWheelFlangeAngle ( 1.308996rad )
+
+	ORTSTrailLocomotiveResistanceFactor ( 0.279 ) Comment (* Ratio of SNCF calculated resistances *)
+	ORTSDavisDragConstant ( 0.0018 )
+	ORTSStandstillFriction ( 1300.365789 )
+	ORTSMergeSpeed ( 0.270329 )
+	ORTSAntislip ( 0 )
+
+	DerailRailHeight ( 4cm )
+	DerailRailForce ( 323kN )
+	DerailBufferForce ( 400kN )
