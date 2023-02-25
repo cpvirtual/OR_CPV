@@ -1,0 +1,26 @@
+
+Comment ( *** Electric Engine *** )
+Comment ( *** General *** )
+	WheelRadius				( 0.500m )
+	Sanding				( 25kmh )
+	MaxSandingTime			( 1200 )
+	NumWheels				( 4 )
+	ORTSDriveWheelWeight 		( 64.5t )
+
+Comment ( *** Traction Characteristics 4 x OSA 750 *** )
+	Type					( Electric )
+  	MaxTemperature 			( 93degC )
+	MaxOilPressure 			( 59.738psi )
+	MinOilPressure 			( 20 )
+	MaxPower 				( 1180kW )
+	MaxForce 				( 113.757kN )
+	MaxContinuousForce 		( 67kN )
+	ORTSSpeedOfMaxContinuousForce	( 63kmh )
+	MaxVelocity 			( 120kmh )
+	MaxCurrent 				( 2300A )
+
+	DoesHornTriggerBell		( 0 )
+	RunUpTimeToMaxForce		( 30 )
+	DieselEngineSpeedOfMaxTractiveEffort ( 30kmh )
+
+	ORTSContinuousForceTimeFactor ( 1800 )
