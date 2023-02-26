@@ -3,10 +3,10 @@
 
 ![Portugal79](/pt79.jpg)
 
-## CONDIÇÕES de UTILIZAÇÂO (PT)
+## CONDIÇÕES de UTILIZAÇÃO (PT)
 Ao aceder e clonar este repositório para o seu PC, concorda com as seguintes comdições:
 
-1 Está autorizado a usar os produtos da CP Virtual gratuitamente, com intuito pessoal. Não pode, porém ser incluido num CD de distribuição, ou ser disponibilizado através do seu site sem primeiro contactar a CP VIrtual, ou o autor para ter a certeza que tem a ultima versão e para ser dada a devida autorização.
+1 Está autorizado a usar os produtos da CP Virtual gratuitamente, com intuito pessoal. Não pode, porém ser incluido num CD de distribuição, ou ser disponibilizado através do seu site sem primeiro contactar a CP VIrtual.
 
 2 Não está autorizado a redestribuir os produtos da CP Virtual, nomeadamente, mas não limitado a venda, revenda, redestribuição em Cd's, disquetes, ou outro suporte com objectivos comerciais ou outros.
 
@@ -23,7 +23,7 @@ Ao aceder e clonar este repositório para o seu PC, concorda com as seguintes co
 ## DISCLAIMER (EN)
 By acessing and cloning this repository on your local PC you agree to:
 
-1 You are hereby granted permission to use the CP Virtual products free of charge for your personal entertainment. You cannot, however, make it available through your site or in a redistribution CD without prior consetment of CP Virtual or the authors, in order to garantee that you have the latest version.
+1 You are hereby granted permission to use the CP Virtual products free of charge for your personal entertainment. You cannot, however, make it available through your site or in a redistribution CD without prior consent of CP Virtual.
 
 2 You are not granted permission to distribute this content, namely but not limited to, sell, re-sell, redistribute for profit or include CP Virtual products on any compilation CD, disk, tape or other distribution media for sale, profit or any other means.
 
