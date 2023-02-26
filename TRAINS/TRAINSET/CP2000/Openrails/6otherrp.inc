@@ -17,5 +17,5 @@
  	ORTS ( ORTSWheelSlipCausesThrottleDown ( 1 ) )
  	ORTS ( ORTSEmergencyCausesThrottleDown ( 1 ) )
 
-	CabView ( cp2000.cvf )
+	CabView ( cp2000rv.cvf )
 	HeadOut ( -1.7 3.0 7.75 )

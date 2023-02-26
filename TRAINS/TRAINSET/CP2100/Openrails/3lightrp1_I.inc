@@ -1,10 +1,11 @@
 
-	Lights ( 9
+	Sound ( "..\\sound\\pt_sound\\genptcar2.sms" )
+	Lights ( 6
 		comment( Cone de Luz - Projector )
 		Light (
 			Type 				( 1 )
 			Conditions (
-				Headlight		( 3 )
+				Headlight		( 4 )
 				Unit			( 2 )
                         Control		( 0 )
 				Service		( 2 )
@@ -16,32 +17,9 @@
 				State (
 					Duration 	( 0 )
 					LightColour ( ffffffff )
-					Position 	( 0 3.5 11.4 )
+					Position 	( 0 3.3 11.5 )
 					Transition 	( 0 )
 					Radius 	( 60.0 )
-					Angle 	( 25.0 )
-				)
-			)
-		)
-		comment( Cone de luz - farois  )
-		Light	(
-			Type		  		( 1 )
-			Conditions (
-				Headlight		( 2 )
-				Unit			( 2 )
-                        Control		( 0 )
-				Service		( 2 )
-                        )
-			Cycle 			( 0 )
-			FadeIn			( 0.5 )
-			FadeOut			( 0.5 )
-			States ( 1
-				State	(
-					Duration 	( 0.0 )
-					LightColour ( 99fedf93 )
-					Position 	( 0 1.56 11.4 )
-					Transition 	( 0 )
-					Radius 	( 20.0 )
 					Angle 	( 25.0 )
 				)
 			)
@@ -50,7 +28,7 @@
 		Light (
 			Type 				( 0 )
 			Conditions (
-				Headlight		( 3 )
+				Headlight		( 4 )
 				Unit			( 2 )
 				Control		( 2 )
 				Service		( 2 )
@@ -62,56 +40,10 @@
 				State (
 					Duration 	( 0 )
 					LightColour ( ffffffff )
-					Position 	( 0 3.5 11.3 )
+					Position 	( 0 3.3 11.5 )
 					Azimuth 	( 0 0 0 )
 					Transition 	( 0 )
 					Radius 	( 1.0 )
-				)
-			)
-		)
-		comment( Farol frontal esquerdo )
-		Light	(
-			Type 				( 0 )
-			Conditions	(
-				Headlight 		( 4 )
-				Unit      		( 2 )
-				Control   		( 0 )
-				Service   		( 2 )
-			)
-			Cycle 			( 0 )
-			FadeIn			( 0.5 )
-			FadeOut			( 0.5 )
-			States ( 1
-				State (
-					Duration 	( 0 )
-					LightColour ( ffffffff )
-					Position 	( -0.95 1.66 11.55 )
-					Azimuth 	( 0 0 0 )
-					Transition 	( 0 )
-					Radius 	( 0.6 )
-				)
-			)
-		)
-		comment( Farol frontal direito )
-		Light	(
-			Type 				( 0 )
-			Conditions	(
-				Headlight 		( 4 )
-				Unit      		( 2 )
-				Control   		( 0 )
-				Service   		( 2 )
-			)
-			Cycle 			( 0 )
-			FadeIn			( 0.5 )
-			FadeOut			( 0.5 )
-			States ( 1
-				State (
-					Duration 	( 0 )
-					LightColour ( ffffffff )
-					Position 	( 0.95 1.66 11.55 )
-					Azimuth 	( 0 0 0 )
-					Transition 	( 0 )
-					Radius 	( 0.6 )
 				)
 			)
 		)
@@ -131,7 +63,7 @@
 				State (
 					Duration 	( 0 )
 					LightColour ( 80ff0000 )
-					Position 	( -0.7 1.6 11.55 )
+					Position 	( -0.89 1.56 11.45 )
 					Azimuth 	( 0 0 0 )
 					Transition 	( 0 )
 					Radius 	( 0.4 )
@@ -154,7 +86,7 @@
 				State (
 					Duration 	( 0 )
 					LightColour ( 80ff0000 )
-					Position 	( 0.7 1.6 11.55 )
+					Position 	( 0.89 1.56 11.45 )
 					Azimuth 	( 0 0 0 )
 					Transition 	( 0 )
 					Radius 	( 0.4 )
@@ -179,7 +111,7 @@
 				State (
 					Duration 	( 0 )
 					LightColour ( 80ff0000 )
-					Position 	( -0.7 1.6 11.55 )
+					Position 	( -0.89 1.56 11.45 )
 					Azimuth 	( 0 0 0 )
 					Transition 	( 0 )
 					Radius 	( 0.4 )
@@ -203,7 +135,7 @@
 				State (
 					Duration 	( 0 )
 					LightColour ( 80ff0000 )
-					Position 	( 0.7 1.6 11.55 )
+					Position 	( 0.89 1.56 11.45 )
 					Azimuth 	( 0 0 0 )
 					Transition 	( 0 )
 					Radius 	( 0.4 )

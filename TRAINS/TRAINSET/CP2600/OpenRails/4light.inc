@@ -5,10 +5,10 @@
 		Light	(
 			Type		  ( 1 )
 			Conditions (
-				Headlight ( 3 )
-				Unit      ( 2 )
-                                Control	  ( 0 )
-				Service   ( 2 )
+				Headlight	( 3 )
+				Unit		( 2 )
+                        Control	( 0 )
+				Service	( 2 )
 			)
 			Cycle	( 0 )
 			FadeIn	( 0.5 )
@@ -28,10 +28,10 @@
 		Light	(
 			Type		  ( 1 )
 			Conditions (
-				Headlight ( 2 )
-				Unit	  ( 2 )
-                                Control	  ( 0 )
-				Service   ( 2 )
+				Headlight	( 2 )
+				Unit		( 2 )
+                        Control	( 0 )
+				Service	( 2 )
                         )
 			Cycle	( 0 )
 			FadeIn	( 0.5 )

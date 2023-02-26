@@ -1,4 +1,5 @@
 
+	Sound ( "..\\sound\\pt_sound\\genptcar2.sms" )
 	Lights ( 10
 		comment( Cone de Luz - Projector )
 		Light (
