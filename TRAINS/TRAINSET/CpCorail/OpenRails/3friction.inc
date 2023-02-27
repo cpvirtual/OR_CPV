@@ -32,9 +32,6 @@ Comment( *** Friction / Adhesion *** )
 	ORTSDavis_C ( 0.67 )
 
 	ORTSWagonFrontalArea ( 10.9m^2 )
-	ORTSWheelFlangeLength ( 19.1516mm )
-	ORTSMaximumWheelFlangeAngle ( 1.308996rad )
-
 	ORTSDavisDragConstant ( 0.0003 )
 	ORTSStandstillFriction ( 1300.365789 )
 	ORTSMergeSpeed ( 0.270329 )
