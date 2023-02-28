@@ -1,6 +1,6 @@
 
 	Sound ( "..\\sound\\pt_sound\\genptcar2.sms" )
-	Lights ( 7
+	Lights ( 9
 		comment( Cone de Luz - Projector )
 		Light (
 			Type				( 1 )
@@ -16,7 +16,7 @@
 			States ( 1
 				State (
 					Duration 	( 0 )
-					LightColour ( ffffffff )
+					LightColour ( ffeef2c2 )
 					Position 	( 0 1.55 11.53 )
 					Azimuth 	( 0 0 0 )
 					Transition 	( 0 )
@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		comment( Farol frontal esquerdo )
+		comment( Farol frontal esquerdo - DIURNO )
 		Light	(
 			Type				( 0 )
 			Conditions	(
@@ -33,6 +33,7 @@
 				Unit			( 2 )
 				Control		( 0 )
 				Service		( 2 )
+				TimeOfDay 		( 1 )	
 			)
 			Cycle				( 0 )
 			FadeIn			( 0.5 )
@@ -40,15 +41,15 @@
 			States ( 1
 				State (
 					Duration 	( 0 )
-					LightColour ( ffffffff )
+					LightColour ( f2edede2 )
 					Position 	( -1.05 1.52 11.53 )
 					Azimuth 	( 0 0 0 )
 					Transition 	( 0 )
-					Radius	( 1.5 )
+					Radius	( 1.2 )
 				)
 			)
 		)
-		comment( Farol frontal direito )
+		comment( Farol frontal direito - DIURNO )
 		Light	(
 			Type				( 0 )
 			Conditions	(
@@ -56,6 +57,7 @@
 				Unit			( 2 )
 				Control		( 0 )
 				Service		( 2 )
+				TimeOfDay 		( 1 )	
 			)
 			Cycle				( 0 )
 			FadeIn			( 0.5 )
@@ -63,11 +65,59 @@
 			States ( 1
 				State (
 					Duration 	( 0 )
-					LightColour ( ffffffff )
+					LightColour ( f2edede2 )
 					Position 	( 1.05 1.52 11.53 )
 					Azimuth 	( 0 0 0 )
 					Transition 	( 0 )
-					Radius	( 1.5 )
+					Radius	( 1.2 )
+				)
+			)
+		)
+		comment( Farol frontal esquerdo - NOCTURNO )
+		Light	(
+			Type				( 0 )
+			Conditions	(
+				Headlight		( 4 )
+				Unit			( 2 )
+				Control		( 0 )
+				Service		( 2 )
+				TimeOfDay 		( 2 )	
+			)
+			Cycle				( 0 )
+			FadeIn			( 0.5 )
+			FadeOut			( 0.5 )
+			States ( 1
+				State (
+					Duration 	( 0 )
+					LightColour ( ffeef2c2 )
+					Position 	( -1.05 1.52 11.54 )
+					Azimuth 	( 0 0 0 )
+					Transition 	( 0 )
+					Radius	( 3.1 )
+				)
+			)
+		)
+		comment( Farol frontal direito - NOCTURNO )
+		Light	(
+			Type				( 0 )
+			Conditions	(
+				Headlight		( 4 )
+				Unit			( 2 )
+				Control		( 0 )
+				Service		( 2 )
+				TimeOfDay 		( 2 )	
+			)
+			Cycle				( 0 )
+			FadeIn			( 0.5 )
+			FadeOut			( 0.5 )
+			States ( 1
+				State (
+					Duration 	( 0 )
+					LightColour ( ffeef2c2 )
+					Position 	( 1.05 1.52 11.54 )
+					Azimuth 	( 0 0 0 )
+					Transition 	( 0 )
+					Radius	( 3.1 )
 				)
 			)
 		)
@@ -87,7 +137,7 @@
 				State (
 					Duration 	( 0 )
 					LightColour ( 80ff0000 )
-					Position 	( -0.63 1.38 11.53 )
+					Position 	( -0.63 1.38 11.54 )
 					Azimuth 	( 0 0 0 )
 					Transition 	( 0 )
 					Radius 	( 0.6 )
