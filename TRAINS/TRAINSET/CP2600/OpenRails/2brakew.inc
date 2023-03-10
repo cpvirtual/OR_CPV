@@ -1,6 +1,6 @@
 
 Comment ( *************** Brakes - Wagon Section - General ********************** )
-	BrakeEquipmentType					( Distributor, Auxiliary_reservoir, Handbrake )
+	BrakeEquipmentType					( Distributing_valve, Handbrake )
 	BrakeSystemType						( Air_Twin_Pipe )
 	MaxBrakeForce						( 114kN )  		#(* Braked at 75% tare mass, coefficient of friction 0.20 *)
 	MaxHandbrakeForce 					( 31kN )
@@ -18,23 +18,20 @@ Comment ( *************** Brakes - Wagon Section - General *********************
 	EmergencyResVolumeMultiplier 				( 1 )
 	EmergencyBrakeResMaxPressure				( 5bar )
 
-	Comment ( Cast Iron Brakeshoes )
+	Comment ( == COBRA Brakeshoes == )
 	ORTSBrakeShoeFriction (
-		0.0   0.500
-		8.0   0.288
-		16.1  0.241
-		24.1  0.211
-		32.2  0.187
-		40.2  0.173
-		48.3  0.161
-		56.3  0.150
-		64.4  0.142
-		72.2  0.139
-		80.5  0.134
-		88.5  0.129
-		96.6  0.125
-		104.6 0.123
-		112.7 0.121
+		0.0   0.490
+		8.0   0.436
+		16.1  0.400
+		24.1  0.371
+		32.2  0.350
+		40.2  0.336
+		48.3  0.325
+		56.3  0.318
+		64.4  0.309
+		72.2  0.304
+		80.5  0.298
+		88.5  0.295
+		96.6  0.289
+		104.6 0.288
 	)
-
-	

@@ -1,7 +1,7 @@
 
 Comment ( *** Vaccum Brakes - Wagon Section *** )
-	BrakeEquipmentType 				( "Vacuum_brake, Handbrake, Auxilary_reservoir" )
-	BrakeSystemType 					( "Vacuum_single_pipe" )
+	BrakeEquipmentType 				( Vacuum_brake, Handbrake, Auxilary_reservoir )
+	BrakeSystemType 					( Vacuum_single_pipe )
 	MaxBrakeForce					( 88.416kN ) Comment (* Braked at 70% tare mass, coefficient of friction 0.20 *)
 	MaxHandbrakeForce					( 40.638kN )
 	

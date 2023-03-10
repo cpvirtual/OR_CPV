@@ -11,7 +11,9 @@ Autores e Contactos
 Modelo:	Nelso Silva - SorefameVirtual ©2013
 		Rui Fonseca - CPvirtual
 Texturas:	Nelso Silva - SorefameVirtual ©2013
-Cab/sons:	Rui Finseca - CPvirtual
+		"2021 - Ano Europeu da Ferrovia" - Tiago Miranda - ©2023 CPvirtual
+Cab/sons:	Rui Fonseca - ©2022 CPvirtual
+		Tiago Miranda - ©2022 CPvirtual
 
 www.cpvirtual.org
 cpvirtual@gmail.org

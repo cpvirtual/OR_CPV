@@ -25,7 +25,7 @@
 		"4.	Slowly advance the throttle lever (D key).\n\n"+
 		"To load and unload passengers\n"+
 		"1. Stop at a station.\n"+
-		"2. Press the ??? key.\n"+
+		"2. Loading and unloading is automatic.\n"+
 		"3. Wait for the 'permission to depart' signal.\n"+
 		"To use Cruise Control\n"+
 		"1. Press SHIFT+D to increase target speed.\n"+

@@ -18,7 +18,6 @@ Comment ( *************** Brakes - Wagon Section - General *********************
 	EmergencyResVolumeMultiplier 				( 1 )
 	EmergencyBrakeResMaxPressure				( 5bar )
 
-	Comment ( Cast Iron Brakeshoes )
 	ORTSBrakeShoeFriction (
 		0.0   0.500
 		8.0   0.288
@@ -36,5 +35,4 @@ Comment ( *************** Brakes - Wagon Section - General *********************
 		104.6 0.123
 		112.7 0.121
 	)
-
-	
+	Comment ( Cast Iron Brakeshoes )

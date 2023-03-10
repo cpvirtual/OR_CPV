@@ -3,7 +3,7 @@
 	Lights	( 14
 		comment( Cone de Luz - Projector )
 		Light	(
-			Type		  ( 1 )
+			Type		  	( 1 )
 			Conditions (
 				Headlight	( 3 )
 				Unit		( 2 )

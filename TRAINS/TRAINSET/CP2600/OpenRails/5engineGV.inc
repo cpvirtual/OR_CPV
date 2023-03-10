@@ -19,7 +19,6 @@ Comment ( *** Traction Characteristics 2 x TAB-660 A1 1,88*** )
 	MaxVelocity				( 160kmh )
 	MaxCurrent				( 1600A )
 
-Comment ( *** General *** )
 	DoesHornTriggerBell		( 0 )
 	RunUpTimeToMaxForce		( 30 )
 	DieselEngineSpeedOfMaxTractiveEffort ( 30kmh )

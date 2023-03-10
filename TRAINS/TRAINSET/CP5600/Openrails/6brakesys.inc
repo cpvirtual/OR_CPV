@@ -18,8 +18,8 @@ Comment ( == Compressor == )
 	ORTSBrakeServiceTimeFactor 					( 1.009s )
 	ORTSBrakeEmergencyTimeFactor 					( 0.100s )
 
-        ORTSBrakeCutsPowerAtBrakePipePressure			( 3.17bar )		#( 46psi )
-        ORTSBrakeRestoresPowerAtBrakePipePressure		( 4.13bar )		#( 60psi )
+	ORTSBrakeCutsPowerAtBrakePipePressure			( 3.17bar )		#( 46psi )
+	ORTSBrakeRestoresPowerAtBrakePipePressure			( 4.13bar )		#( 60psi )
 
 Comment ( == Automatic Brake valve - Train == )
 	TrainBrakesControllerMaxSystemPressure			( 5bar )		#(verificado em manual de conducao )

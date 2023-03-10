@@ -14,7 +14,7 @@ Comment( **************************** Script Power *************************** )
 	ORTSAuxPowerOnDelay				( 3s )
 
  	ORTS (
-		ORTSWheelSlipCausesThrottleDown	( 0 )
+		ORTSWheelSlipCausesThrottleDown	( 1 )
 		ORTSEmergencyCausesPowerDown		( 0 )
 		ORTSEmergencyCausesThrottleDown	( 1 )
 	)

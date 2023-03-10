@@ -2,7 +2,6 @@
 Comment (****************** General Information *******************)
 	Size  ( 3.17m 3.87m 17.4m )
 	Mass ( 78t )
-	WheelRadius ( 0.570m )
 	ORTSPantographs(
 		Pantograph( 1				Delay( 4 ) )
 		Pantograph( 2				Delay( 4 ) )
@@ -13,7 +12,7 @@ Comment (****************** Coupler Information *******************)
 		Spring (
 			Stiffness ( 1e6N/m 2e6N/m )
 			Damping ( 1e6N/m/s 1e6N/m/s )
-			Break ( 1200kN 1200kN )
+			Break ( 600kN 600kN )
 			r0 ( 10cm 40cm )
 		)
 		CouplingHasRigidConnection ()
@@ -29,4 +28,3 @@ Comment (****************** Coupler Information *******************)
 		Radius ( 1m )
 		Angle ( 0.5deg )
 	)
-	
