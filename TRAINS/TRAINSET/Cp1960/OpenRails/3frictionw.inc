@@ -14,10 +14,13 @@ Comment ( ********** Derailment Coefficient **********)
 	ORTSLengthCouplerFace ( 19.084m )
 	ORTSNumberAxles ( 0 )
 	ORTSNumberBogies ( 2 )
+	ORTSWagonFrontalArea ( 11.9m^2 )
+	ORTSWheelFlangeLength ( 19.1516mm )
+	ORTSMaximumWheelFlangeAngle ( 1.308996rad )
 
 Comment ( *********************** Friction / Adhesion ************************* )
 	ORTSAdhesion (
-		ORTSCurtis_Kniffler ( 7.5 44 0.161 0.7 )
+		ORTSCurtius_Kniffler ( 7.5 44 0.161 0.7 )
 		ORTSSlipWarningThreshold ( 70 )
 		Wheelset (
 			Axle (
@@ -32,9 +35,6 @@ Comment ( *********************** Friction / Adhesion ************************* 
 	ORTSDavis_B ( 36.6 )
 	ORTSDavis_C ( 1.01 )
 
-	ORTSWagonFrontalArea ( 11.9m^2 )
-	ORTSWheelFlangeLength ( 19.1516mm )
-	ORTSMaximumWheelFlangeAngle ( 1.308996rad )
 
 	ORTSDavisDragConstant ( 0.0024 )
 	ORTSStandstillFriction ( 1300.365789 )
@@ -42,5 +42,5 @@ Comment ( *********************** Friction / Adhesion ************************* 
 	ORTSAntislip ( 0 )
 
 	DerailRailHeight ( 4cm )
-	DerailRailForce ( 570kN )
+	DerailRailForce ( 605kN )
 	DerailBufferForce ( 400kN )

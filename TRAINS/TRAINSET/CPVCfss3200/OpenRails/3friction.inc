@@ -3,29 +3,31 @@
 Comment ( *** Curve Resistance & SuperElevation ***)
 	CentreOfGravity ( 0.0m 1.2m 0.0m )
 	ORTSTrackGauge ( 1.0m 668.0mm )
-	ORTSRigidWheelbase ( 6.0m 559.0mm )
+	ORTSRigidWheelbase ( 8.0m 236.0mm )
 	ORTSUnbalancedSuperelevation ( 180mm )
 
 Comment ( ********** Derailment Coefficient ********all data is speculative**)
-	ORTSLengthBogieCentre ( 6.559m )
-	ORTSLengthCarBody ( 9.999m )
-	ORTSLengthCouplerFace ( 11.139m )
+	ORTSLengthBogieCentre ( 8.236m )
+	ORTSLengthCarBody ( 13.56m )
+	ORTSLengthCouplerFace ( 14.736m )
 	ORTSNumberAxles ( 2 )
 	ORTSNumberBogies ( 0 )
 
 Comment( *** Friction / Adhesion *** )
-	ORTSAdhesion ( ORTSSlipWarningThreshold ( 70 ) )
-	ORTSAdhesion (	Wheelset (
+	ORTSAdhesion (
+		ORTSCurtius_Kniffler ( 7.5 44 0.161 0.7 )
+		ORTSSlipWarningThreshold ( 70 )
+		Wheelset (
 			Axle (
 				ORTSInertia ( 3633 ) comment ( valor por defeito. calcular mais tarde)
 				ORTSRadius ( 0.425m )
 			)
 		)
 	)
-	Comment (Friction Calculator - Passenger Carriage - Friction Bearings - 11,6;3,426;3,879;9,999;2 )
-	ORTSDavis_A ( 209 )
-	ORTSDavis_B ( 4.1 )
-	ORTSDavis_C ( 0.53 )
+	Comment (Friction Calculator - Passenger Carriage - Friction Bearings - 26;3,17;3,953;13,56;2 )
+	ORTSDavis_A ( 313 )
+	ORTSDavis_B ( 9.2 )
+	ORTSDavis_C ( 0.70 )
 	DerailRailForce ( 160kN )
 
 	ORTSStandstillFriction ( 1023.8144 )

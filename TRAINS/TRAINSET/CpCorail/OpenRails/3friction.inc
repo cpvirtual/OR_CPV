@@ -13,12 +13,12 @@ Comment ( ********** Derailment Coefficient **********)
 	ORTSLengthCouplerFace ( 26.4m )
 	ORTSNumberAxles ( 4 )
 	ORTSNumberBogies ( 2 )
-	ORTSWheelFlangeLength ( 19.151mm )
-	ORTSMaximumWheelFlangeAngle ( 62deg )
 
 Comment( *** Friction / Adhesion *** )
-	ORTSAdhesion ( ORTSSlipWarningThreshold ( 70 ) )
-	ORTSAdhesion (	Wheelset (
+	ORTSAdhesion (
+		ORTSCurtius_Kniffler ( 7.5 44 0.161 0.7 )
+		ORTSSlipWarningThreshold ( 70 )
+		Wheelset (
 			Axle (
 				ORTSInertia ( 3633 ) comment ( valor por defeito. calcular mais tarde)
 				ORTSRadius ( 0.460m )

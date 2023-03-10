@@ -20,6 +20,7 @@ Comment ( *************** Freio EP ********************** )
 	EmergencyResVolumeMultiplier 				( 1.0 )
 	EmergencyBrakeResMaxPressure                    ( 5bar )
 
+	ORTSEPBrakeControlsBrakePipe( 1 ) 
 	ORTSBrakeShoeFriction (
 		0.0 0.49
 		8.0 0.436

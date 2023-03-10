@@ -13,10 +13,11 @@ Comment ( ********** Derailment Coefficient **********)
 	ORTSNumberAxles ( 4 )
 	ORTSNumberBogies ( 2 )
 
-
 Comment( *********************** Friction / Adhesion ************************* )
-	ORTSAdhesion ( ORTSSlipWarningThreshold ( 70 ) )
-	ORTSAdhesion (	Wheelset (
+	ORTSAdhesion (
+		ORTSCurtius_Kniffler ( 7.5 44 0.161 0.7 )
+		ORTSSlipWarningThreshold ( 70 )
+		Wheelset (
 			Axle (
 				ORTSInertia ( 3633 ) comment ( valor por defeito. calcular mais tarde)
 				ORTSRadius ( 0.420m )

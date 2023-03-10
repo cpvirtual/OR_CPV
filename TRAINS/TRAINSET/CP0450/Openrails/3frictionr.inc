@@ -8,12 +8,8 @@ Comment ( *** Curve Resistance & SuperElevation ***)
 
 Comment( *********************** Friction / Adhesion ************************* )
 	ORTSAdhesion (
-		ORTSCurtis_Kniffler ( 7.5 44 0.161 0.7 )
-	)
-	ORTSAdhesion (
+		ORTSCurtius_Kniffler ( 7.5 44 0.161 0.7 )
 		ORTSSlipWarningThreshold ( 70 )
-	)
-	ORTSAdhesion (
 		Wheelset (
 			Axle (
 				ORTSInertia ( 3633 ) comment ( valor por defeito. calcular mais tarde)

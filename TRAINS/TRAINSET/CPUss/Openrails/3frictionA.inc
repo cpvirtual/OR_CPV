@@ -7,10 +7,12 @@ Comment ( *** Curve Resistance & SuperElevation ***)
 	ORTSUnbalancedSuperelevation ( 180mm )
 
 Comment( *** Friction / Adhesion *** )
-	ORTSAdhesion ( ORTSSlipWarningThreshold ( 70 ) )
-	ORTSAdhesion (	Wheelset (
+	ORTSAdhesion (
+		ORTSCurtius_Kniffler ( 7.5 44 0.161 0.7 )
+		ORTSSlipWarningThreshold ( 70 )
+		Wheelset (
 			Axle (
-				ORTSInertia ( 3533 ) comment ( valor por defeito. calcular mais tarde)
+				ORTSInertia ( 3633 ) comment ( valor por defeito. calcular mais tarde)
 				ORTSRadius ( 0.46m )
 			)
 		)

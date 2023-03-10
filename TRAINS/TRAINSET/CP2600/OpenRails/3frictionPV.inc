@@ -5,6 +5,13 @@ Comment ( *** Curve Resistance & SuperElevation ***)
 	ORTSRigidWheelBase ( 2m 200mm )
 	ORTSUnbalancedSuperelevation ( 180mm )
 
+Comment ( ********** Derailment Coefficient **********)
+	ORTSLengthBogieCentre ( 10.294m )
+	ORTSLengthCarBody ( 16.20m )
+	ORTSLengthCouplerFace ( 17.5m )
+	ORTSNumberAxles ( 0 )
+	ORTSNumberBogies ( 2 )
+
 Comment( *********************** Friction / Adhesion ************************* )
 	ORTSAdhesion (
 		ORTSCurtius_Kniffler ( 7.5 44 0.15 0.7 )
@@ -22,15 +29,9 @@ Comment( *********************** Friction / Adhesion ************************* )
 	ORTSDavis_B ( 27.30 )
 	ORTSDavis_C ( 4.29 )
 
-	ORTSNumberAxles ( 0 )
-	ORTSNumberBogies ( 2 )
-	ORTSLengthBogieCentre ( 10.294m )
-	ORTSLengthCarBody ( 16.20m )
-	ORTSLengthCouplerFace ( 17.5m )
 	ORTSWagonFrontalArea ( 10.9m^2 )
 	ORTSWheelFlangeLength ( 19.1516mm )
 	ORTSMaximumWheelFlangeAngle ( 1.308996rad )
-
 
 	ORTSDavisDragConstant ( 0.0024 )
 	ORTSStandstillFriction ( 1300.365789 )

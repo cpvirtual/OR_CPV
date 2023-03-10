@@ -18,7 +18,7 @@ Comment ( ********** Derailment Coefficient **********)
 
 Comment( *********************** Friction / Adhesion ************************* )
 	ORTSAdhesion (
-		ORTSCurtis_Kniffler ( 6.18 44 0.161 0.7 )
+		ORTSCurtius_Kniffler ( 6.18 44 0.161 0.7 )
 		ORTSSlipWarningThreshold ( 70 )
 		Wheelset (
 			Axle (
