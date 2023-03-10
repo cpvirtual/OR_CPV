@@ -27,3 +27,6 @@ F  - com chapa de cauda
 v  - com freio a vácuo
 
 ==================================================================
+
+Known Issues
+saloes 22-69, armaduras das lâmpadas são diferentes, mais estreitas.
