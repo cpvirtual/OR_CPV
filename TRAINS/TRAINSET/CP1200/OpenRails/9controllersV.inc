@@ -1,4 +1,5 @@
 
+EngineControllers (
 	Throttle ( 0 1 0.125 0 0.
                 NumNotches ( 9
                     Notch ( 0       0 Dummy )
@@ -30,4 +31,5 @@
 		NumNotches( 0 ) 
 	)
 	SmallEjectorOrCompressor ( 0 1 0.1 0.5 )
+)
 	
