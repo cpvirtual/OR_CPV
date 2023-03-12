@@ -1,0 +1,22 @@
+
+Comment ( *** Braking system *** )
+	BrakesTrainBrakeType ( "Air_single_pipe" )
+      BrakesEngineControllers( "Train" )
+
+	AirBrakesAirCompressorPowerRating( 1.7 )
+	AirBrakesMainMinResAirPressure( 0 )
+	AirBrakesMainMaxAirPressure( 130 )
+	AirBrakesMainResVolume( 8 )
+	AirBrakesAirCompressorWattage( 19000 )
+	AirBrakesCompressorRestartPressure( 125 )
+	AirBrakesAirUsedPerPoundsOfBrakePipePressure( 0.27 )
+	AirBrakesIsCompressorElectricOrMechanical( 1 )
+
+	TrainBrakesControllerMinPressureReduction( 6 )
+	TrainBrakesControllerMaxApplicationRate( 6 )
+	TrainBrakesControllerMaxReleaseRate( 4 )
+	TrainBrakesControllerEmergencyApplicationRate( 50 )
+	TrainBrakesControllerMinSystemPressure( 5 )
+	TrainBrakesControllerMaxSystemPressure( 90 )
+	TrainBrakesControllerEmergencyBrakeTimePenalty( 0 )
+	TrainBrakesControllerFullServicePressureDrop( 26 )
