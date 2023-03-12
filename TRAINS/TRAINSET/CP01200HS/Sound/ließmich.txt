@@ -1,0 +1,79 @@
+Dampf-Sound    Version 3.1				22.08.2009
+
+Der Dampf-Sound Version 3.1 löst die Version 3.0 ab.
+Neu in dieser Version ist die Variante für die BR 52 8055, welche
+eine andere Hupe als die deutschen Einheitsloks hat.
+
+
+Der Dampf-Sound ist Freeware. 
+
+Die Zip-Datei Dampf_Sound.zip darf nicht verändert werden.
+Jedoch die nichtkommerzielle Weitergabe sowie Bereitstellung auf Webseiten etc.
+der o.g. Datei ist erlaubt. Es darf hierfür kein Geld genommen werden!
+
+An dieser Stelle möchte ich Johann Riffel danken.
+Er legte den Grundstein für dieses Sound-Paket und stellte freudlicherweise
+die wav-Dateien zur Verfügung.
+Sollte die eine oder andere wav-Datei gesondert für eigene Veröffentlichungen
+verwendet werden, wäre es nett, Johann Riffel mal eine kurze Mail zukommen 
+zu lassen.
+
+
+
+Folgende sms-Files sind verfügbar:
+
+Spieler-Loks:		Lok_Eng.sms		alle gängige Zweizylinder-Dampfloks,
+			Lok_1_Eng.sms		wie oben, jedoch mit heller Pfeife		
+			Lok_Cab.sms		innen - kohlegefeuerte
+			Lok_1_Cab.sms		wie oben, aber mit heller Pfeife
+			Lok_Oel_Cab.sms		innen - ölgefeuerte
+
+			  ab Version 3.1
+			BR528055_Eng.sms	für die Schweizer BR 52 8055
+			BR528055_Cab.sms
+
+Doppeltraktion (DT):	Lok_1400_DT.sms		für Br50, Br52, Br56, Br44 nur bedingt,
+			Lok_1600_DT.sms		für Br38, BR41, Br65
+			Lok_2000_DT.sms		für BR01, BR03, Br18 usw.
+
+VZ_Loks, KI_Loks:	Lok_VZ.sms		alle gängige Zweizylinder-Dampfloks
+
+Tender:			Tender.sms		für vierachsige (drehgestell) Tender
+			Tender_2.sms		sonst (Länderbahnen, z.Bsp. BR56)
+
+
+
+
+Hinweise für die Installation:
+
+Es gibt zwei Möglichkeiten:
+
+1.Variante: (Standardlösung) 
+- im Verzeichnis MEINE-LOK einen Ordner SOUND einrichten
+- alle Dateien aus Dampf_Sound.zip dorthin entpacken.
+
+2.Variante: (Für Fortgeschrittene)
+- Dampf_Sound  in den Ordner Train Simulator\Trains  installieren
+- in den Dampflok-Eng's und Tender-Wag's müssen die Zuweisungen
+  der SMS-File entsprechend angepaßt werden.
+  Beispiel:  	die standardsmäßige Zeile     
+                        Sound ( "Lok_Eng.sms" )
+	   	nach	  	
+                        Sound ( "..//..//..//Dampf_sound//Lok_Eng.sms" )
+           	umschreiben
+
+  Vorteil dieser Installation: Änderungen und Updates brauchen nur 
+  in o. g. Ordner ausgeführt werden und alle damit betriebenen Loks
+  sind somit auf den neuesten Stand.
+
+Weitere ausführliche Hinweise stehen in  "common Cab und Sound.doc";
+welche freundlicherweise von Robert Katzenbächer (rk54)
+zur Verfügung gestellt wurde.
+
+
+Viel Spaß
+           Wolf Grond  (WGR)
+
+
+
+

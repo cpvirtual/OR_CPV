@@ -1,0 +1,20 @@
+
+Comment (*** Brake Systems ***)
+	BrakesTrainBrakeType( vacuum_single_pipe )
+	ORTSBrakePipeTimeFactor ( 0.036s )
+	TrainPipeLeakRate ( 0.04inHg/s ) Comment ( 0.03 and 0.06 for passenger trains and 0.06 and 0.12 for freight trains)
+
+Comment (*** Ejectors ***)
+	VacuumBrakesHasVacuumPump ( 0 )
+	ORTSBrakePipeChargingRate ( 0.38inHg/s )
+	VacuumBrakesLargeEjectorUsageRate ( 690lb/h )
+	VacuumBrakesSmallEjectorUsageRate ( 210lb/h )
+	VacuumBrakesMinBoilerPressureMaxVacuum ( 110psi )
+
+Comment (*** Brake Valve Combined ***)
+	TrainBrakesControllerMaxSystemPressure ( 21InHg )
+	ORTSBrakePipeTimeFactor ( 0.36s ) Comment ( 0.35 and 0.45 - lower values for passenger trains higher values for freight trains)
+	ORTSBrakeServiceTimeFactor ( 10.0s )
+	TrainBrakesControllerMinSystemPressure ( 0 )
+	TrainBrakesControllerMaxSystemPressure ( 21 )
+	TrainBrakesControllerMinPressureReduction( 1 )

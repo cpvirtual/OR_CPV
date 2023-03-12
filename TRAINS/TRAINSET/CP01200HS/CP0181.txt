@@ -1,0 +1,22 @@
+CP Série 0180 Henschel & Sohn
+
+V1.1 9Mar2023
+
+Thecnical Data
+	Distance Levels
+	2000m - 12008 polygons
+
+==================================================================
+Autores e Contactos - Authors and contacs
+Model: Eugénio Santos - CP Virtual ©2009
+Texturas: Eugénio Santos - CP Virtual ©2009
+Engines and Wagons: Rui Fonseca - CP Virtual ©2009
+Beta testers: Diogo Sobral e Nelso Silva
+
+cpvirtual@gmail.com
+
+
+AGRADECIMENTOS / ADICIONAL CREDITS
+Sérgio Santos - Fotos para texturas
+Manuel Luna e Fernando Pedreira - Informação técnica
+==================================================================
