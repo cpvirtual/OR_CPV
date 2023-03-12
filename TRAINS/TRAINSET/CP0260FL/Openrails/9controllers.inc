@@ -1,0 +1,39 @@
+
+	EngineControllers (     
+		Regulator ( 0 1 0.0475 0 
+            	NumNotches( 0 )
+    		)
+		Cutoff    ( -0.65 0.65 0.01 0 
+            	NumNotches( 0 )		
+  		)
+		Brake_Train ( 0 1 0.2 0.2
+			NumNotches( 3
+          			Notch(0    0 TrainBrakesControllerReleaseStart )
+          			Notch(0.2  0 TrainBrakesControllerRunningStart )
+          			Notch(0.4  1 TrainBrakesControllerVacuumApplyContinuousServiceStart )
+			)
+		)
+		ORTSSmallEjector( 0 1 0.1 0.55 )
+
+		FireDoor ( 0 1 0.1 0
+			NumNotches ( 0 ))
+		Sanding( 0 1 0 )
+		Blower ( 0 1 0.025 0.2
+			NumNotches ( 0 ))
+		Shovel ( 0 1 0.1 0
+			NumNotches ( 0 ))
+		DampersFront ( 0 1 0.1 1
+			NumNotches ( 0 ))
+		DampersBack ( 0 1 0.1 0
+			NumNotches ( 0 ))
+		ORTSSteamHeat( 0 1 0.0125 0.5 )
+		Injector1Steam ( 0 1 0 )
+		Injector2Steam ( 0 1 0 )
+		Injector1Water ( 0 1 0.1 0
+			NumNotches ( 0 ))
+		Injector2Water ( 0 1 0.1 0
+			NumNotches ( 0 ))
+		CylinderCocks ( 0 1 1 )
+		Whistle ( 0 1 0 )
+		WaterScoop ( 0 1 0 )
+	)

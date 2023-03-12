@@ -1,0 +1,35 @@
+
+	Mass ( 37.56t ) Comment (* tara 18,105t + 4500kg carvão + 14955kg água (15.000l x 997kg.m^3) *)
+Comment ( *** Curve Resistance & SuperElevation ***)
+	CentreOfGravity ( 0.0m 1.8m 0.0m )
+	ORTSTrackGauge ( 1.0m 668.0mm )
+	ORTSRigidWheelbase ( 1.0m 650.0mm )
+	ORTSUnbalancedSuperelevation ( 180mm )
+
+Comment ( ********** Derailment Coefficient **********)
+	ORTSLengthBogieCentre ( 1.65m )
+	ORTSLengthCarBody ( 5.13m )
+	ORTSLengthCouplerFace ( 5.633m )
+	ORTSNumberAxles ( 3 )
+	ORTSNumberBogies ( 0 )
+	WheelRadius ( 0.615 )	
+	ORTSWheelFlangeLength ( 19.1516mm )
+	ORTSMaximumWheelFlangeAngle ( 1.308996rad )
+
+Comment ( *** Friction *** )
+	ORTSBearingType ( Friction )
+ 	Comment (Friction Calculator - Steam Tender Loco - Tender - 18,105; 37,56; 3,2; 3; 5,13; 3 )
+	ORTSDavis_A ( 597 )
+	ORTSDavis_B ( 13.3 )
+	ORTSDavis_C ( 0.51 )
+
+	ORTSWagonFrontalArea ( 8.9m^2 )
+	ORTSDavisDragConstant ( 0.0002 )
+
+	ORTSStandstillFriction ( 1300.365789 )
+	ORTSMergeSpeed ( 0.270329 )
+	ORTSAntislip ( 0 )
+
+	DerailRailHeight ( 4cm )
+	DerailRailForce ( 77kN )
+	DerailBufferForce ( 400kN )
