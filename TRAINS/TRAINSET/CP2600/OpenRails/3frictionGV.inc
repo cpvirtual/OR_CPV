@@ -9,7 +9,7 @@ Comment ( ********** Derailment Coefficient **********)
 	ORTSLengthBogieCentre ( 10.294m )
 	ORTSLengthCarBody ( 16.20m )
 	ORTSLengthCouplerFace ( 17.5m )
-	ORTSNumberAxles ( 0 )
+	ORTSNumberAxles ( 0 ) Comment (* all axles powered *)
 	ORTSNumberBogies ( 2 )
 
 Comment( *********************** Friction / Adhesion ************************* )

@@ -42,25 +42,22 @@ EngineControllers (
 			Notch ( 1         0 Dummy )
 		)
 	)
-	Brake_Engine ( 0 1 0.025 0.5
-		NumNotches ( 3
-			Notch( 0.0 0 EngineBrakesControllerReleaseStart )
-			Notch( 0.1 1 EngineBrakesControllerContinuousServiceStart )
-			Notch( 1.0 0 EngineBrakesControllerFullServiceStart )
+	Brake_Engine ( 0 1 0.1 0.0
+		NumNotches( 1
+			Notch( 0 1 EngineBrakesControllerVacuumContinuousServiceStart )
 		)
 	)
 	Brake_Train ( 0 1 0.1 0.2
-		NumNotches ( 4
-			Notch ( 0.0  0 TrainBrakesControllerFullQuickReleaseStart ) Comment ( RELEASE )
-			Notch ( 0.2  0 TrainBrakesControllerReleaseStart ) Comment ( RUNNING )
-			Notch ( 0.3  1 TrainBrakesControllerVacuumContinuousServiceStart )
-			Notch ( 1.0  0 TrainBrakesControllerEmergencyStart )
+		NumNotches ( 3
+                    Notch ( 0    0 TrainBrakesControllerReleaseStart )
+                    Notch ( 0.1  1 TrainBrakesControllerContinuousServiceStart )
+                    Notch ( 0.9  0 TrainBrakesControllerEmergencyStart )
 		)
 	)
 	Brake_Hand ( 0 1 0.0125 0
 		NumNotches( 0 )
 	)
-	ORTSSteamHeat( 0 1 0.0125 0 )
+	SmallEjectorOrCompressor ( 0 1 0.1 0.5 )
 	DirControl ( -1 0 1 1 )
 	EmergencyStopResetToggle( 0 1 0 )
 	EmergencyStopToggle( 0 1 0 )
@@ -71,7 +68,6 @@ EngineControllers (
 	AWS ( 0 0 0 )
 	Vigilance ( 0 1 0 )
 	Overspeed ( 0 0 0 )
-	ShutsDownEngine ( 0 1 0 )
 	PantographToggle1 ( 0 1 0 )
 	PantographToggle2 ( 0 1 1 )
 	PantographsToggle_4 ( 1 1 1 )

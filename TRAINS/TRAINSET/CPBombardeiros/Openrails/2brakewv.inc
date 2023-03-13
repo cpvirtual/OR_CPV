@@ -8,7 +8,7 @@ Comment ( *************** Brakes - Wagon Section - General *********************
 	BrakeCylinderPressureForMaxBrakeBrakeForce 	( 21inHg ) Comment (* not yet functional *)
 	ORTSNumberBrakeCylinders 			( 1 )
 	ORTSBrakeCylinderSize 				( 18in )
-	ORTSAuxilaryResCapacity 			( 5.76ft^3 )
+	ORTSAuxilaryResCapacity 			( 1.825ft^3 )
 	MaxReleaseRate 					( 5.0 )
 	MaxApplicationRate 				( 5.0 )
 	ORTSDirectAdmissionValve 			( 0 )

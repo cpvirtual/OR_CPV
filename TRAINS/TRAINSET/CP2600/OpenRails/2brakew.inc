@@ -18,7 +18,6 @@ Comment ( *************** Brakes - Wagon Section - General *********************
 	EmergencyResVolumeMultiplier 				( 1 )
 	EmergencyBrakeResMaxPressure				( 5bar )
 
-	Comment ( == COBRA Brakeshoes == )
 	ORTSBrakeShoeFriction (
 		0.0   0.490
 		8.0   0.436
@@ -35,3 +34,5 @@ Comment ( *************** Brakes - Wagon Section - General *********************
 		96.6  0.289
 		104.6 0.288
 	)
+	Comment ( == COBRA Brakeshoes == )
+

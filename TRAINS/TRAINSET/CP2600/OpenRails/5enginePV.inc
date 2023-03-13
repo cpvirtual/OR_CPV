@@ -35,5 +35,5 @@ Comment ( *** General *** )
 			88km/h	0.00kN	119.00kN
 			100km/h	0.00kN	108.03kN
 			120km/h	0.00kN	95.00kN
-			)
 		)
+	)

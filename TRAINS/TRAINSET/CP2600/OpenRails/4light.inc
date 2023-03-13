@@ -1,6 +1,6 @@
 
-	Sound (	"2600eng.sms" )
-	Lights	( 14
+	Sound ( "2600eng.sms" )
+	Lights ( 14
 		comment( Cone de Luz - Projector )
 		Light	(
 			Type		  	( 1 )
@@ -287,9 +287,9 @@
 				Service   ( 2 )
 				)
 			FadeIn	( 0 )
-			FadeOut	( 0 )
+			FadeOut	( 0.5 )
 			Cycle	( 0 )
-			States	(	8
+			States ( 8
 				State	(
 					Duration ( 4.0 )
 					LightColour ( 11000000 )
@@ -375,7 +375,7 @@
 			FadeIn	( 0 )
 			FadeOut	( 0 )
 			Cycle	( 0 )
-			States	(	8
+			States ( 8
 				State	(
 					Duration ( 4.0 )
 					LightColour ( 11000000 )
@@ -384,7 +384,7 @@
 					Transition ( 0 )
 					Radius ( 0.90 )
 					Elevation ( 0 -90 90 )
-					)
+				)
 				State	(
 					Duration ( 0.05 )
 					LightColour ( ffaaaaff )
@@ -393,7 +393,7 @@
 					Transition ( 0 )
 					Radius ( 1.30 )
 					Elevation ( 0 -90 90 )
-					)
+				)
 				State	(
 					Duration ( 15.0 )
 					LightColour ( 11000000 )
@@ -402,7 +402,7 @@
 					Transition ( 0 )
 					Radius ( 0.90 )
 					Elevation ( 0 -90 90 )
-					)
+				)
 				State	(
 					Duration ( 0.05 )
 					LightColour ( ffaaaaff )
@@ -411,7 +411,7 @@
 					Transition ( 0 )
 					Radius ( 0.90 )
 					Elevation ( 0 -90 90 )
-					)
+				)
 				State	(
 					Duration ( 7.0 )
 					LightColour ( 11000000 )
@@ -420,7 +420,7 @@
 					Transition ( 0 )
 					Radius ( 0.90 )
 					Elevation ( 0 -90 90 )
-					)
+				)
 				State	(
 					Duration ( 0.05 )
 					LightColour ( ffaaaaff )
@@ -429,7 +429,7 @@
 					Transition ( 0 )
 					Radius ( 1.1 )
 					Elevation ( 0 -90 90 )
-					)
+				)
 				State	(
 					Duration ( 0.05 )
 					LightColour ( 11000000 )
@@ -438,7 +438,7 @@
 					Transition ( 0 )
 					Radius ( 0.90 )
 					Elevation ( 0 -90 90 )
-					)
+				)
 				State	(
 					Duration ( 0.05 )
 					LightColour ( ffaaaaff )
