@@ -1,0 +1,19 @@
+CPV Blind
+Peça utilitária invisivel para actividades e observacao horarios
+Invisible utilitie rolling stock for activities and timetable observation
+V1.1 11Nov2011
+
+Thecnical Data
+	Distance Levels
+	100m - 1 polygon
+
+
+==================================================================
+
+Autores e Contactos - Authors and contacs
+Model: Rui Fonseca - CP Virtual ©2004
+Texturas: Rui Fonseca - CP Virtual ©2004
+www.cpvirtual.org
+webmaster@cpvirtual.org
+
+==================================================================

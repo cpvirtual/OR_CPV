@@ -1,6 +1,5 @@
 
 	Mass ( 45t ) Comment (* tara 42t *)
-
 Comment ( *** Curve Resistance & SuperElevation ***)
 	CentreOfGravity ( 0.0m 1.2m 0.0m )
 	ORTSTrackGauge ( 1.0m 668.0mm )
@@ -13,6 +12,8 @@ Comment ( ********** Derailment Coefficient **********)
 	ORTSLengthCouplerFace ( 26.4m )
 	ORTSNumberAxles ( 4 )
 	ORTSNumberBogies ( 2 )
+	ORTSWheelFlangeLength ( 19.151mm )
+	ORTSMaximumWheelFlangeAngle ( 62deg )
 
 Comment( *** Friction / Adhesion *** )
 	ORTSAdhesion (
