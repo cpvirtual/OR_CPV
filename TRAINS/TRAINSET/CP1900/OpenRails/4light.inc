@@ -1,5 +1,5 @@
 
-	Sound ( "cpalsthomeng.sms" )
+	Sound ( "cp1900eng.sms" )
 	Lights ( 12
 		Light (
 			comment ( Sphere of light )

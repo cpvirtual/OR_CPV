@@ -1,5 +1,5 @@
 
-	Sound ( "cpalsthomeng.sms" )
+	Sound ( "cp1900eng.sms" )
 	Lights ( 4
 		Light (
 			comment ( Red light right Minima )

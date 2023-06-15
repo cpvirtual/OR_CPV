@@ -1,4 +1,5 @@
 
+    	Sound ( cp2000eng.sms )
 	Lights ( 9
 		comment( Cone de Luz - Projector )
 		Light (
