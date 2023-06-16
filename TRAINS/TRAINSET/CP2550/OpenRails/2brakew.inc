@@ -5,13 +5,13 @@ Comment ( *************** CP2550 Brakes - Wagon Section - General **************
 	MaxBrakeForce						( 103.734kN )
 	MaxHandbrakeForce 					( 27.662kN )
 
-	TripleValveRatio						( 2.83 )
+	TripleValveRatio					( 2.83 )
 	MaxReleaseRate						( 6.362 )   #( 5.6-7.4 )
 	MaxApplicationRate					( 29.008 )  #( 23-34 )
 	MaxAuxilaryChargingRate					( 15.0 )
 
-	BrakeCylinderPressureForMaxBrakeBrakeForce	( 3.8bar )
-	BrakePipeVolume 						( 0.43ft^3 )
+	BrakeCylinderPressureForMaxBrakeBrakeForce		( 3.8bar )
+	BrakePipeVolume 					( 0.43ft^3 )
 
 	EmergencyResCapacity					( 25l )
 	EmergencyResChargingRate				( 1.38bar/s )

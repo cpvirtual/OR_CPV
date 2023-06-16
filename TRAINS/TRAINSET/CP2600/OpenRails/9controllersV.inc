@@ -1,4 +1,5 @@
 
+Comment ( *** CP2600 Controllers *** )
 EngineControllers (
 	Throttle ( 0 1 0.02702 0
 		NumNotches ( 38
@@ -66,7 +67,6 @@ EngineControllers (
 	Vigilance ( 0 1 0 )
 	Horn ( 0 1 0 )
 	AWS ( 0 0 0 )
-	Vigilance ( 0 1 0 )
 	Overspeed ( 0 0 0 )
 	PantographToggle1 ( 0 1 0 )
 	PantographToggle2 ( 0 1 1 )
@@ -77,4 +77,3 @@ EngineControllers (
 	BailOffButton ( 0 1 0 )
 	ORTSOvercharge ( 0 1 0 )
 )
-        

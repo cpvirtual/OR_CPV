@@ -46,7 +46,7 @@
 	)
 	DirControl ( -1 0 1 1 )
 	EmergencyStopResetToggle( 0 1 0 )
-	EmergencyStopToggle( 0 1 0 )
+	EmergencyStopToggle ( 0 1 0 )
 	Sanding ( 0 1 0 )
 	Wipers ( 0 1 0 )
 	Vigilance ( 0 1 0 )

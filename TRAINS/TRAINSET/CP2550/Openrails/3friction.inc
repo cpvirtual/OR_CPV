@@ -11,6 +11,8 @@ Comment ( ********** Derailment Coefficient **********)
 	ORTSLengthCouplerFace ( 15.38m )
 	ORTSNumberAxles ( 0 )
 	ORTSNumberBogies ( 2 )
+	ORTSWheelFlangeLength ( 19.1516mm )
+	ORTSMaximumWheelFlangeAngle ( 1.308996rad )
 
 Comment( *********************** Friction / Adhesion ************************* )
 	ORTSAdhesion (
@@ -30,9 +32,6 @@ Comment( *********************** Friction / Adhesion ************************* )
 	ORTSDavis_C ( 3.76 )
 
 	ORTSWagonFrontalArea ( 10.9m^2 )
-	ORTSWheelFlangeLength ( 19.1516mm )
-	ORTSMaximumWheelFlangeAngle ( 1.308996rad )
-
 	ORTSDavisDragConstant ( 0.0024 )
 	ORTSStandstillFriction ( 1300.365789 )
 	ORTSMergeSpeed ( 0.270329 )

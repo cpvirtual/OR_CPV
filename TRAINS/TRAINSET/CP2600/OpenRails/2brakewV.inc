@@ -3,16 +3,16 @@ Comment ( *** CP2600 Vaccum Brakes - Wagon Section *** )
 	BrakeEquipmentType 				( Vacuum_brake, Handbrake, Auxilary_reservoir )
 	BrakeSystemType					( Vacuum_single_pipe )
 	MaxBrakeForce					( 114.74kN ) Comment (* Braked at 70% tare mass, coefficient of friction 0.20 *)
-	MaxHandbrakeForce					( 66kN )
+	MaxHandbrakeForce				( 66kN )
 
-	BrakeCylinderPressureForMaxBrakeBrakeForce ( 21.0inHg )
-	BrakePipeVolume 					( 1.35ft^3 ) Comment (* based on length of carriage plus 30 feet for bends, branches, standards and hoses *)
-	ORTSNumberBrakeCylinders 			( 4 )
-	ORTSBrakeCylinderSize 				( 12in )
-	ORTSAuxilaryResCapacity 			( 3.76ft^3 )
+	BrakeCylinderPressureForMaxBrakeBrakeForce 	( 21.0inHg )
+	BrakePipeVolume 				( 1.35ft^3 ) Comment (* based on length of carriage plus 30 feet for bends, branches, standards and hoses *)
 	MaxReleaseRate 					( 50 )
 	MaxApplicationRate 				( 10 )
 	ORTSDirectAdmissionValve 			( 0 )
+	ORTSAuxilaryResCapacity 			( 3.76ft^3 )
+	ORTSNumberBrakeCylinders 			( 4 )
+	ORTSBrakeCylinderSize 				( 12in )
 
 	ORTSBrakeShoeFriction (
 		0.0 0.50

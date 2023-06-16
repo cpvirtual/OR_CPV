@@ -1,10 +1,12 @@
 
-	Mass ( 78t )
 Comment ( *** Curve Resistance & SuperElevation ***)
 	CentreOfGravity ( 0.0m 1.6m 0.0m )
-	ORTSTrackGauge ( 1.0m 668.0mm )
-	ORTSRigidWheelbase ( 3.0m 200.0mm )
+	ORTSTrackGauge ( 1m 668mm )
+	ORTSRigidWheelbase ( 3m 200mm )
 	ORTSUnbalancedSuperelevation ( 180mm )
+
+Comment ( ********** Derailment Coefficient **********)
+
 
 Comment( *********************** Friction / Adhesion ************************* )
 	ORTSAdhesion (
@@ -22,11 +24,13 @@ Comment( *********************** Friction / Adhesion ************************* )
 	ORTSDavis_A ( 579.59 )
 	ORTSDavis_B ( 25.20 )
 	ORTSDavis_C ( 3.84 )
+
 	ORTSWagonFrontalArea ( 10.71m^2 )
 	ORTSDavisDragConstant ( 0.0024 )
 	ORTSStandstillFriction ( 1500.422064 )
 	ORTSMergeSpeed ( 0.267935 )
 	ORTSAntislip ( 0 )
+
 	DerailRailHeight ( 4cm )
 	DerailRailForce ( 353kN )
 	DerailBufferForce ( 400kN )
