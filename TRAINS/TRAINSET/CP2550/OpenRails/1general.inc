@@ -1,39 +1,27 @@
 
 Comment (****************** General Information *******************)
-
-	Size  ( 3.2m 4.45m 15.42m )
-	Mass ( 70.52t )
+	Size  						( 3.105m 4.450m 15.59m )
+	Mass 						( 72t )
 	ORTSPantographs(
-		Pantograph( 1				Delay( 4 ) )
-		Pantograph( 2				Delay( 4 ) )
+		Pantograph( 1				Delay( 5 ) )
+		Pantograph( 2				Delay( 5 ) )
 	)
-Comment( ****************** Coupler Information ******************* )
+Comment (****************** Coupler Information *******************)
 	Coupling (
 		Type ( Chain )
 		Spring (
-			Stiffness ( 1e6N/m 5e6N/m )
+			Stiffness ( 1e6N/m 2e6N/m )
 			Damping ( 1e6N/m/s 1e6N/m/s )
-			Break ( 1200kN 1200kN )
-			r0 ( 6cm 9cm )
+			Break ( 600kN 600kN )
+			r0 ( 10cm 40cm )
 		)
 		CouplingHasRigidConnection ()
-		Velocity ( 0.12m/s )
-	)
-	Coupling (
-		Type ( Chain )
-		Spring (
-			Stiffness ( 1e6N/m 5e6N/m )
-			Damping ( 1e6N/m/s 1e6N/m/s )
-			Break ( 1200kN 1200kN )
-			r0 ( 6cm 9cm )
-		)
-		CouplingHasRigidConnection ()
-		Velocity ( -0.12m/s )
+		Velocity ( 0.1m/s )
 	)
 	Buffers (
 		Spring (
-			Stiffness ( 1e6N/m 5e6N/m )
-			Damping ( 1.3e6N/m/s 3.8e6N/m/s )
+			Stiffness ( 5e6N/m 5e6N/m )
+			Damping ( 1e6N/m/s 1e6N/m/s )
 			r0 ( 0m 1e9 )
 		)
 		Centre ( 0.5m )

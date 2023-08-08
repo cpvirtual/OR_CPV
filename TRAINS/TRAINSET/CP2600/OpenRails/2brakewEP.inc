@@ -1,27 +1,29 @@
 
 Comment ( *************** EP Brakes - Wagon Section - General ********************** )
-    	BrakeEquipmentType                                    ( "Distributor, Auxiliary_reservoir, emergency_brake_reservoir, EP_Brake, Handbrake" )
-	BrakeSystemType							( "EP" )
-	MaxBrakeForce							( 114kN )  		#(* Braked at 75% tare mass, coefficient of friction 0.20 *)
-	MaxHandbrakeForce 						( 31kN )
+    	BrakeEquipmentType					( "Distributor, Auxiliary_reservoir, emergency_brake_reservoir, EP_Brake, Handbrake" )
+	BrakeSystemType						( "EP" )
+	MaxBrakeForce						( 114kN )  	#(* Braked at 75% tare mass, coefficient of friction 0.20 *)
+	MaxHandbrakeForce 					( 31kN )
 
-	TripleValveRatio							( 2.83 )
-	MaxReleaseRate							( 0.51bar/s )   	#( 0.39-0.51 )
-	MaxApplicationRate						( 2bar/s )  	#( 1.59-2.34 )
-	MaxAuxilaryChargingRate						( 1.38bar/s )
+	TripleValveRatio					( 2.83 )
+	MaxReleaseRate						( 0.62bar/s )   #( 0.39-0.51 )
+	MaxApplicationRate					( 2bar/s )  	#( 1.59-2.34 )
+	MaxAuxilaryChargingRate					( 1.38bar/s )
 
-	BrakeCylinderPressureForMaxBrakeBrakeForce 		( 3.8bar ) 		#( verificado em manual de conducao )
-	BrakePipeVolume 							( 14l ) 		#( calculado em coalstonewcastle.com.au )
+	BrakeCylinderPressureForMaxBrakeBrakeForce 		( 3.8bar ) 	#( verificado em manual de conducao )
+	BrakePipeVolume 					( 14l ) 	#( calculado em coalstonewcastle.com.au )
 
-        BrakeDistributorReleaseRate					( 15 )
+        BrakeDistributorReleaseRate				( 15 )
         BrakeDistributorApplicationRate				( 20 )
 
-	EmergencyResCapacity						( 75l ) 		#( 2.064ft^3 )
-	EmergencyResChargingRate					( 1.38bar/s )
-	EmergencyResVolumeMultiplier 					( 1.0 )
-	EmergencyBrakeResMaxPressure                          ( 5bar )
+	EmergencyResCapacity					( 75l ) 	#( 2.064ft^3 )
+	EmergencyResChargingRate				( 1.38bar/s )
+	EmergencyResVolumeMultiplier 				( 1.0 )
+	EmergencyBrakeResMaxPressure                          	( 5bar )
+	#( ORTSEmergencyValveActuationRate			( ) )	 
+	ORTSMainResPipeAuxResCharging				( True )
+	ORTSEPBrakeControlsBrakePipe				( 1 )
 
-	Comment ( == COBRA Brakeshoes == )
 	ORTSBrakeShoeFriction (
 		0.0   0.490
 		8.0   0.436
@@ -38,3 +40,4 @@ Comment ( *************** EP Brakes - Wagon Section - General ******************
 		96.6  0.289
 		104.6 0.288
 	)
+	Comment ( == COBRA Brakeshoes == )

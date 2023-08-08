@@ -1,5 +1,4 @@
 
-Comment ( *** CP2600 Controllers *** )
 EngineControllers (
 	Throttle ( 0 1 0.02702 0
 		NumNotches ( 38
@@ -44,7 +43,7 @@ EngineControllers (
 		)
 	)
 	Brake_Engine ( 0 1 0.1 0.0
-		NumNotches( 1
+		NumNotches ( 1
 			Notch( 0 1 EngineBrakesControllerVacuumContinuousServiceStart )
 		)
 	)
@@ -56,17 +55,18 @@ EngineControllers (
 		)
 	)
 	Brake_Hand ( 0 1 0.0125 0
-		NumNotches( 0 )
+		NumNotches ( 0 )
 	)
 	SmallEjectorOrCompressor ( 0 1 0.1 0.5 )
 	DirControl ( -1 0 1 1 )
-	EmergencyStopResetToggle( 0 1 0 )
-	EmergencyStopToggle( 0 1 0 )
+	EmergencyStopResetToggle ( 0 1 0 )
+	EmergencyStopToggle ( 0 1 0 )
 	Sanding ( 0 1 0 )
 	Wipers ( 0 1 0 )
 	Vigilance ( 0 1 0 )
 	Horn ( 0 1 0 )
 	AWS ( 0 0 0 )
+	Vigilance ( 0 1 0 )
 	Overspeed ( 0 0 0 )
 	PantographToggle1 ( 0 1 0 )
 	PantographToggle2 ( 0 1 1 )
@@ -77,3 +77,4 @@ EngineControllers (
 	BailOffButton ( 0 1 0 )
 	ORTSOvercharge ( 0 1 0 )
 )
+        

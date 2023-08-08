@@ -2,8 +2,6 @@
 Comment (****************** General Information *******************)
 	Size  						( 3.105m 4.450m 15.59m )
 	Mass 						( 72t )
-	WheelRadius 					( 0.65m )
-	InertiaTensor 					( Box ( 3.105m 4.450m 15.620m ) )
 	ORTSPantographs(
 		Pantograph( 1				Delay( 5 ) )
 		Pantograph( 2				Delay( 5 ) )

@@ -1,24 +1,26 @@
 
-Comment ( *************** CP2550 Brakes - Wagon Section - General ********************** )
-	BrakeEquipmentType					( Distributing_valve, Handbrake )
-	BrakeSystemType						( Air_Twin_Pipe )
-	MaxBrakeForce						( 103.734kN )
-	MaxHandbrakeForce 					( 27.662kN )
+Comment ( *************** CP2500 Brakes - Wagon Section - General ********************** )
+	BrakeEquipmentType				( Distributor, Auxilary_reservoir, Handbrake )
+	BrakeSystemType					( Air_twin_pipe )
+	MaxBrakeForce					( 105.911kN )
+	MaxHandbrakeForce 				( 28.243kN )
 
-	TripleValveRatio					( 2.83 )
-	MaxReleaseRate						( 6.362 )   #( 5.6-7.4 )
-	MaxApplicationRate					( 29.008 )  #( 23-34 )
-	MaxAuxilaryChargingRate					( 15.0 )
+	TripleValveRatio				( 2.83 )
+	MaxReleaseRate					( 0.51bar/s )   #( 0.39-0.51 )
+	MaxApplicationRate				( 2bar/s )  #( 1.59-2.34 )
+	MaxAuxilaryChargingRate				( 1.38bar/s )
 
-	BrakeCylinderPressureForMaxBrakeBrakeForce		( 3.8bar )
-	BrakePipeVolume 					( 0.43ft^3 )
+	BrakeCylinderPressureForMaxBrakeBrakeForce	( 3.8bar ) #( verificado em manual de conducao )
+	BrakePipeVolume 				( 0.43ft^3 )
 
-	EmergencyResCapacity					( 25l )
-	EmergencyResChargingRate				( 1.38bar/s )
-	EmergencyResVolumeMultiplier 				( 1 )
-	EmergencyBrakeResMaxPressure				( 5bar )
+ 	EmergencyResCapacity				( 75l )
+	EmergencyResChargingRate			( 1.38bar/s )
+	EmergencyResVolumeMultiplier 			( 1 )
+	EmergencyBrakeResMaxPressure			( 5bar )
+	#( ORTSEmergencyValveActuationRate			( ) )	 
+	ORTSMainResPipeAuxResCharging				( False )
+	ORTSEPBrakeControlsBrakePipe				( 1 )
 
-	Comment ( == COBRA Brakeshoes == )
 	ORTSBrakeShoeFriction (
 		0.0   0.490
 		8.0   0.436
@@ -35,3 +37,4 @@ Comment ( *************** CP2550 Brakes - Wagon Section - General **************
 		96.6  0.289
 		104.6 0.288
 	)
+	Comment ( == COBRA Brakeshoes == )

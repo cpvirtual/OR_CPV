@@ -1,33 +1,35 @@
 
 Comment ( *** Electric Engine *** )
 Comment ( *** General *** )
-	WheelRadius				( 0.570m )
+	WheelRadius			( 0.570m )
 	Sanding				( 25kmh )
 	MaxSandingTime			( 1200 )
-	NumWheels				( 4 )
+	ORTSNumberDriveAxles		( 4 )
 	ORTSDriveWheelWeight		( 78t )
 
 Comment ( *** Traction Characteristics 2 x TAB-660 A1 1,88*** )
-	Type					( Electric )
-  	MaxTemperature 			( 93degC )
+	Type				( Electric )
+	ORTSTractionMotorType		( AC )  
+ 	MaxTemperature 			( 93degC )
 	MaxOilPressure 			( 59.738psi )
 	MinOilPressure 			( 20 )
-	MaxPower				( 2870kW )
-	MaxForce				( 210kN )
+	MaxPower			( 2870kW )
+	MaxForce			( 210kN )
 	MaxContinuousForce		( 119kN )
 	ORTSSpeedOfMaxContinuousForce	( 89kmh )
-	MaxVelocity				( 160kmh )
-	MaxCurrent				( 1600A )
+	MaxVelocity			( 160kmh )
+	MaxCurrent			( 1600A )
 
+Comment ( *** General *** )
 	DoesHornTriggerBell		( 0 )
 	RunUpTimeToMaxForce		( 30 )
 	DieselEngineSpeedOfMaxTractiveEffort ( 30kmh )
 
-	ORTSContinuousForceTimeFactor ( 1800 )																				
+	ORTSContinuousForceTimeFactor	( 1800 )																				
 	ORTSTractionCharacteristics (	18	5
-		throttle (		0	0.11	0.86	1	)
+		throttle (	0	0.11	0.86	1	)
 		table (						
-			0km/h		0.00kN	238.00kN	1479.00kN	1700.00kN
+			0km/h	0.00kN	238.00kN	1479.00kN	1700.00kN
 			10km/h	0.00kN	147.00kN	913.50kN	1050.00kN
 			20km/h	0.00kN	106.40kN	661.20kN	760.00kN
 			30km/h	0.00kN	84.00kN	522.00kN	600.00kN

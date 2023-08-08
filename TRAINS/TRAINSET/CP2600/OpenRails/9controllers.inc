@@ -42,7 +42,7 @@ EngineControllers (
 			Notch ( 1         0 Dummy )
 		)
 	)
-	Brake_Train ( 0 1 0.025 1
+	Brake_Train ( 0 1 0.025 0.25
 		NumNotches ( 3
 			Notch ( 0.0  0 TrainBrakesControllerReleaseStart )
 			Notch ( 0.1  1 TrainBrakesControllerContinuousServiceStart )
@@ -57,11 +57,11 @@ EngineControllers (
 		)
 	)
 	Brake_Hand ( 0 1 0.0125 0
-		NumNotches( 0 ) 
+		NumNotches ( 0 ) 
 	)
 	DirControl ( -1 0 1 1 )
-	EmergencyStopResetToggle( 0 1 0 )
-	EmergencyStopToggle( 0 1 0 )
+	EmergencyStopResetToggle ( 0 1 0 )
+	EmergencyStopToggle ( 0 1 0 )
 	Sanding ( 0 1 0 )
 	Wipers ( 0 1 0 )
 	Vigilance ( 0 1 0 )
