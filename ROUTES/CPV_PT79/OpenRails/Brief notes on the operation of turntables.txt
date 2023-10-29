@@ -1,0 +1,21 @@
+BRIEF NOTES ON THE OPERATION OF TURNTABLES IN OPEN RAILS
+
+
+Full instructions are in the Open Rails Manual but these brief notes will allow you to get turning.
+
+1. When you are close to the turntable, change to manual mode with <CTRL>M.
+
+2. Center the loco and tender on the turntable and ensure that reverser and regulator are all at zero and brakes are fully applied.
+
+3. Turn the loco with <CTRL>C stopping rotation when the first rail of the turntable is just past the first rail of the track on which you intend to exit.
+
+4. Drive off the turntable.
+
+5. Leave manual mode with <CTRL>M and continue.
+
+If this is being used in an activity, place a reversing point immediately before the turntable.  Your path must be written such that you can rejoin it after exiting the turntable.
+
+
+
+dforrest
+29-10-17
