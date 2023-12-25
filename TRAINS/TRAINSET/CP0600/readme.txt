@@ -1,9 +1,6 @@
 CP serie 600
 UTD 600
-V.1.5
-24-04-2007
-
-MSTS BIN COMPATIBLE
+Versão OR 1.5 - 24DEZ2023
 
 Thecnical Data
 	motora AB
@@ -17,16 +14,13 @@ Thecnical Data
 	1000m - 4056 polygons
 
 ==================================================================
-
 Autores e Contactos
 Model: Rui Fonseca - CP Virtual ©2004 (cpt_spock@hotmail.com)
 Texturas: Sérgio Parreira, Rui Fonseca e Eugénio Santos - CP Virtual ©2004 (smparreira@yahoo.com) (cpt_spock@hotmail.com)
+Cabview: António 
+Sons: Rui Fonseca e fonte aúdio de Jorge Ferreira
 
-www.cpvirtual.web.pt
-cpvirtual@hotmail.com
-
-Créditos Adicionais - Additional credits
- Cabview: Ville Elomaa ©2002 (ville.elomaa@kolumbus.fi)
- please relate to ..\cabview\readme.txt
+www.trainsim.pt
+cpvirtual@gmail.com
 
 ==================================================================

@@ -1,11 +1,11 @@
 
 Comment ( *** Braking system *** )
 	BrakesEngineBrakeType                                 ( "Air_twin_pipe"  )
-	BrakesTrainBrakeType						( "Air_twin_pipe" )
-	BrakesEngineControllers						( "Train" )
+	BrakesTrainBrakeType					( "Air_twin_pipe" )
+	BrakesEngineControllers					( "Train" )
 	BrakeCutsPowerAtBrakeCylinderPressure                 ( 4.8bar )      #( 69.618psi )
 	ORTSBrakeRestoresPowerAtBrakePipePressure             ( 5bar )        #( 72.518psi )
-	ORTSDoesBrakeCutPower						( 1 )  
+	ORTSDoesBrakeCutPower					( 1 )  
 
 Comment (*** Compressor, Reservoir and General ***)
 	AirBrakesMainMaxAirPressure					( 8.5bar )

@@ -1,5 +1,5 @@
 
-	Sound ( "K31Eng.sms" )
+	Sound ( "cp600eng.sms" )
 	Lights	(	6
 		Light	(
 			comment( Sphere of light )
