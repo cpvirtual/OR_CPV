@@ -6,7 +6,7 @@ Restaurante (nº UIC 51 94 88-22)
 2ª Classe + furgão pequeno (nº UIC 51 94 82-22 001)
 2ª Classe + furgão grande (nº UIC 51 94 82-22)
 
-Versão OR   1.2 5Dez2022
+Versão OR   1.3 16Jul2024
 
 Thecnical Data
 	Distance Levels
