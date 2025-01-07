@@ -1,0 +1,28 @@
+# PORTUGAL 79 - Especiais
+#==============================Passageiros
+hv79-cartaz1-norteasc.timetable-or
+hv79-cartaz1a-nortedesc.timetable-or
+hv79-cartaz2-balta.timetable-or
+hv79-cartaz3-lestecaceres.timetable-or
+hv79-cartaz3e4-norte.timetable-or
+hv79-cartaz4-bbaixa.timetable-or
+hv79-cartaz5-oeste.timetable-or
+hv79-cartaz8-tomar.timetable-or
+hv79-cartaz10-ffozalfareloscoimbra.timetable-or
+hv79-cartaz11-sinternacional.timetable-or
+hv79-cartaz12-portoaveiro.timetable-or
+hv79-cartaz13-lisboazambuja.timetable-or
+hv79-cartaz13a-azambujalisboa.timetable-or
+#==============================Especiais
+hv79-especiais-norte.timetable-or
+#==============================Mercadorias
+#hv79-m-norte.timetable-or
+#==============================Rotacoes e manobras
+hv79-rotacoes8.timetable-or
+hv79-rotacoes12.timetable-or
+hv79-rotacoes13.timetable-or
+hv79-manobras-entroncamento.timetable-or
+hv79-manobras-pampilhosa.timetable-or
+#==============================Estaticos
+hv79-static-norte.timetable-or
+hv79-observadores.timetable-or
