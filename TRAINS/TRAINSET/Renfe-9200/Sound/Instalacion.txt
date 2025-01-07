@@ -1,0 +1,66 @@
+		Sonidos para coches de composiciones rapidas y estrellas - Melquiadex Abril 2005
+
+	Debeis descomprimir el archivo "sonido_rapido.zip" en una carpeta cualquiera, y copiad los archivos descomprimidos
+en la carpeta "SOUND" que se encuentra en el directorio "...\Microsoft Games\Train Simulator". No os preocupeis que son 
+todos archivos nuevos y no sustituyen a ninguno de los que alli teneis. Vereis que tambien hay una opcion para coches 
+estrella. La diferencia es que estos incluyen el sonido del convertidor y otro sonido para los frenos. El siguiente ejemplo
+es para coches rapidos diurnos, pero para los estrella el procedimiento es el mismo.
+
+	A continuacion, en el directorio del material al cual le quereis asignar estos sonidos, buscais el archivo 
+"xxx.wag" (las x pueden ser cualquier numero, letra o espacio), y buscais al final la linea que indica el sonido exterior
+que sera algo asi:
+
+			     Sound ( "xxxwag.sms" )
+
+	Debeis sustituirlo por:
+
+			     Sound ( "rapido_exterior.sms" )
+
+	Finalmente, si el coche tiene vista interior de pasajero (5), hay que buscar al principio la linea:
+
+			     Sound ( "xxxpas.sms" )
+
+	Debeis cambiarla por:
+
+	    		     Sound ( "rapido_interior.sms" )
+
+	De este modo tendreis configurado el sonido para ese coche.
+
+	Una ultima observacion. Si os molesta el ruido de caja que lleva el simulador podeis rebajarle el
+ volumen a la mitad (o al grado que querais) modificando los archivos siguientes que se encuentran en esa carpeta "SOUND"
+del directorio del simulador:
+
+			     Europesteamtrack0in.SMS
+			     Europesteamtrack1in.SMS
+			     Europesteamtrack2in.SMS
+
+			     Japantrack0in.SMS	
+			     Japantrack1in.SMS	
+			     Japantrack2in.SMS	
+
+			     Usatrack0in.SMS
+			     Usatrack1in.SMS	
+			     Usatrack2in.SMS		
+
+	Tened en cuenta que esto afecta a todos los trenes, es decir, que si pilotais un Acela, esta modificacion del 
+volumen afectara al sonido interior del tren. Tambien podeis editar el resto de archivos (van del 0 hasta el 9), yo os 
+lo recomiendo.
+
+	Cuando editeis estos archivos, lo unico que teneis que hacer es añadir la linea en la que aparece "volume ( 0.5 )"
+para que os quede algo asi:
+
+	ScalabiltyGroup( 5
+		Activation	(	Distance    ( 100 )	TrackType	( 0 )	CabCam()	PassengerCam())
+		Deactivation(	Distance    ( 100 )	TrackType	( 0 )	ExternalCam()	)
+		Stereo ( )
+                                        		Volume ( 0.5 )
+		Streams ( 3
+
+	Esto debeis repetirlo para cada escala (ScalabilityGroup).
+
+	Y ya teneis cambiados los sonidos. Si teneis algun problema, sugerencia o dudas para modificarlos, estoy a vuestra
+disposicion.
+
+	Al tratarse de material FREEWARE su utilizacion queda autorizada salvo para casos COMERCIALES O DE PAGO.
+
+		Melquiadex@hotmail.com
