@@ -1,0 +1,67 @@
+RENFE B11T-9200 Ver. 1.1
+-----------------------------------------------------------------
+
+
+Autor del modelo: Jordi Alaró
+E-Mail: Jordialaro@hotmail.com
+Autor del repintado "largo recorrido" 
+y de las modificaciones del de GL: Edgar Lamela
+E-mail: sorcek88@hotmail.com
+Autor del repintado "9228": Javier López
+E-mail: orloja@hotmail.com
+Página Web: www.trensim.com
+Fecha: 10/10/2005 22:35:39 PM
+-----------------------------------------------------------------
+
+
+CONSIDERACIONES
+--------------------------------------------
+
+
+
+ES ABSOLUTAMENTE ESENCIAL TENER INSTALADA LA VERSIÓN 1.0 DE ESTOS VAGONES. DISPONIBLE EN WWW.TRENSIM.COM!!!!!!!!!!!!!!!
+
+
+
+DESCRIPCIÓN
+--------------------------------------------
+
+
+En este Add-on se incluyen dos 9200 con numeración distinta y diferentes repintados así como la actualización de las texturas
+del modelo "Grandes Lineas": 
+
+- El B11t-9290 en esquema de colores "Largo Recorrido".
+
+- El B11t-9202 en colores GL, blanco/azul, época V, tal como circularon hasta que fueron apartados .
+
+- El B11t-9228 con los colores de transición entre los de época IV y los primeros de LR.
+
+
+QUE LO DISFRUTES y se LEGAL !
+   
+-----------------------------------------------------------------
+
+
+LICENCIA DE USO
+--------------------------------------------
+1 PROHIBIDA LA MODIFICACIÓN DE CUALQUIER FICHERO RELACIONADO CON ESTE PRODUCTO SIN TENER PREVIO CONSENTIMINETO POR ESCRITO
+ DEL AUTOR, salvo la textura "Itinerario.ace", que esta pensada para uso personalizada.
+
+2 PROHIBIDO EL USO DE TECNOLOGÍAS INVERSAS PARA LA MANIPULACIÓN DE CUALQUIER FICHERO.
+
+3 EL USUARIO SE HACE RESPONSABLE DE CUALQUIER DAÑO QUE PUEDA CAUSAR EL MAL USO DE ESTE PRODUCTO.
+
+
+LICENCIA DE DISTRIBUCIÓN
+--------------------------------------------
+
+
+1 ESTÁ PROHIBIDA LA DISTRIBUCIÓN EN REDES DE TIPO PEER2PEER COMO PUEDEN SER KAZAA, EDONKEY, EMULE, ETC sin el 
+concentimiento del autor.
+
+2 ESTÁ PROHIBIDA LA DISTRIBUCIÓN DE ESTE PRODUCTO EN PÁGINAS QUE DEN PROVILEGIOS A LOS USUARIOS QUE PAGAN UNA CUOTA.
+
+3 ESTÁ PROHIBIDA LA DISTRIBUCIÓN DE ESTE PRODUCTO RECIBIENDO UNA COMPENSACIÓN ECONÓMICA A CAMBIO.
+
+4- La Textura "Itinerario.ace" es la única que se puede distribuir libremente sin necesidad del consentimiento del autor.
+-----------------------------------------------------------------

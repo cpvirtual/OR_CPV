@@ -1,0 +1,40 @@
+
+                    Coche camas-ducha WL26x-7111
+                    ============================
+
+El archivo y su contenido se distribuyen TAL CUAL, no haciéndose el autor responsable de cualquier daño causado en su computadora, por la instalación de este pack, aceptando el usuario esto en el momento de la instalación del mismo.
+
+Queda prohibido cualquier uso comercial de este pack o de su contenido. Podrá ser copiado y distribuido sin modificación del pack o de su contenido, siempre que se haga un uso particular del mismo sin fin lucrativo alguno, y citando su procedencia. Para su publicación en un sitio web de descargas será necesario el conocimiento y consentimiento previo del autor.
+
+
+06/01/2007
+----------
+
+Este plug-in para MS Train Simulator incluye una reproducción del coche camas-ducha WL26x-7111. Este coche procede de una reforma efectuada en la CAF de Zaragoza y Beasain al coche BB-8734 en el año 1988 para dotarle de trece compartimientos de dos camas, lavabo y ducha cada uno.
+La versión reproducida es la original, en colores estrella con bandas rojas y bogies Minden-Deutz, que fueron sustituidos más adelante por GC-3 permitiendo aumentar la velocidad de 120 a 160 km/h.
+
+Para escuchar el sonido de las ruedas en la vista interior hay que tener instalados los sonidos de Salvador Martínez para coches modernos, disponible en http://www.trensim.com/lib/pafiledb.php?lib=msts&action=file&id=220 
+
+
+CONSISTS INCORPORADOS:
+----------------------
+
+Ninguno
+
+
+AGRADECIMIENTOS:
+----------------
+
+Muchas gracias a Carlos Abadias y Pelayo Carrasco por su aportación fotográfica para realizar los interiores, a pizias por prestar su malla, a Pere por sus consejos y la vista interior detallada y a todos los que me han animado a acabar este largo larguísimo proyecto.
+
+
+DATOS DEL PLUG-IN
+-----------------
+
+Versión:               1.0
+Fecha:                 06/01/2007
+Autor del modelo 3D:   Marc Filella - filella@hotmail.com (bogies: pizias)
+Autor de las texturas: Marc Filella - filella@hotmail.com (bogies: pizias)
+Autor de la cabina:    ---
+Autor de los sonidos:  ---
+

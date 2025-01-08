@@ -1,0 +1,31 @@
+SONIDO PARA VAGONES MODERNOS
+================================
+
+El archivo y su contenido se distribuyen TAL CUAL, no haciendose el autor responsable de
+cualquier daño causado en su computadora, por la instalacion de este pack, aceptando el
+usuario esto en el momento de la instalacion del mismo.
+
+Queda prohibido cualquier uso comercial de este pack o de su contenido. 
+Podra ser copiado y distribuido sin modificación del pack o de su contenido,
+siempre que se haga un uso particular del mismo sin fin lucrativo alguno, 
+y citando su procedencia.
+
+21.01.2004
+------------------------------------------------------------------------------------------------------------------------------
+
+Desempaca la la carpeta SOUND.zip en una carpeta temporal (..\TEMP).
+
+Haz una copia del fichero GenPassWagModern.sms situado en ..\Train Simulator\SOUND.
+Luego copias los ficheros desempaquetados en ..\Train Simulator\SOUND.
+Ahora tendran todos los vagones que tengan la deficinión:
+
+Sound ( "GenPassWagModern.sms )
+
+un sonido como el de vagones modernos.
+
+Para expertos: el fichero "Vagon_int.sms" es para vagones con vista y sonido interior.
+
+------------------------------------------------------------------------------------------------------------------------------
+Versión:               1.0
+Fecha:                 21/01/2004
+Autor de los sonidos: Salvador

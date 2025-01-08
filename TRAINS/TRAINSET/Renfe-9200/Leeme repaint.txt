@@ -1,0 +1,23 @@
+Repintados fotorrealistas de los B11t-9200 de Jordi Alaró
+
+Modelo 3D: Jordi Alaró
+Texturas (solo caja y oscurecido de interiores): Cristian Sánchez San segundo
+
+
+El pack incluye:
+
+9210 en esquema Danone sin ningún logo de UN, tal y como circularon muchos en los 90
+9212 en esquema original con logos época V 
+9218 en esquema Danone con logos de la UN de Largo Recorrido y algo de suciedad.
+9222 en esquema Danone con logos de la UN de Grandes Lineas y con mal estado de pintura,
+tal y como circularon en su última época (Ca.2002)
+
+Agradecimientos:
+
+A Jordi Alaró por la realización del modelo 3D y permitir publicar este trabajo.
+A los autores de todas las fotografías que necesité para realizar las distintas partes
+de las texturas, aunque no cite sus nombres, si no hubieram sido publicadas, habría sido
+imposible realizar estos modelos.
+A todos los que descarguéis estos modelos. 
+
+Nota: es necesario tener instalados los B11t-9200 de Jordi Alaró para que funcione el sonido correctamente.

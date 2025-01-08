@@ -1,0 +1,86 @@
+Unidades de Tren Diesel-Hidromecánicas TER de RENFE para MICROSOFT ® TRAIN SIMULATOR ® versiones 1.0, 1.1, 1.2
+
+Realizado por: pizias (pizias@pizias.net) 24.12.2005
+Versión: 1.0
+
+----
+
+INSTALACION:
+
+- Una vez ejecutado el auto-instalador, no requiere ninguna operación adicional. No requiere ningún otro add-on.
+
+----
+
+CONDICIONES PARTICULARES DEL ADD-ON (LICENCIA)
+
+CONDICIONES DE DISTRIBUCION:
+
+- Este vehículo es de distribución COMPLETAMENTE GRATUITA con PLENA RESERVA DE TODOS LOS DERECHOS (freeware) 
+
+CONDICIONES DE USO:
+
+- Queda prohibido cualquier modificación total o parcial del vehículo, aún para uso personal, sin previo consentimiento del autor.
+- Queda prohibida la utilización total o parcial de éste vehículo para la elaboración de otros vehículos sin mencionar expresamente el autor.
+- Queda prohibida cualquier práctica de ingenieria inversa.
+- Queda prohibida cualquier utilización comercial de cualquier tipo de este add-on, sin el consentimiento expreso y por escrito del autor.
+- Este add-on se ubica para su libre descarga sin ninguna garantía de uso ni de funcionamiento, ni se puede responder de daños sobre el juego 
+  Microsoft Train Simulator del cual es dependiente, ni sobre ningún dato de ningún tipo existentes en su ordenador.
+
+- Este add-on, incluso una vez instalado en su ordenador, es siempre propiedad de su autor, pizias.
+
+La instalación y ejecución de este add-on implica la aceptación de estas condiciones de uso. Recuerde que és, tan solo, un juego.
+El reiterado incumplimiento conllevará a la retirada del add-on de libre descarga de la totalidad de los sitios web en los que se ubique.
+
+----
+
+VEHÍCULOS INCLUIDOS EN EL ADD-oN:
+
+RENFE 9709 (motor y remolque) FIAT - Original
+
+----
+
+CARACTERISTICAS:
+
+Utiliza la cabina del Aln-668 de los FS, de Kenji Kimura-kekimura@ka2.so-net.ne.jp (Ver readme_cabina.txt adjunto) por su semejanza.
+Prevista la utilización del fuelle de intercomunicación del Rc en las versiones acopladas a tal efecto.
+Utilizables tanto desde la cabina del Rc como la del motor.
+Utiliza sonidos de X9800 de SNCF, de Belphegor-http://belph80001.free.fr/ (Ver readme_sonidos.txt adjunto) por su semejanza.
+Posibilidad de añadir y eliminar la funda del Scharfenberg mediante acceso directo desde menú inicio.
+Posibilidad de añadir y eliminar distintas placas de destino mediante acceso directo desde menú inicio.
+Posibilidad de añadir y eliminar distintas placas de número de coche mediante acceso directo desde menú inicio.
+Posibilidad de intercambiar distintas vistas de pasajero en ambos coches mediante acceso directo desde menú inicio.
+
+----
+
+AGRADECIMIENTOS:
+
+----
+
+Ha sido tanta y tanta gente la que me ha ayudado a tirarme en ésta piscina...
+
+El TER, para mí, es mucho más que un simple tren. Que sirva de recuerdo en el décimo aniversario de su retirada.
+
+Por vuestro apoyo: Pere, Santi Compte, Carlos Abadias, Alex, Antonio M Sopeña, Kevin, Susana, Javier,
+Marc, Alfred, Marcelino, Fuen446, jorgomu, brill, trenes, Salvador Martinez, cordobatrain, lithops112,
+tsba, Whitcomb 70de30, Petrus, intruder, jjlor, fano, javierlopez, Rodalíes, Talgo_Altaria_252, 7700,
+Transcantabrico, Barna-1848, Ferrolitic, Aarongilp, LupoNegro, Juan Ki, vazqueztoluca, Daniz, GUILLEMD, 
+AsturFeve, FGRSUD, ZIFRA.es, FS-E656, ASFA, mandu, josema, Bdroid, lucholomedico, 440vs470, coconcia,
+2N3055, El jefe supremo, Campero, 030 Corpet Louvet, Talgo_Altaria_252, casacota, Héctor, juan, morenin,
+moregarjuan, SUSO BRAU MARTINEZ, JoseManuel_1960, El jefe supremo, vaporvivo, ferrobus, Baldwin, UT3100,
+Bonito 241, Shodee, ... GRACIAS
+
+Como betatesters: Marc, Pere, Josep, Estanislao, Fuen446 y Jorgomu.
+
+Y al ... 9752, al apagarte aquel 17 de enero de 1995 en Atocha.
+
+----
+
+DEDICATORIA:
+
+----
+
+Finalmente, no se lo puedo dedicar a nadie. Si, es una pena.
+
+----
+
+pizias, Badalona - Barcelona.

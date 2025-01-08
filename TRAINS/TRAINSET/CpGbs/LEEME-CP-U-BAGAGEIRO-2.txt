@@ -1,0 +1,84 @@
+                     FURGONES DE EQUIPAJES  CP U  Librea  Epoca IV 
+
+“VAGÃO BAGAGEIRO AFECTO AO SERVIÇO INTERNACIONAL DE PASSAGEIROS”.
+
+
+
+
+Versión:                       2013
+
+Fecha:                          SEPTIEMBRE 2013
+
+Autor del modelo 3D:   JESUS BRAU MARTINEZ
+
+Autor de las texturas:    JESUS BRAU MARTINEZ
+
+E-Mail:                         Suso67@hotmail.com
+
+
+--------------------------------------------------------------------
+DATOS DEL MODELO REAL:
+
+Estos vagones originalmente pertenecientes a las viejas series Jv 150 2 001 a 100 ("Jotas" Simmering longos, mas tarde  Gbkks) actuaron como furgones de 
+
+equipajes en los trenes Expresos internacionales de la CP.
+
+Habituales en trenes como el Surexpres recorrían la península tanto por vías portuguesas como españolas.
+ 
+Fácilmente identificables por los letreros “VAGÃO BAGAGEIRO AFECTO AO SERVIÇO INTERNACIONAL DE PASSAGEIROS”. ("VAGÓN DE 
+
+EQUIPAJE asignado al servicio internacional de pasajeros") que llevaban en sus puertas.
+
+
+------------------------------------------------------------------
+DATOS DE MODELO 3D.
+
+-Reproducción de 2 unidades de furgones.
+ 
+
+
+-------------------------------------------------------------------
+
+INSTALACION:
+
+  -Descomprimir los archivos y copiar la carpeta "RNDV339900" que los contiene en el directorio
+
+     ...\Microsoft Games\Train Simulator\TRAINS\TRAINSET\
+
+  -Si ya se tenia la versión anterior, confirmar sobrescribir, pues se ha actualizado el viejo modelo de vagón.
+
+  -NO es necesario tener instalado la primera versión, esta es independiente. 
+  
+  -Una vez instalado en el ordenador crear un consist de la manera habitual para MSTS.
+
+
+
+El archivo y su contenido se distribuyen TAL CUAL, no haciéndose el autor responsable de cualquier daño causado en su computadora, por la instalación de este pack, aceptando el usuario esto en el momento de la instalación del mismo.
+
+Queda prohibido cualquier uso comercial de este pack o de su contenido.
+Podrá ser copiado y distribuido sin modificación del pack o de su contenido, siempre que se haga un uso particular del mismo, y sin fin lucrativo alguno, citando su procedencia y habiendo en cualquier caso obtenido el permiso del autor.
+--------------------------------------------------------------------
+Este Add-on es Freeware.
+
+LICENCIA DE USO:
+--------------------------------------------
+
+1) PROHIBIDA LA MODIFICACIÓN DE CUALQUIER FICHERO RELACIONADO CON ESTE PRODUCTO SIN TENER PREVIO CONSENTIMINETO POR ESCRITO DEL AUTOR.
+
+2) PROHIBIDO EL USO DE TECNOLOGÍAS INVERSAS PARA LA MANIPULACIÓN DE CUALQUIER FICHERO.
+
+3) EL USUARIO SE HACE RESPONSABLE DE CUALQUIER DAÑO QUE PUEDA CAUSAR EL MAL USO DE ESTE PRODUCTO.
+
+
+LICENCIA DE DISTRIBUCIÓN:
+--------------------------------------------
+
+1) ESTÁ PROHIBIDA LA DISTRIBUCIÓN DE CUALQUIER FICHERO RELACIONADO CON EL PRODUCTO POR SEPARADO.
+
+2) ESTÁ PROHIBIDA LA DISTRIBUCIÓN EN REDES DE TIPO PEER2PEER COMO PUEDEN SER KAZAA, EDONKEY, EMULE, ETC.
+
+3) ESTÁ PROHIBIDA LA DISTRIBUCIÓN DE ESTE PRODUCTO EN PÁGINAS QUE DEN PROVILEGIOS A LOS USUARIOS QUE PAGAN UNA CUOTA.
+
+4) ESTÁ PROHIBIDA LA DISTRIBUCIÓN DE ESTE PRODUCTO RECIBIENDO UNA COMPENSACIÓN ECONÓMICA A CAMBIO.
+
+-----------------------------------------------------------------

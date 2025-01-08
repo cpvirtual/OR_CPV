@@ -1,0 +1,72 @@
+                     CP - VAGONES CERRADOS  J-150 2001 a 150 2100   Librea EPOCA III
+
+
+Versión:                       2013
+
+Fecha:                          SEPTIEMBRE 2013
+
+Autor del modelo 3D:   JESUS BRAU MARTINEZ
+
+Autor de las texturas:    JESUS BRAU MARTINEZ
+
+E-Mail:                         Suso67@hotmail.com
+
+
+--------------------------------------------------------------------
+DATOS DEL MODELO REAL:
+
+Vagones pertenecientes a la serie  Jv 150 2001 a 150 2100 ("Jotas Simmering longos").
+
+Fabricados por la empresa Austriaca  Simmering-Graz-Pauker AG (SPG)  en 1969.
+
+Pisaban, procedentes de Portugal, con frecuencia vías españolas, formando composiciones en los mercantes de RENFE,.
+
+------------------------------------------------------------------
+DATOS DE MODELO 3D.
+
+-Reproducción de 2 unidades 
+ 
+Jv-150 2002
+Jv-150 2051
+
+-------------------------------------------------------------------
+
+INSTALACION:
+
+  -Descomprimir los archivos y copiar la carpeta "CPJ-1502000" que los contiene en el directorio
+
+     ...\Microsoft Games\Train Simulator\TRAINS\TRAINSET\
+
+  -Una vez instalado en el ordenador crear un consist de la manera habitual para MSTS.
+
+
+
+El archivo y su contenido se distribuyen TAL CUAL, no haciéndose el autor responsable de cualquier daño causado en su computadora, por la instalación de este pack, aceptando el usuario esto en el momento de la instalación del mismo.
+
+Queda prohibido cualquier uso comercial de este pack o de su contenido.
+Podrá ser copiado y distribuido sin modificación del pack o de su contenido, siempre que se haga un uso particular del mismo, y sin fin lucrativo alguno, citando su procedencia y habiendo en cualquier caso obtenido el permiso del autor.
+--------------------------------------------------------------------
+Este Add-on es Freeware.
+
+LICENCIA DE USO:
+--------------------------------------------
+
+1) PROHIBIDA LA MODIFICACIÓN DE CUALQUIER FICHERO RELACIONADO CON ESTE PRODUCTO SIN TENER PREVIO CONSENTIMINETO POR ESCRITO DEL AUTOR.
+
+2) PROHIBIDO EL USO DE TECNOLOGÍAS INVERSAS PARA LA MANIPULACIÓN DE CUALQUIER FICHERO.
+
+3) EL USUARIO SE HACE RESPONSABLE DE CUALQUIER DAÑO QUE PUEDA CAUSAR EL MAL USO DE ESTE PRODUCTO.
+
+
+LICENCIA DE DISTRIBUCIÓN:
+--------------------------------------------
+
+1) ESTÁ PROHIBIDA LA DISTRIBUCIÓN DE CUALQUIER FICHERO RELACIONADO CON EL PRODUCTO POR SEPARADO.
+
+2) ESTÁ PROHIBIDA LA DISTRIBUCIÓN EN REDES DE TIPO PEER2PEER COMO PUEDEN SER KAZAA, EDONKEY, EMULE, ETC.
+
+3) ESTÁ PROHIBIDA LA DISTRIBUCIÓN DE ESTE PRODUCTO EN PÁGINAS QUE DEN PROVILEGIOS A LOS USUARIOS QUE PAGAN UNA CUOTA.
+
+4) ESTÁ PROHIBIDA LA DISTRIBUCIÓN DE ESTE PRODUCTO RECIBIENDO UNA COMPENSACIÓN ECONÓMICA A CAMBIO.
+
+-----------------------------------------------------------------

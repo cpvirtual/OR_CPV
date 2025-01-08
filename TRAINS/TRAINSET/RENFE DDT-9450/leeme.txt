@@ -1,0 +1,68 @@
+Furgón generador RENFE DDT-9450 (08/04/2009)
+============================================
+
+En 1984 se inicia en RENFE la construcción de 20 furgones dotados de grupos electrógenos fundamentalmente 
+previstos para suministrar energía a 3000Vcc a composiciones que circulan por líneas no electrificadas.
+Estos furgones, encuadrados en la serie 9000 (9451-70), disponen además de los grupos electrógenos 
+(insonorizados y con todas las medidas de seguridad en caso de incendio) de un departamento de carga 
+con dos zonas para equipajes, una fresquera, una perrera, un portaequipajes abatible y un departamento 
+para el jefe de tren.
+
+Su interconexión con otros coches se realiza por medio de un cable de 12 polos que permite la transmisión 
+al resto de la composición de las órdenes de megafonia y cierre automático de puertas. 
+
+
+Este pack reproduce uno de ellos, el DDT-9467.
+
+Esta unidad está adaptada al MSTSBIN 1.7 y posteriores, con puertas animadas, luces AI y sonidos muy reales...  
+
+
+Modelo 3D y texturas: Daniel Garrón Luño (blas_dani@hotmail.com)
+Bogies y matrículas: Pizias
+Sonidos: Melquiadex
+
+
+AGRADECIMIENTOS:
+---------------------------------------------------------------
+ - A la comunidad de usuarios de "www.trensim.com", y especialmente a:
+       Marc - me proporcionó una documentación muy interesante, fundamental para el proyecto.
+       Mikado141 - quién también me proporcionó documentación interesante.
+       El maestro Pizias, que con su experiencia y conocimientos me dió importantes datos históricos de estas unidades
+ 
+       y a todos aquellos que se han interesado por el proyecto.
+
+ - A "www.tranvia.org", especialmente a j.ignacio lopez, y en general a todos los que contribuyen subiendo fotografias.
+
+
+
+LICENSE OF USE
+
+THIS IS A FREEWARE ADD-ON FOR Microsoft Train Simulator.
+-----------------------------------------------------------------
+1 ANY MODIFICATION OF ANY FILE RELATED TO THIS PRODUCT IS FORBIDDEN.
+
+2 ANY REPAINT IS FORBIDDEN. 
+
+3 USE OF INVERSE TECHNOLOGIES FOR MODIFYING ANY FILE IS FORBIDEN.
+
+4 THE USER IS RESPONSIBLE OF ANY DAMAGE CAUSED BY INCORRECT USE OF THIS PRODUCT.
+
+
+DISTRIBUTION LICENCE
+-----------------------------------------------------------------
+1 THIS PRODUCT CAN ONLY BE DOWNLOADED FROM WWW.TRENSIM.COM
+
+2 SEPARATELY DISTRIBUTION OF ANY FILE RELATED TO THIS PRODUCT IS FORBIDDEN.
+
+3 DISTRIBUTION OF THIS PRODUCT THROUGH ANY KIND OF PEER2PEER NETWORK IS FORBIDDEN. 
+
+4 DISTRIBUTION OF THIS PRODUCT THROUGH ANY KIND OF PAY WEB PAGE IS FORBIDDEN.
+
+5 DISTRIBUTION OF THIS PRODUCT THROUGH ANY PHYSICAL MEDIA IS FORBIDDEN.
+
+6 DISTRIBUTION OF THIS PRODUCT RECEIVING ECONOMIC COMPENSATION IS FORBIDDEN.
+-----------------------------------------------------------------
+
+
+
+

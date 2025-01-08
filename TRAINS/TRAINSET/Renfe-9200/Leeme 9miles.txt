@@ -1,0 +1,85 @@
+RENFE B11T-9200 Ver. 1 FINAL
+-----------------------------------------------------------------
+
+
+Autor: Jordi Alaró
+E-Mail: Jordialaro@hotmail.com
+Página Web: www.trensim.com
+Fecha: 10/4/2005 7:24:39 PM
+-----------------------------------------------------------------
+
+
+DESCRIPCIÓN
+--------------------------------------------
+
+
+En esta versión, se presentan los 9000 con su apecto interior original, muy parecido al interior de los 593 y de las 440 de
+ serie alta. Los últimos 9200 que circularon con el aspecto original fueron los que hacían el Diurno Río Aragón 
+( Madrid - Jaca ) en pésimas condiciones. Posteriormente fueron apartados o convertidos a 9300. Acutalmente todos los 9200
+ estan fuera de circulación. 
+En este Add-on se incluyen dos 9200 con numeración distinta y diferentes repintados: 
+
+- El B11t-9216 en esquema de colores "nueva imágen" , Azul / amarillo, época IV a pesar de que algunos circularon hasta
+ finales de los 90 pintados así.
+
+- El B11t-9202 en colores GL, blanco/azul, época V, tal como circularon hasta que fueron apartados .
+
+Algunas caracteristicas del modelo:
+
+- Usa técnicas avanzadas en el 3D como el Freight Anim y el método Brill
+- 5666 polígonos
+-Texturas a 1024 x 1024
+-Incluye vista 5
+-Incluye sonidos editados por el compañero Melquiadex.
+
+A parte de esto, se adjuntan 3 consists los cuales se necesitan las 252 y la 333. Se encontrarán en la carpeta principal.
+También incluye una textura para placas de itinerario, que se puede personalizar y distribuir libremente.
+
+AGRADECIMIENTOS
+
+- A Luis Angel ( LupoNegro ), que hizo unas fotos especialmente para mi de los bajos. Sin ellas, estos no hubieran sido
+ posibles.
+- A Melquiadex, por los fantásticos sonidos.
+- A Aaron Gil ( CRT-220 ) y Fandinga, los betatesters :P.
+- A Trensim.com, por alojar el Add-on.
+- A todo el Foro de TrenSim, pero sobretodo quienes me han apoyado en el proyecto y los grandes maestros del 3D.
+- A mi Novia ( Como no sea hecha con el TSM... ) xD
+
+DEDICATORIAS.
+
+- A los que aprenden el diseño de trenes 3D
+- A los que disfrutarán éste modelo
+- A los que lo incluirán en sus actividades
+- A Sorcek, por el día aquel quando trabajaba a Palau que me preguntó por una 252 en N
+- A Marta o Gisela
+
+Va por vosotros. 
+
+QUE LO DISFRUTES y se LEGAL !
+   
+-----------------------------------------------------------------
+
+
+LICENCIA DE USO
+--------------------------------------------
+1 PROHIBIDA LA MODIFICACIÓN DE CUALQUIER FICHERO RELACIONADO CON ESTE PRODUCTO SIN TENER PREVIO CONSENTIMINETO POR ESCRITO
+ DEL AUTOR, salvo la textura "Itinerario.ace", que esta pensada para uso personalizada.
+
+2 PROHIBIDO EL USO DE TECNOLOGÍAS INVERSAS PARA LA MANIPULACIÓN DE CUALQUIER FICHERO.
+
+3 EL USUARIO SE HACE RESPONSABLE DE CUALQUIER DAÑO QUE PUEDA CAUSAR EL MAL USO DE ESTE PRODUCTO.
+
+
+LICENCIA DE DISTRIBUCIÓN
+--------------------------------------------
+
+
+1 ESTÁ PROHIBIDA LA DISTRIBUCIÓN EN REDES DE TIPO PEER2PEER COMO PUEDEN SER KAZAA, EDONKEY, EMULE, ETC sin el 
+concentimiento del autor.
+
+2 ESTÁ PROHIBIDA LA DISTRIBUCIÓN DE ESTE PRODUCTO EN PÁGINAS QUE DEN PROVILEGIOS A LOS USUARIOS QUE PAGAN UNA CUOTA.
+
+3 ESTÁ PROHIBIDA LA DISTRIBUCIÓN DE ESTE PRODUCTO RECIBIENDO UNA COMPENSACIÓN ECONÓMICA A CAMBIO.
+
+4- La Textura "Itinerario.ace" es la única que se puede distribuir libremente sin necesidad del consentimiento del autor.
+-----------------------------------------------------------------
