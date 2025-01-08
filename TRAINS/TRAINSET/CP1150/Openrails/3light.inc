@@ -1,0 +1,301 @@
+
+	Lights ( 16
+		Light (
+			comment( Sphere of light forward Bright )
+			Type  ( 1 )
+			Conditions (
+				Headlight ( 3 )
+				Unit ( 2 )
+			)
+			Cycle ( 0 )
+			FadeIn ( 0.5 )
+			FadeOut ( 0.5 )
+			States ( 1
+				State (
+					Duration ( 0.0 )
+					LightColour ( ffdfcf9f )
+					Position ( 0 2.3 4 )
+					Azimuth ( 0 0 0 )
+					Transition ( 0 )
+					Radius ( 200 )
+					Angle ( 10.0 )
+				)
+			)
+		)
+		Light (
+			comment( Sphere of light rear dim )
+			Type( 1 )
+			Conditions (
+				Headlight ( 2 )
+				Unit ( 3 )
+			)
+			Cycle ( 0 )
+			FadeIn ( 0.5 )
+			FadeOut ( 0.5 )
+			States ( 1
+				State (
+					Duration ( 0.0 )
+					LightColour ( ffdfcf9f )
+					Position ( 0 4.05 -115 )
+					Azimuth ( -180 -180 -180 )
+					Transition ( 0 )
+					Radius ( 90 )
+					Angle ( 10 )
+				)
+			)
+		)
+		Light (
+			comment( Right Head light forward bright )
+			Type  ( 0 )
+			Conditions (
+				Headlight ( 3 )
+				Unit ( 2 )
+			)
+			FadeIn ( 0.5 )
+			FadeOut ( 0.5 )
+			Cycle ( 0 )
+			States ( 1
+				State (
+					Duration ( 0.0 )
+					LightColour ( ffffef8f )
+					Position ( 0.14 2.3 3.78 )
+					Azimuth ( 0 -5 5 )
+					Transition ( 0 )
+					Radius ( 0.4 )
+				)
+			)
+		)
+  Light (
+   comment( Left Head light forward bright )
+   Type  ( 0 )
+   Conditions (
+    Headlight ( 3 )
+    Unit ( 2 )
+    )
+   FadeIn ( 0.5 )
+   FadeOut ( 0.5 )
+   Cycle ( 0 )
+   States ( 1
+    State (
+     Duration ( 0.0 )
+     LightColour ( ffffef8f )
+     Position ( -0.14 2.3 3.78 )
+     Azimuth ( 0 -5 5 )
+     Transition ( 0 )
+     Radius ( 0.4 )
+     )
+    )
+   )
+  Light (
+   comment( Right rear Head light dim )
+   Type  ( 0 )
+   Conditions (
+    Headlight ( 2 )
+    Unit ( 2 )
+    )
+   FadeIn ( 0.5 )
+   FadeOut ( 0.5 )
+   Cycle ( 0 )
+   States ( 1
+    State (
+     Duration ( 0.0 )
+     LightColour ( 9fffdf8f )
+     Position ( 0.12 2.365 -3.27 )
+     Azimuth ( -180 -180 -180 )
+     Transition ( 0 )
+     Radius ( 0.4 )
+     )
+    )
+   )
+  Light (
+   comment( Left rear Head light dim )
+   Type  ( 0 )
+   Conditions (
+    Headlight ( 2 )
+    Unit ( 2 )
+    )
+   FadeIn ( 0.5 )
+   FadeOut ( 0.5 )
+   Cycle ( 0 )
+   States ( 1
+    State (
+     Duration ( 0.0 )
+     LightColour ( 9fffdf8f )
+     Position ( -0.12 2.365 -3.27 )
+     Azimuth ( -180 -180 -180 )
+     Transition ( 0 )
+     Radius ( 0.4 )
+     )
+    )
+   )
+  Light (
+   comment( Front left red light bright)
+   Type  ( 0 )
+   Conditions (
+    Headlight ( 3 )
+    Unit ( 2 )
+    )
+   FadeIn ( 0 )
+   FadeOut ( 0 )
+   Cycle ( 0 )
+   States ( 1
+    State (
+     Duration ( 0.0 )
+     LightColour ( ffff0000 )
+     Position ( -0.97 1.35 3.64 )
+     Azimuth ( 0 0 0 )
+     Transition ( 0 )
+     Radius ( 0.4 )
+     )
+    )
+   )
+  Light (
+   comment( Front right green light bright)
+   Type  ( 0 )
+   Conditions (
+    Headlight ( 3 )
+    Unit ( 2 )
+    )
+   FadeIn ( 0 )
+   FadeOut ( 0 )
+   Cycle ( 0 )
+   States ( 1
+    State (
+     Duration ( 0.0 )
+     LightColour ( ff00ff00 )
+     Position ( 0.8 1.35 3.64 )
+     Azimuth ( 0 0 0 )
+     Transition ( 0 )
+     Radius ( 0.4 )
+     )
+    )
+   )
+  Light (
+   comment( Front left red light dim)
+   Type  ( 0 )
+   Conditions (
+    Headlight ( 2 )
+    Unit ( 2 )
+    )
+   FadeIn ( 0 )
+   FadeOut ( 0 )
+   Cycle ( 0 )
+   States ( 1
+    State (
+     Duration ( 0.0 )
+     LightColour ( ffff0000 )
+     Position ( -0.97 1.35 3.64 )
+     Azimuth ( 0 0 0 )
+     Transition ( 0 )
+     Radius ( 0.4 )
+     )
+    )
+   )
+  Light (
+   comment( Front right green light dim)
+   Type  ( 0 )
+   Conditions (
+    Headlight ( 2 )
+    Unit ( 2 )
+    )
+   FadeIn ( 0 )
+   FadeOut ( 0 )
+   Cycle ( 0 )
+   States ( 1
+    State (
+     Duration ( 0.0 )
+     LightColour ( ff00ff00 )
+     Position ( 0.8 1.35 3.64 )
+     Azimuth ( 0 0 0 )
+     Transition ( 0 )
+     Radius ( 0.4 )
+     )
+    )
+   )
+  Light (
+   comment( Rear left red light bright)
+   Type  ( 0 )
+   Conditions (
+    Headlight ( 3 )
+    Unit ( 3 )
+    )
+   FadeIn ( 0 )
+   FadeOut ( 0 )
+   Cycle ( 0 )
+   States ( 1
+    State (
+     Duration ( 0.0 )
+     LightColour ( ffff0000 )
+     Position ( -0.97 1.35 -3.65 )
+     Azimuth ( -180 -180 -180 )
+     Transition ( 0 )
+     Radius ( 0.4 )
+     )
+    )
+   )
+  Light (
+   comment( Rear left red light dim)
+   Type  ( 0 )
+   Conditions (
+    Headlight ( 2 )
+    Unit ( 3 )
+    )
+   FadeIn ( 0 )
+   FadeOut ( 0 )
+   Cycle ( 0 )
+   States ( 1
+    State (
+     Duration ( 0.0 )
+     LightColour ( ffff0000 )
+     Position ( -0.97 1.35 -3.65 )
+     Azimuth ( -180 -180 -180 )
+     Transition ( 0 )
+     Radius ( 0.4 )
+     )
+    )
+   )
+  Light (
+   comment( Rear right red light bright)
+   Type  ( 0 )
+   Conditions (
+    Headlight ( 3 )
+    Unit ( 3 )
+    )
+   FadeIn ( 0 )
+   FadeOut ( 0 )
+   Cycle ( 0 )
+   States ( 1
+    State (
+     Duration ( 0.0 )
+     LightColour ( ffff0000 )
+     Position ( 0.97 1.35 -3.65 )
+     Azimuth ( -180 -180 -180 )
+     Transition ( 0 )
+     Radius ( 0.4 )
+     )
+    )
+   )
+  Light (
+   comment( Rear right red light dim)
+   Type  ( 0 )
+   Conditions (
+    Headlight ( 2 )
+    Unit ( 3 )
+    )
+   FadeIn ( 0 )
+   FadeOut ( 0 )
+   Cycle ( 0 )
+   States ( 1
+    State (
+     Duration ( 0.0 )
+     LightColour ( ffff0000 )
+     Position ( 0.97 1.35 -3.65 )
+     Azimuth ( -180 -180 -180 )
+     Transition ( 0 )
+     Radius ( 0.4 )
+     )
+    )
+   )
+  )
+	Sound ( "GP38Eng.sms" )
+	
