@@ -2,7 +2,7 @@
 	Mass ( 44.35t ) Comment (* tara 18,41t + 6000kg carvão + 19940kg água (20.000l x 997kg.m^3) *)
 Comment ( *** Curve Resistance & SuperElevation ***)
 	CentreOfGravity ( 0.0m 1.8m 0.0m )
-	ORTSTrackGauge ( 1.0m 668.0mm )
+	ORTSTrackGauge ( 1668mm )
 	ORTSRigidWheelbase ( 2.0m 900.0mm )
 	ORTSUnbalancedSuperelevation ( 180mm )
 

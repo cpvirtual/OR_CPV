@@ -7,6 +7,7 @@ Comment ( *** General *** )
 	Sanding ( 10mph )
 	ORTSNumberDriveAxles ( 6 )
 	ORTSDriveWheelWeight ( 121t )
+
 	ORTSMaxTrackSanderBoxCapacity ( 40.0ft^3 )
 	ORTSMaxTrackSanderSandConsumption ( 0.25ft^3 )
 	DoesHornTriggerBell ( 0 )

@@ -2,7 +2,7 @@
 	Mass ( 40t ) Comment (* tara 12.3t *)
 Comment ( *** Curve Resistance & SuperElevation ***)
 	CentreOfGravity ( 0.0m 1.5m 0.0m )
-	ORTSTrackGauge ( 1.0m 668.0mm )
+	ORTSTrackGauge ( 1668mm )
 	ORTSRigidWheelbase ( 5.0m 400.0mm )
 	ORTSUnbalancedSuperelevation ( 180mm )
 

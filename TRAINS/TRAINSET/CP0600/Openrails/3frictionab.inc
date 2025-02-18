@@ -1,7 +1,7 @@
 
 Comment ( *** Curve Resistance & SuperElevation ***)
 	CentreOfGravity ( 0.0m 1.2m 0.0m )
-	ORTSTrackGauge ( 1m 668mm )
+	ORTSTrackGauge ( 1668mm )
 	ORTSRigidWheelbase ( 2m 600mm )
 	ORTSUnbalancedSuperelevation ( 180mm )
 
