@@ -2,6 +2,8 @@
 	InertiaTensor ( Box (3m 4m 26m) )
 	ORTSNumberAxles ( 4 )
 	ORTSNumberBogies ( 2 )
+	ORTSWheelFlangeLength ( 19.1516mm )
+	ORTSMaximumWheelFlangeAngle ( 1.308996rad )
 
 Comment( ****************** Open Rails Advanced Coupler ******************* )
 	Coupling (

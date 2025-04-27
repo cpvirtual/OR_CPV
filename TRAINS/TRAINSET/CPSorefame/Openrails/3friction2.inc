@@ -4,7 +4,7 @@
 Comment ( *** Curve Resistance & SuperElevation ***)
 	CentreOfGravity ( 0.0m 1.2m 0.0m )
 	ORTSTrackGauge ( 1668mm )
-	ORTSRigidWheelbase ( 2.0m 570.0mm )
+	ORTSRigidWheelbase ( 2570mm )
 	ORTSUnbalancedSuperelevation ( 180mm )
 
 Comment( *** Friction / Adhesion *** )
@@ -13,8 +13,28 @@ Comment( *** Friction / Adhesion *** )
 		ORTSSlipWarningThreshold ( 70 )
 		Wheelset (
 			Axle (
-				ORTSInertia ( 3633 ) comment ( valor por defeito. calcular mais tarde)
+				AnimatedParts ( "WHEELS11" )
 				ORTSRadius ( 0.460m )
+				ORTSInertia ( 538 ) comment ( 48/4*1016,0469088*0,20*0,4699^2  )
+          			NumberWheelsetAxles ( 2 )
+			)
+			Axle (
+				AnimatedParts ( "WHEELS12" )
+				ORTSRadius ( 0.460m )
+				ORTSInertia ( 538 )
+          			NumberWheelsetAxles ( 2 )
+			)
+			Axle (
+				AnimatedParts ( "WHEELS21" )
+				ORTSRadius ( 0.460m )
+				ORTSInertia ( 538 )
+          			NumberWheelsetAxles ( 2 )
+			)
+			Axle (
+				AnimatedParts ( "WHEELS22" )
+				ORTSRadius ( 0.460m )
+				ORTSInertia ( 538 )
+          			NumberWheelsetAxles ( 2 )
 			)
 		)
 	)

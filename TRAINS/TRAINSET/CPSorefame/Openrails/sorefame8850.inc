@@ -1,8 +1,8 @@
 
 Comment ( *** Carruagens Restaurante 88-50 001 a 003 - ficha 25 ***)
-	Size 				( 3.06m 3.903m 26.12m )
+	Size 			( 3.06m 3.903m 26.12m )
 	InertiaTensor 		( Box (3m 3.5m 26m) )
-	Mass 				( 43t ) Comment (* tara 40t *)
+	Mass 			( 43t ) Comment (* tara 40t *)
 	WheelRadius 		( 0.425m )
 	ORTSLengthBogieCentre 	( 18.120m )
 	ORTSLengthCarBody 	( 24.820m )
@@ -16,3 +16,9 @@ Comment ( *** Carruagens Restaurante 88-50 001 a 003 - ficha 25 ***)
 	ORTSDavis_C 		( 1.03 )
 	DerailRailForce		( 215kN )
 
+	ORTSFreightAnims (
+                WagonEmptyWeight ( 43t )
+		LoadingAreaLength ( 24.82 )
+            	Offset ( 0 0 0 )
+            	IntakePoint ( 0 6.0 Container )
+	)

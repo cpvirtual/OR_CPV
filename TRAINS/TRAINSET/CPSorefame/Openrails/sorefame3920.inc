@@ -14,4 +14,11 @@ Comment ( *** Carruagens de 1ª e 2ª classes 39-20 001 a 003 - ficha 23 ***)
 	ORTSDavis_A 		( 438.57 )
 	ORTSDavis_B 		( 14.83 )
 	ORTSDavis_C 		( 1.03 )
-	DerailRailForce 		( 210kN )
+	DerailRailForce 	( 210kN )
+
+	ORTSFreightAnims (
+                WagonEmptyWeight ( 42t )
+		LoadingAreaLength ( 24.82 )
+            	Offset ( 0 0 0 )
+            	IntakePoint ( 0 6.0 Container )
+	)

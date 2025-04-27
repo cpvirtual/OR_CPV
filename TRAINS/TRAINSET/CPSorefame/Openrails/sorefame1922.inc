@@ -1,8 +1,8 @@
 
 Comment ( *** Carruagens de 1ª classe 19-22 012 a 033 - ficha 20 ***)
-	Size 				( 3.1m 4.05m 26.12m )
+	Size 			( 3.1m 4.05m 26.12m )
 	InertiaTensor 		( Box (3m 4m 26m) )
-	Mass 				( 41t ) Comment (* tara 38t *)
+	Mass 			( 41t ) Comment (* tara 38t *)
 	WheelRadius 		( 0.425m )
 	ORTSLengthBogieCentre 	( 16.820m )
 	ORTSLengthCarBody 	( 24.820m )
@@ -16,3 +16,9 @@ Comment ( *** Carruagens de 1ª classe 19-22 012 a 033 - ficha 20 ***)
 	ORTSDavis_C 		( 1.03 )
 	DerailRailForce 		( 205kN )
 
+	ORTSFreightAnims (
+                WagonEmptyWeight ( 41t )
+		LoadingAreaLength ( 24.82 )
+            	Offset ( 0 0 0 )
+            	IntakePoint ( 0 6.0 Container )
+	)
