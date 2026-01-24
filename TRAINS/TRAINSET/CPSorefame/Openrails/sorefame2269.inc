@@ -23,4 +23,3 @@ Comment ( *** Carruagens de 2ª classe 22-69 001 a 040 - ficha 39 ***)
             	Offset ( 0 0 0 )
             	IntakePoint ( 0 6.0 Container )
 	)
-

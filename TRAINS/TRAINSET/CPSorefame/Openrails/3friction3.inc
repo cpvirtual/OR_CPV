@@ -45,5 +45,3 @@ Comment( *** Friction / Adhesion *** )
 	Antislip ( 1 ) Comment (* Anti skid braking not supported in OR *)
 	DerailRailHeight ( 4cm )
 	DerailBufferForce ( 400kN )
-
-	

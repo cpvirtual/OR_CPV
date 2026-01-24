@@ -54,4 +54,3 @@ Comment( Sorefames com 26,62m de comprimento )
 				)
 			)
 		)
-		
